@@ -6,20 +6,27 @@
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="nom" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="widgets" upperBound="-1"
         eType="#//Widget" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="titre" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
   </eClassifiers>
-  <eClassifiers xsi:type="ecore:EClass" name="Label" eSuperTypes="#//Widget"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Label" eSuperTypes="#//Widget">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="valeur" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Bouton" eSuperTypes="#//Widget">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="cible" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="valeur" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"
+        defaultValueLiteral=""/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="ChampTexte" eSuperTypes="#//Widget"/>
   <eClassifiers xsi:type="ecore:EClass" name="MenuDeroulant" eSuperTypes="#//Widget">
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="listvaleurs" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EEList"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="listeValeurs" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EEList"
+        transient="true"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Cocher" eSuperTypes="#//Widget">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="etatParDefaut" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Lien" eSuperTypes="#//Widget">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="cible" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="valeur" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Widget" abstract="true">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="nom" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<description:Group xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.obeo.fr/dsl/viewpoint/description/1.1.0" xmlns:style="http://www.obeo.fr/dsl/viewpoint/description/style/1.1.0" xmlns:tool="http://www.obeo.fr/dsl/viewpoint/description/tool/1.1.0" name="FormModelerRepresentation" version="6.7.0.201302071200">
+  <ownedViewpoints name="formModelerVP" label="formModeler" modelFileExtension="*.formModeler">
+    <ownedRepresentations xsi:type="description:DiagramDescription" name="diagramModeler" label="diagramModeler" initialisation="true" showOnStartup="true" domainClass="formModeler.Racine">
+      <defaultLayer name="Default">
+        <containerMappings name="ecranRep" label="Ecran" domainClass="formModeler.Ecran">
+          <subNodeMappings name="widgetRep" label="Widget" semanticCandidatesExpression="feature:eAllContents" domainClass="formModeler.Widget">
+            <style xsi:type="style:SquareDescription" labelExpression="&lt;%nom%>" resizeKind="NSEW">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            </style>
+          </subNodeMappings>
+          <style xsi:type="style:FlatContainerStyleDescription" labelExpression="&lt;%nom%>">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_gray']"/>
+          </style>
+        </containerMappings>
+        <toolSections name="generalTool" label="Général">
+          <subSections name="elementsTool" label="Eléments">
+            <ownedTools xsi:type="tool:ContainerCreationDescription" name="ecranCreationTool" label="Ecran" containerMappings="//@ownedViewpoints[name='formModelerVP']/@ownedRepresentations[name='diagramModeler']/@defaultLayer/@containerMappings[name='ecranRep']">
+              <variable name="container"/>
+              <viewVariable name="containerView"/>
+              <initialOperation>
+                <firstModelOperations xsi:type="tool:CreateInstance" typeName="Ecran" referenceName="ecrans">
+                  <subModelOperations xsi:type="tool:SetValue" featureName="nom" valueExpression="NomVide"/>
+                  <subModelOperations xsi:type="tool:SetValue" featureName="titre" valueExpression="TitreVide"/>
+                </firstModelOperations>
+              </initialOperation>
+            </ownedTools>
+            <ownedTools xsi:type="tool:NodeCreationDescription" name="labelCreationTool" label="Label" nodeMappings="//@ownedViewpoints[name='formModelerVP']/@ownedRepresentations[name='diagramModeler']/@defaultLayer/@containerMappings[name='ecranRep']/@subNodeMappings[name='widgetRep']">
+              <variable name="container"/>
+              <viewVariable name="containerView"/>
+              <initialOperation/>
+            </ownedTools>
+          </subSections>
+        </toolSections>
+      </defaultLayer>
+    </ownedRepresentations>
+  </ownedViewpoints>
+</description:Group>

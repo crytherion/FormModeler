@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.ui.newWizards">
+      <category
+            id="org.eclipse.emf.ecore.Wizard.category.ID"
+            name="%_UI_Wizard_category"/>
+      <wizard
+            id="formModeler.presentation.FormModelerModelWizardID"
+            name="%_UI_FormModelerModelWizard_label"
+            class="formModeler.presentation.FormModelerModelWizard"
+            category="org.eclipse.emf.ecore.Wizard.category.ID"
+            icon="icons/full/obj16/FormModelerModelFile.gif">
+         <description>%_UI_FormModelerModelWizard_description</description>
+         <selection class="org.eclipse.core.resources.IResource"/>
+      </wizard>
+   </extension>
+
+   <extension point="org.eclipse.ui.editors">
+      <editor
+            id="formModeler.presentation.FormModelerEditorID"
+            name="%_UI_FormModelerEditor_label"
+            icon="icons/full/obj16/FormModelerModelFile.gif"
+            extensions="formmodeler"
+            class="formModeler.presentation.FormModelerEditor"
+            contributorClass="formModeler.presentation.FormModelerActionBarContributor">
+      </editor>
+   </extension>
+
+</plugin>
