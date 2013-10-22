@@ -231,6 +231,11 @@ public class EcranItemProvider
 			(createChildParameter
 				(FormModelerPackage.Literals.ECRAN__WIDGETS,
 				 FormModelerFactory.eINSTANCE.createLien()));
+
+		newChildDescriptors.add
+			(createChildParameter
+				(FormModelerPackage.Literals.ECRAN__WIDGETS,
+				 FormModelerFactory.eINSTANCE.createPhoto()));
 	}
 
 	/**

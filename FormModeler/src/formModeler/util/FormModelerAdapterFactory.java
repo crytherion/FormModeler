@@ -104,6 +104,10 @@ public class FormModelerAdapterFactory extends AdapterFactoryImpl {
 				return createRacineAdapter();
 			}
 			@Override
+			public Adapter casePhoto(Photo object) {
+				return createPhotoAdapter();
+			}
+			@Override
 			public Adapter defaultCase(EObject object) {
 				return createEObjectAdapter();
 			}
@@ -246,6 +250,20 @@ public class FormModelerAdapterFactory extends AdapterFactoryImpl {
 	 * @generated
 	 */
 	public Adapter createRacineAdapter() {
+		return null;
+	}
+
+	/**
+	 * Creates a new adapter for an object of class '{@link formModeler.Photo <em>Photo</em>}'.
+	 * <!-- begin-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
+	 * @return the new adapter.
+	 * @see formModeler.Photo
+	 * @generated
+	 */
+	public Adapter createPhotoAdapter() {
 		return null;
 	}
 

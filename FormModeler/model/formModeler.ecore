@@ -35,7 +35,7 @@
     <eStructuralFeatures xsi:type="ecore:EReference" name="ecrans" upperBound="-1"
         eType="#//Ecran" containment="true"/>
   </eClassifiers>
-  <eClassifiers xsi:type="ecore:EClass" name="Image" eSuperTypes="#//Widget">
+  <eClassifiers xsi:type="ecore:EClass" name="Photo" eSuperTypes="#//Widget">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="chemin" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
   </eClassifiers>
 </ecore:EPackage>

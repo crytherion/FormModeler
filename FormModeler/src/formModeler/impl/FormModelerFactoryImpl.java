@@ -64,6 +64,7 @@ public class FormModelerFactoryImpl extends EFactoryImpl implements FormModelerF
 			case FormModelerPackage.COCHER: return createCocher();
 			case FormModelerPackage.LIEN: return createLien();
 			case FormModelerPackage.RACINE: return createRacine();
+			case FormModelerPackage.PHOTO: return createPhoto();
 			default:
 				throw new IllegalArgumentException("The class '" + eClass.getName() + "' is not a valid classifier");
 		}
@@ -147,6 +148,16 @@ public class FormModelerFactoryImpl extends EFactoryImpl implements FormModelerF
 	public Racine createRacine() {
 		RacineImpl racine = new RacineImpl();
 		return racine;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public Photo createPhoto() {
+		PhotoImpl photo = new PhotoImpl();
+		return photo;
 	}
 
 	/**

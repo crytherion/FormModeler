@@ -256,6 +256,29 @@ public class FormModelerItemProviderAdapterFactory extends FormModelerAdapterFac
 	}
 
 	/**
+	 * This keeps track of the one adapter used for all {@link formModeler.Photo} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected PhotoItemProvider photoItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link formModeler.Photo}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createPhotoAdapter() {
+		if (photoItemProvider == null) {
+			photoItemProvider = new PhotoItemProvider(this);
+		}
+
+		return photoItemProvider;
+	}
+
+	/**
 	 * This returns the root adapter factory that contains this factory.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -362,6 +385,7 @@ public class FormModelerItemProviderAdapterFactory extends FormModelerAdapterFac
 		if (cocherItemProvider != null) cocherItemProvider.dispose();
 		if (lienItemProvider != null) lienItemProvider.dispose();
 		if (racineItemProvider != null) racineItemProvider.dispose();
+		if (photoItemProvider != null) photoItemProvider.dispose();
 	}
 
 }

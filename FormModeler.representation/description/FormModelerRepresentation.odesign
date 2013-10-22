@@ -40,6 +40,12 @@
               <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
             </style>
           </subNodeMappings>
+          <subNodeMappings name="photo" label="Photo" semanticCandidatesExpression="feature:eAllContents" domainClass="formModeler.Photo">
+            <style xsi:type="style:WorkspaceImageDescription" showIcon="false" labelExpression="Photo : &lt;%nom%>" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="/FormModeler.representation/images/photo.png">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </style>
+          </subNodeMappings>
           <style xsi:type="style:FlatContainerStyleDescription" showIcon="false" labelExpression="&lt;%nom%>">
             <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
             <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
@@ -115,6 +121,16 @@
                 <firstModelOperations xsi:type="tool:CreateInstance" typeName="Lien" referenceName="widgets">
                   <subModelOperations xsi:type="tool:SetValue" featureName="nom" valueExpression="NomVide"/>
                   <subModelOperations xsi:type="tool:SetValue" featureName="cible" valueExpression="CibleVide"/>
+                </firstModelOperations>
+              </initialOperation>
+            </ownedTools>
+            <ownedTools xsi:type="tool:NodeCreationDescription" name="photoCreationTool" label="Photo" nodeMappings="//@ownedViewpoints[name='formModelerVP']/@ownedRepresentations[name='diagramModeler']/@defaultLayer/@containerMappings[name='ecranRep']/@subNodeMappings[name='photo']">
+              <variable name="container"/>
+              <viewVariable name="containerView"/>
+              <initialOperation>
+                <firstModelOperations xsi:type="tool:CreateInstance" typeName="Photo" referenceName="widgets">
+                  <subModelOperations xsi:type="tool:SetValue" featureName="chemin" valueExpression="CheminVide"/>
+                  <subModelOperations xsi:type="tool:SetValue" featureName="nom" valueExpression="NomVide"/>
                 </firstModelOperations>
               </initialOperation>
             </ownedTools>

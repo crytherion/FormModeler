@@ -33,5 +33,8 @@
     <genClasses ecoreClass="formModeler.ecore#//Racine">
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference formModeler.ecore#//Racine/ecrans"/>
     </genClasses>
+    <genClasses ecoreClass="formModeler.ecore#//Photo">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute formModeler.ecore#//Photo/chemin"/>
+    </genClasses>
   </genPackages>
 </genmodel:GenModel>

@@ -390,6 +390,43 @@ public interface FormModelerPackage extends EPackage {
 
 
 	/**
+	 * The meta object id for the '{@link formModeler.impl.PhotoImpl <em>Photo</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see formModeler.impl.PhotoImpl
+	 * @see formModeler.impl.FormModelerPackageImpl#getPhoto()
+	 * @generated
+	 */
+	int PHOTO = 9;
+
+	/**
+	 * The feature id for the '<em><b>Nom</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int PHOTO__NOM = WIDGET__NOM;
+
+	/**
+	 * The feature id for the '<em><b>Chemin</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int PHOTO__CHEMIN = WIDGET_FEATURE_COUNT + 0;
+
+	/**
+	 * The number of structural features of the '<em>Photo</em>' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int PHOTO_FEATURE_COUNT = WIDGET_FEATURE_COUNT + 1;
+
+	/**
 	 * Returns the meta object for class '{@link formModeler.Ecran <em>Ecran</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -612,6 +649,27 @@ public interface FormModelerPackage extends EPackage {
 	EReference getRacine_Ecrans();
 
 	/**
+	 * Returns the meta object for class '{@link formModeler.Photo <em>Photo</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for class '<em>Photo</em>'.
+	 * @see formModeler.Photo
+	 * @generated
+	 */
+	EClass getPhoto();
+
+	/**
+	 * Returns the meta object for the attribute '{@link formModeler.Photo#getChemin <em>Chemin</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the attribute '<em>Chemin</em>'.
+	 * @see formModeler.Photo#getChemin()
+	 * @see #getPhoto()
+	 * @generated
+	 */
+	EAttribute getPhoto_Chemin();
+
+	/**
 	 * Returns the factory that creates the instances of the model.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -818,6 +876,24 @@ public interface FormModelerPackage extends EPackage {
 		 * @generated
 		 */
 		EReference RACINE__ECRANS = eINSTANCE.getRacine_Ecrans();
+
+		/**
+		 * The meta object literal for the '{@link formModeler.impl.PhotoImpl <em>Photo</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see formModeler.impl.PhotoImpl
+		 * @see formModeler.impl.FormModelerPackageImpl#getPhoto()
+		 * @generated
+		 */
+		EClass PHOTO = eINSTANCE.getPhoto();
+
+		/**
+		 * The meta object literal for the '<em><b>Chemin</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute PHOTO__CHEMIN = eINSTANCE.getPhoto_Chemin();
 
 	}
 

@@ -8,9 +8,12 @@ import formModeler.Cocher;
 import formModeler.Ecran;
 import formModeler.FormModelerFactory;
 import formModeler.FormModelerPackage;
+import formModeler.Image2;
+import formModeler.Image;
 import formModeler.Label;
 import formModeler.Lien;
 import formModeler.MenuDeroulant;
+import formModeler.Photo;
 import formModeler.Racine;
 import formModeler.Widget;
 
@@ -90,6 +93,13 @@ public class FormModelerPackageImpl extends EPackageImpl implements FormModelerP
 	 * @generated
 	 */
 	private EClass racineEClass = null;
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	private EClass photoEClass = null;
 
 	/**
 	 * Creates an instance of the model <b>Package</b>, registered with
@@ -346,6 +356,24 @@ public class FormModelerPackageImpl extends EPackageImpl implements FormModelerP
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	public EClass getPhoto() {
+		return photoEClass;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public EAttribute getPhoto_Chemin() {
+		return (EAttribute)photoEClass.getEStructuralFeatures().get(0);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
 	public FormModelerFactory getFormModelerFactory() {
 		return (FormModelerFactory)getEFactoryInstance();
 	}
@@ -398,6 +426,9 @@ public class FormModelerPackageImpl extends EPackageImpl implements FormModelerP
 
 		racineEClass = createEClass(RACINE);
 		createEReference(racineEClass, RACINE__ECRANS);
+
+		photoEClass = createEClass(PHOTO);
+		createEAttribute(photoEClass, PHOTO__CHEMIN);
 	}
 
 	/**
@@ -434,6 +465,7 @@ public class FormModelerPackageImpl extends EPackageImpl implements FormModelerP
 		menuDeroulantEClass.getESuperTypes().add(this.getWidget());
 		cocherEClass.getESuperTypes().add(this.getWidget());
 		lienEClass.getESuperTypes().add(this.getWidget());
+		photoEClass.getESuperTypes().add(this.getWidget());
 
 		// Initialize classes and features; add operations and parameters
 		initEClass(ecranEClass, Ecran.class, "Ecran", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
@@ -465,6 +497,9 @@ public class FormModelerPackageImpl extends EPackageImpl implements FormModelerP
 
 		initEClass(racineEClass, Racine.class, "Racine", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
 		initEReference(getRacine_Ecrans(), this.getEcran(), null, "ecrans", null, 0, -1, Racine.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+
+		initEClass(photoEClass, Photo.class, "Photo", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
+		initEAttribute(getPhoto_Chemin(), ecorePackage.getEString(), "chemin", null, 0, 1, Photo.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 
 		// Create resource
 		createResource(eNS_URI);
