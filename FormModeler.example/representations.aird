@@ -241,10 +241,10 @@
           </ownedStyle>
           <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/FormModeler.representation/description/FormModelerRepresentation.odesign#//@ownedViewpoints[name='formModelerVP']/@ownedRepresentations[name='diagramModeler']/@defaultLayer/@containerMappings[name='ecranRep']/@subNodeMappings[name='menuDeroulantRep']"/>
         </ownedDiagramElements>
-        <ownedDiagramElements xmi:type="viewpoint:DNode" xmi:id="_gmHwkTthEeOxaZzPXju9JA" name="Image : NomVide" width="-1" height="-1" resizeKind="NSEW">
+        <ownedDiagramElements xmi:type="viewpoint:DNode" xmi:id="_gmHwkTthEeOxaZzPXju9JA" name="Photo : NomVide" width="-1" height="-1" resizeKind="NSEW">
           <target xmi:type="formModeler:Photo" href="mesEcrans.formmodeler#//@ecrans.0/@widgets.6"/>
           <semanticElements xmi:type="formModeler:Photo" href="mesEcrans.formmodeler#//@ecrans.0/@widgets.6"/>
-          <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_gmKM0DthEeOxaZzPXju9JA" showIcon="false" workspacePath="/FormModeler.representation/images/image.png">
+          <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_gmKM0DthEeOxaZzPXju9JA" showIcon="false" workspacePath="/FormModeler.representation/images/photo.png">
             <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_gmKM0TthEeOxaZzPXju9JA"/>
             <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/FormModeler.representation/description/FormModelerRepresentation.odesign#//@ownedViewpoints[name='formModelerVP']/@ownedRepresentations[name='diagramModeler']/@defaultLayer/@containerMappings[name='ecranRep']/@subNodeMappings[name='photo']/@style"/>
             <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_gmKM0jthEeOxaZzPXju9JA"/>
