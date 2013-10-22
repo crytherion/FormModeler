@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<formModeler:Racine xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:formModeler="http://github.com/crytherion/FormModeler">
+  <ecrans nom="NomVide" titre="TitreVide">
+    <widgets xsi:type="formModeler:Label" nom="NomVide" valeur="ValeurVide"/>
+    <widgets xsi:type="formModeler:Bouton" nom="NomVide" cible="cibleVide" valeur="ValeurVide"/>
+    <widgets xsi:type="formModeler:ChampTexte" nom="NomVide"/>
+    <widgets xsi:type="formModeler:Cocher" nom="NomVide"/>
+    <widgets xsi:type="formModeler:Lien" nom="NomVide" cible="CibleVide"/>
+    <widgets xsi:type="formModeler:MenuDeroulant" nom="NomVide"/>
+  </ecrans>
+  <ecrans nom="NomVide" titre="TitreVide">
+    <widgets xsi:type="formModeler:Label" nom="NomVide" valeur="ValeurVide"/>
+    <widgets xsi:type="formModeler:Bouton" nom="NomVide" cible="cibleVide" valeur="ValeurVide"/>
+    <widgets xsi:type="formModeler:Label" nom="NomVide" valeur="ValeurVide"/>
+    <widgets xsi:type="formModeler:Bouton" nom="NomVide" cible="cibleVide" valeur="ValeurVide"/>
+  </ecrans>
+</formModeler:Racine>
