@@ -1,6 +1,6 @@
 Manifest-Version: 1.0
 Bundle-Name: FormModeler.representation
-Bundle-SymbolicName: FormModeler.representation;singleton=true
+Bundle-SymbolicName: FormModeler.representation;singleton:=true
 Bundle-Version: 1.0.0
 Bundle-Activator: defaultpackage.Activator
 Require-Bundle: org.eclipse.ui,
@@ -9,3 +9,4 @@ Require-Bundle: org.eclipse.ui,
  fr.obeo.dsl.common.acceleo.mtl
 Bundle-ActivationPolicy: lazy
 Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-ManifestVersion: 2
