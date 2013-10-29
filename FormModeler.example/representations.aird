@@ -2,99 +2,32 @@
 <viewpoint:DAnalysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.obeo.fr/dsl/viewpoint/description/1.1.0" xmlns:formModeler="http://github.com/crytherion/FormModeler" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.obeo.fr/dsl/viewpoint/description/style/1.1.0" xmlns:viewpoint="http://www.obeo.fr/dsl/viewpoint/1.1.0" xsi:schemaLocation="http://www.obeo.fr/dsl/viewpoint/description/1.1.0 http://www.obeo.fr/dsl/viewpoint/1.1.0#//description http://www.obeo.fr/dsl/viewpoint/description/style/1.1.0 http://www.obeo.fr/dsl/viewpoint/1.1.0#//description/style" xmi:id="_6zQmIDtREeO-UMKs5vrRUw" selectedViews="__pII4DtREeO-UMKs5vrRUw" version="6.8.0.201307151200">
   <models xmi:type="formModeler:Racine" href="mesEcrans.formmodeler#/"/>
   <ownedViews xmi:type="viewpoint:DRepresentationContainer" xmi:id="__pII4DtREeO-UMKs5vrRUw" initialized="true">
-    <ownedRepresentations xmi:type="viewpoint:DSemanticDiagram" xmi:id="__rGe0DtREeO-UMKs5vrRUw" name="diagramModeler">
-      <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="__rdEIDtREeO-UMKs5vrRUw" source="GMF_DIAGRAMS">
-        <data xmi:type="notation:Diagram" xmi:id="__rdEITtREeO-UMKs5vrRUw" type="Viewpoint" element="__rGe0DtREeO-UMKs5vrRUw" measurementUnit="Pixel">
-          <styles xmi:type="notation:DiagramStyle" xmi:id="__rdEIjtREeO-UMKs5vrRUw"/>
-        </data>
-      </ownedAnnotationEntries>
-      <description xmi:type="description:DiagramDescription" href="platform:/plugin/FormModeler.representation/description/FormModelerRepresentation.odesign#//@ownedViewpoints[name='formModelerVP']/@ownedRepresentations[name='diagramModeler']"/>
-      <filterVariableHistory xmi:type="viewpoint:FilterVariableHistory" xmi:id="__rGe0TtREeO-UMKs5vrRUw"/>
-      <activatedLayers xmi:type="description:Layer" href="platform:/plugin/FormModeler.representation/description/FormModelerRepresentation.odesign#//@ownedViewpoints[name='formModelerVP']/@ownedRepresentations[name='diagramModeler']/@defaultLayer"/>
-      <target xmi:type="formModeler:Racine" href="mesEcrans.formmodeler#/"/>
-    </ownedRepresentations>
-    <ownedRepresentations xmi:type="viewpoint:DSemanticDiagram" xmi:id="_Eb2RADtSEeO-UMKs5vrRUw" name="new diagramModeler">
+    <ownedRepresentations xmi:type="viewpoint:DSemanticDiagram" xmi:id="_Eb2RADtSEeO-UMKs5vrRUw" name="diagramModeler">
       <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_Eb24EDtSEeO-UMKs5vrRUw" source="GMF_DIAGRAMS">
         <data xmi:type="notation:Diagram" xmi:id="_Eb24ETtSEeO-UMKs5vrRUw" type="Viewpoint" element="_Eb2RADtSEeO-UMKs5vrRUw" measurementUnit="Pixel">
-          <children xmi:type="notation:Node" xmi:id="_FIacEDtSEeO-UMKs5vrRUw" type="2002" element="_FGcGIDtSEeO-UMKs5vrRUw">
-            <children xmi:type="notation:Node" xmi:id="_FIeGcDtSEeO-UMKs5vrRUw" type="5006"/>
-            <children xmi:type="notation:Node" xmi:id="_FIhJwDtSEeO-UMKs5vrRUw" type="7001">
-              <children xmi:type="notation:Node" xmi:id="_jId9EDtXEeOwd4jDm6-jwg" type="3007" element="_jH8YoTtXEeOwd4jDm6-jwg">
-                <children xmi:type="notation:Node" xmi:id="_jIr_gDtXEeOwd4jDm6-jwg" type="5003">
-                  <layoutConstraint xmi:type="notation:Location" xmi:id="_jIr_gTtXEeOwd4jDm6-jwg" x="17" y="-3"/>
-                </children>
-                <children xmi:type="notation:Node" xmi:id="_jI5a4DtXEeOwd4jDm6-jwg" type="3005" element="_jIB4MDtXEeOwd4jDm6-jwg">
-                  <styles xmi:type="notation:ShapeStyle" xmi:id="_jI5a4TtXEeOwd4jDm6-jwg" fontName="Segoe UI"/>
-                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jI5a4jtXEeOwd4jDm6-jwg"/>
-                </children>
-                <styles xmi:type="notation:ShapeStyle" xmi:id="_jId9ETtXEeOwd4jDm6-jwg" fontName="Segoe UI" fontHeight="8"/>
-                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jIekIDtXEeOwd4jDm6-jwg" x="18" y="59" width="16" height="16"/>
+          <children xmi:type="notation:Node" xmi:id="_FIacEDtSEeO-UMKs5vrRUw" type="2003" element="_fNausEA3EeO-z9IFEwIXgQ">
+            <children xmi:type="notation:Node" xmi:id="_FIeGcDtSEeO-UMKs5vrRUw" type="5007"/>
+            <children xmi:type="notation:Node" xmi:id="_FIhJwDtSEeO-UMKs5vrRUw" type="7004">
+              <children xmi:type="notation:Node" xmi:id="_fb7EwEA3EeO-z9IFEwIXgQ" type="3010" element="_fTObwEA3EeO-z9IFEwIXgQ">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_fb7EwUA3EeO-z9IFEwIXgQ"/>
               </children>
-              <children xmi:type="notation:Node" xmi:id="_jkTkgDtXEeOwd4jDm6-jwg" type="3007" element="_jjxZADtXEeOwd4jDm6-jwg">
-                <children xmi:type="notation:Node" xmi:id="_jkVZsDtXEeOwd4jDm6-jwg" type="5003">
-                  <layoutConstraint xmi:type="notation:Location" xmi:id="_jkWAwDtXEeOwd4jDm6-jwg" x="17" y="-3"/>
-                </children>
-                <children xmi:type="notation:Node" xmi:id="_jkbgUDtXEeOwd4jDm6-jwg" type="3005" element="_jjzOMDtXEeOwd4jDm6-jwg">
-                  <styles xmi:type="notation:ShapeStyle" xmi:id="_jkbgUTtXEeOwd4jDm6-jwg" fontName="Segoe UI"/>
-                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jkbgUjtXEeOwd4jDm6-jwg"/>
-                </children>
-                <styles xmi:type="notation:ShapeStyle" xmi:id="_jkTkgTtXEeOwd4jDm6-jwg" fontName="Segoe UI" fontHeight="8"/>
-                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jkTkgjtXEeOwd4jDm6-jwg" x="165" y="58" width="16" height="16"/>
+              <children xmi:type="notation:Node" xmi:id="_fcBLYEA3EeO-z9IFEwIXgQ" type="3010" element="_fTVJcEA3EeO-z9IFEwIXgQ">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_fcBLYUA3EeO-z9IFEwIXgQ"/>
               </children>
-              <children xmi:type="notation:Node" xmi:id="_j66GoDtXEeOwd4jDm6-jwg" type="3007" element="_j6RNcDtXEeOwd4jDm6-jwg">
-                <children xmi:type="notation:Node" xmi:id="_j69J8DtXEeOwd4jDm6-jwg" type="5003">
-                  <layoutConstraint xmi:type="notation:Location" xmi:id="_j69J8TtXEeOwd4jDm6-jwg" x="17" y="-3"/>
-                </children>
-                <children xmi:type="notation:Node" xmi:id="_j7FFwDtXEeOwd4jDm6-jwg" type="3005" element="_j6TCoDtXEeOwd4jDm6-jwg">
-                  <styles xmi:type="notation:ShapeStyle" xmi:id="_j7FFwTtXEeOwd4jDm6-jwg" fontName="Segoe UI"/>
-                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_j7FFwjtXEeOwd4jDm6-jwg"/>
-                </children>
-                <styles xmi:type="notation:ShapeStyle" xmi:id="_j66GoTtXEeOwd4jDm6-jwg" fontName="Segoe UI" fontHeight="8"/>
-                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_j66GojtXEeOwd4jDm6-jwg" x="309" y="58" width="16" height="16"/>
+              <children xmi:type="notation:Node" xmi:id="_fcCZgEA3EeO-z9IFEwIXgQ" type="3010" element="_fTjL4EA3EeO-z9IFEwIXgQ">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_fcCZgUA3EeO-z9IFEwIXgQ"/>
               </children>
-              <children xmi:type="notation:Node" xmi:id="_k8yaYDtXEeOwd4jDm6-jwg" type="3007" element="_k8OZsDtXEeOwd4jDm6-jwg">
-                <children xmi:type="notation:Node" xmi:id="_k80PkDtXEeOwd4jDm6-jwg" type="5003">
-                  <layoutConstraint xmi:type="notation:Location" xmi:id="_k80PkTtXEeOwd4jDm6-jwg" x="17" y="-3"/>
-                </children>
-                <children xmi:type="notation:Node" xmi:id="_k83S4DtXEeOwd4jDm6-jwg" type="3005" element="_k8Q18DtXEeOwd4jDm6-jwg">
-                  <styles xmi:type="notation:ShapeStyle" xmi:id="_k83S4TtXEeOwd4jDm6-jwg" fontName="Segoe UI"/>
-                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_k83S4jtXEeOwd4jDm6-jwg"/>
-                </children>
-                <styles xmi:type="notation:ShapeStyle" xmi:id="_k8zBcDtXEeOwd4jDm6-jwg" fontName="Segoe UI" fontHeight="8"/>
-                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_k8zBcTtXEeOwd4jDm6-jwg" x="22" y="106" width="16" height="16"/>
+              <children xmi:type="notation:Node" xmi:id="_fcEOsEA3EeO-z9IFEwIXgQ" type="3010" element="_fT38AEA3EeO-z9IFEwIXgQ">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_fcEOsUA3EeO-z9IFEwIXgQ"/>
               </children>
-              <children xmi:type="notation:Node" xmi:id="_y-5qQDtXEeOQj-aJc1MFXw" type="3007" element="_y9tXcDtXEeOQj-aJc1MFXw">
-                <children xmi:type="notation:Node" xmi:id="_y_NzUDtXEeOQj-aJc1MFXw" type="5003">
-                  <layoutConstraint xmi:type="notation:Location" xmi:id="_y_NzUTtXEeOQj-aJc1MFXw" x="17" y="-3"/>
-                </children>
-                <children xmi:type="notation:Node" xmi:id="_y_W9QDtXEeOQj-aJc1MFXw" type="3005" element="_y9wawDtXEeOQj-aJc1MFXw">
-                  <styles xmi:type="notation:ShapeStyle" xmi:id="_y_W9QTtXEeOQj-aJc1MFXw" fontName="Segoe UI"/>
-                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_y_W9QjtXEeOQj-aJc1MFXw"/>
-                </children>
-                <styles xmi:type="notation:ShapeStyle" xmi:id="_y-5qQTtXEeOQj-aJc1MFXw" fontName="Segoe UI" fontHeight="8"/>
-                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_y-6RUDtXEeOQj-aJc1MFXw" x="363" y="106" width="16" height="16"/>
+              <children xmi:type="notation:Node" xmi:id="_fcGD4EA3EeO-z9IFEwIXgQ" type="3010" element="_fT_30EA3EeO-z9IFEwIXgQ">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_fcGD4UA3EeO-z9IFEwIXgQ"/>
               </children>
-              <children xmi:type="notation:Node" xmi:id="_YigOgDtYEeOnxMQiEN8u7w" type="3007" element="_YhQRUDtYEeOnxMQiEN8u7w">
-                <children xmi:type="notation:Node" xmi:id="_YirNoDtYEeOnxMQiEN8u7w" type="5003">
-                  <layoutConstraint xmi:type="notation:Location" xmi:id="_YirNoTtYEeOnxMQiEN8u7w" x="17" y="-3"/>
-                </children>
-                <children xmi:type="notation:Node" xmi:id="_Yi1lsDtYEeOnxMQiEN8u7w" type="3005" element="_YhTUoDtYEeOnxMQiEN8u7w">
-                  <styles xmi:type="notation:ShapeStyle" xmi:id="_Yi1lsTtYEeOnxMQiEN8u7w" fontName="Segoe UI"/>
-                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Yi1lsjtYEeOnxMQiEN8u7w"/>
-                </children>
-                <styles xmi:type="notation:ShapeStyle" xmi:id="_YigOgTtYEeOnxMQiEN8u7w" fontName="Segoe UI" fontHeight="8"/>
-                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YigOgjtYEeOnxMQiEN8u7w" x="171" y="106" width="16" height="16"/>
+              <children xmi:type="notation:Node" xmi:id="_fcH5EEA3EeO-z9IFEwIXgQ" type="3010" element="_fUHzoEA3EeO-z9IFEwIXgQ">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_fcH5EUA3EeO-z9IFEwIXgQ"/>
               </children>
-              <children xmi:type="notation:Node" xmi:id="_gm3XcDthEeOxaZzPXju9JA" type="3007" element="_gmHwkTthEeOxaZzPXju9JA">
-                <children xmi:type="notation:Node" xmi:id="_gm9eEDthEeOxaZzPXju9JA" type="5003">
-                  <layoutConstraint xmi:type="notation:Location" xmi:id="_gm9eETthEeOxaZzPXju9JA" x="17" y="-3"/>
-                </children>
-                <children xmi:type="notation:Node" xmi:id="_gnC9oDthEeOxaZzPXju9JA" type="3005" element="_gmKM0DthEeOxaZzPXju9JA">
-                  <styles xmi:type="notation:ShapeStyle" xmi:id="_gnC9oTthEeOxaZzPXju9JA" fontName="Segoe UI"/>
-                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gnC9ojthEeOxaZzPXju9JA"/>
-                </children>
-                <styles xmi:type="notation:ShapeStyle" xmi:id="_gm3XcTthEeOxaZzPXju9JA" fontName="Segoe UI" fontHeight="8"/>
-                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gm3XcjthEeOxaZzPXju9JA" x="55" y="165" width="16" height="16"/>
+              <children xmi:type="notation:Node" xmi:id="_fcJHMEA3EeO-z9IFEwIXgQ" type="3010" element="_fUPvcEA3EeO-z9IFEwIXgQ">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_fcJHMUA3EeO-z9IFEwIXgQ"/>
               </children>
               <styles xmi:type="notation:SortingStyle" xmi:id="_FIhw0DtSEeO-UMKs5vrRUw"/>
               <styles xmi:type="notation:FilteringStyle" xmi:id="_FIhw0TtSEeO-UMKs5vrRUw"/>
@@ -102,52 +35,20 @@
             <styles xmi:type="notation:ShapeStyle" xmi:id="_FIacETtSEeO-UMKs5vrRUw" fontName="Segoe UI" fontHeight="8"/>
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FIacEjtSEeO-UMKs5vrRUw" x="460" y="140" width="515" height="223"/>
           </children>
-          <children xmi:type="notation:Node" xmi:id="_gyBNoDtYEeOnxMQiEN8u7w" type="2002" element="_gxAhADtYEeOnxMQiEN8u7w">
-            <children xmi:type="notation:Node" xmi:id="_gyCbwDtYEeOnxMQiEN8u7w" type="5006"/>
-            <children xmi:type="notation:Node" xmi:id="_gyDC0DtYEeOnxMQiEN8u7w" type="7001">
-              <children xmi:type="notation:Node" xmi:id="_hqIhYDtYEeOnxMQiEN8u7w" type="3007" element="_hpJp8DtYEeOnxMQiEN8u7w">
-                <children xmi:type="notation:Node" xmi:id="_hqK9oDtYEeOnxMQiEN8u7w" type="5003">
-                  <layoutConstraint xmi:type="notation:Location" xmi:id="_hqLksDtYEeOnxMQiEN8u7w" x="17" y="-3"/>
-                </children>
-                <children xmi:type="notation:Node" xmi:id="_hqQdMDtYEeOnxMQiEN8u7w" type="3005" element="_hpLfIDtYEeOnxMQiEN8u7w">
-                  <styles xmi:type="notation:ShapeStyle" xmi:id="_hqQdMTtYEeOnxMQiEN8u7w" fontName="Segoe UI"/>
-                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hqQdMjtYEeOnxMQiEN8u7w"/>
-                </children>
-                <styles xmi:type="notation:ShapeStyle" xmi:id="_hqIhYTtYEeOnxMQiEN8u7w" fontName="Segoe UI" fontHeight="8"/>
-                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hqIhYjtYEeOnxMQiEN8u7w" x="18" y="42" width="16" height="16"/>
+          <children xmi:type="notation:Node" xmi:id="_gyBNoDtYEeOnxMQiEN8u7w" type="2003" element="_fSvTkEA3EeO-z9IFEwIXgQ">
+            <children xmi:type="notation:Node" xmi:id="_gyCbwDtYEeOnxMQiEN8u7w" type="5007"/>
+            <children xmi:type="notation:Node" xmi:id="_gyDC0DtYEeOnxMQiEN8u7w" type="7004">
+              <children xmi:type="notation:Node" xmi:id="_fcWikEA3EeO-z9IFEwIXgQ" type="3010" element="_fUfnEEA3EeO-z9IFEwIXgQ">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_fcWikUA3EeO-z9IFEwIXgQ"/>
               </children>
-              <children xmi:type="notation:Node" xmi:id="_iFAfgDtYEeOnxMQiEN8u7w" type="3007" element="_iEHHoDtYEeOnxMQiEN8u7w">
-                <children xmi:type="notation:Node" xmi:id="_iFBtoDtYEeOnxMQiEN8u7w" type="5003">
-                  <layoutConstraint xmi:type="notation:Location" xmi:id="_iFBtoTtYEeOnxMQiEN8u7w" x="17" y="-3"/>
-                </children>
-                <children xmi:type="notation:Node" xmi:id="_iFDi0DtYEeOnxMQiEN8u7w" type="3005" element="_iEIVwDtYEeOnxMQiEN8u7w">
-                  <styles xmi:type="notation:ShapeStyle" xmi:id="_iFDi0TtYEeOnxMQiEN8u7w" fontName="Segoe UI"/>
-                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_iFDi0jtYEeOnxMQiEN8u7w"/>
-                </children>
-                <styles xmi:type="notation:ShapeStyle" xmi:id="_iFAfgTtYEeOnxMQiEN8u7w" fontName="Segoe UI" fontHeight="8"/>
-                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_iFBGkDtYEeOnxMQiEN8u7w" x="167" y="48" width="16" height="16"/>
+              <children xmi:type="notation:Node" xmi:id="_fcYXwEA3EeO-z9IFEwIXgQ" type="3010" element="_fUj4gEA3EeO-z9IFEwIXgQ">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_fcYXwUA3EeO-z9IFEwIXgQ"/>
               </children>
-              <children xmi:type="notation:Node" xmi:id="_ifjtgDtYEeOnxMQiEN8u7w" type="3007" element="_iehywDtYEeOnxMQiEN8u7w">
-                <children xmi:type="notation:Node" xmi:id="_ifkUkDtYEeOnxMQiEN8u7w" type="5003">
-                  <layoutConstraint xmi:type="notation:Location" xmi:id="_ifkUkTtYEeOnxMQiEN8u7w" x="17" y="-3"/>
-                </children>
-                <children xmi:type="notation:Node" xmi:id="_ifmw0DtYEeOnxMQiEN8u7w" type="3005" element="_iejA4DtYEeOnxMQiEN8u7w">
-                  <styles xmi:type="notation:ShapeStyle" xmi:id="_ifmw0TtYEeOnxMQiEN8u7w" fontName="Segoe UI"/>
-                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ifmw0jtYEeOnxMQiEN8u7w"/>
-                </children>
-                <styles xmi:type="notation:ShapeStyle" xmi:id="_ifjtgTtYEeOnxMQiEN8u7w" fontName="Segoe UI" fontHeight="8"/>
-                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ifjtgjtYEeOnxMQiEN8u7w" x="23" y="82" width="16" height="16"/>
+              <children xmi:type="notation:Node" xmi:id="_fcaM8EA3EeO-z9IFEwIXgQ" type="3010" element="_fUzwIEA3EeO-z9IFEwIXgQ">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_fcaM8UA3EeO-z9IFEwIXgQ"/>
               </children>
-              <children xmi:type="notation:Node" xmi:id="_ixsmYDtYEeOnxMQiEN8u7w" type="3007" element="_iwoPYDtYEeOnxMQiEN8u7w">
-                <children xmi:type="notation:Node" xmi:id="_ixt0gDtYEeOnxMQiEN8u7w" type="5003">
-                  <layoutConstraint xmi:type="notation:Location" xmi:id="_ixt0gTtYEeOnxMQiEN8u7w" x="17" y="-3"/>
-                </children>
-                <children xmi:type="notation:Node" xmi:id="_ixvpsDtYEeOnxMQiEN8u7w" type="3005" element="_iwqEkDtYEeOnxMQiEN8u7w">
-                  <styles xmi:type="notation:ShapeStyle" xmi:id="_ixvpsTtYEeOnxMQiEN8u7w" fontName="Segoe UI"/>
-                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ixvpsjtYEeOnxMQiEN8u7w"/>
-                </children>
-                <styles xmi:type="notation:ShapeStyle" xmi:id="_ixsmYTtYEeOnxMQiEN8u7w" fontName="Segoe UI" fontHeight="8"/>
-                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ixsmYjtYEeOnxMQiEN8u7w" x="170" y="90" width="16" height="16"/>
+              <children xmi:type="notation:Node" xmi:id="_fccCIEA3EeO-z9IFEwIXgQ" type="3010" element="_fVcpUEA3EeO-z9IFEwIXgQ">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_fccCIUA3EeO-z9IFEwIXgQ"/>
               </children>
               <styles xmi:type="notation:SortingStyle" xmi:id="_gyDp4DtYEeOnxMQiEN8u7w"/>
               <styles xmi:type="notation:FilteringStyle" xmi:id="_gyDp4TtYEeOnxMQiEN8u7w"/>
@@ -158,154 +59,139 @@
           <styles xmi:type="notation:DiagramStyle" xmi:id="_Eb24EjtSEeO-UMKs5vrRUw"/>
         </data>
       </ownedAnnotationEntries>
-      <ownedDiagramElements xmi:type="viewpoint:DNodeContainer" xmi:id="_FGcGIDtSEeO-UMKs5vrRUw" name="NomVide">
+      <ownedDiagramElements xmi:type="viewpoint:DNodeList" xmi:id="_fNausEA3EeO-z9IFEwIXgQ" name="NomVide">
         <target xmi:type="formModeler:Ecran" href="mesEcrans.formmodeler#//@ecrans.0"/>
         <semanticElements xmi:type="formModeler:Ecran" href="mesEcrans.formmodeler#//@ecrans.0"/>
-        <ownedStyle xmi:type="viewpoint:FlatContainerStyle" xmi:id="_FHoY8DtSEeO-UMKs5vrRUw" showIcon="false">
-          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_FHoY8TtSEeO-UMKs5vrRUw"/>
+        <ownedStyle xmi:type="viewpoint:FlatContainerStyle" xmi:id="_fSO9QEA3EeO-z9IFEwIXgQ" showIcon="false">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_fSPkUEA3EeO-z9IFEwIXgQ"/>
           <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/FormModeler.representation/description/FormModelerRepresentation.odesign#//@ownedViewpoints[name='formModelerVP']/@ownedRepresentations[name='diagramModeler']/@defaultLayer/@containerMappings[name='ecranRep']/@style"/>
-          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_FHoY8jtSEeO-UMKs5vrRUw"/>
-          <backgroundColor xmi:type="viewpoint:RGBValues" xmi:id="_FHoY8ztSEeO-UMKs5vrRUw" red="255" green="255" blue="255"/>
-          <foregroundColor xmi:type="viewpoint:RGBValues" xmi:id="_FHoY9DtSEeO-UMKs5vrRUw" red="209" green="209" blue="209"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_fSPkUUA3EeO-z9IFEwIXgQ"/>
+          <backgroundColor xmi:type="viewpoint:RGBValues" xmi:id="_fSPkUkA3EeO-z9IFEwIXgQ" red="255" green="255" blue="255"/>
+          <foregroundColor xmi:type="viewpoint:RGBValues" xmi:id="_fSPkU0A3EeO-z9IFEwIXgQ" red="209" green="209" blue="209"/>
         </ownedStyle>
         <actualMapping xmi:type="description:ContainerMapping" href="platform:/plugin/FormModeler.representation/description/FormModelerRepresentation.odesign#//@ownedViewpoints[name='formModelerVP']/@ownedRepresentations[name='diagramModeler']/@defaultLayer/@containerMappings[name='ecranRep']"/>
-        <ownedDiagramElements xmi:type="viewpoint:DNode" xmi:id="_jH8YoTtXEeOwd4jDm6-jwg" name="Label : NomVide" width="-1" height="-1" resizeKind="NSEW">
+        <ownedElements xmi:type="viewpoint:DNodeListElement" xmi:id="_fTObwEA3EeO-z9IFEwIXgQ" name="Label : NomVide">
           <target xmi:type="formModeler:Label" href="mesEcrans.formmodeler#//@ecrans.0/@widgets.0"/>
           <semanticElements xmi:type="formModeler:Label" href="mesEcrans.formmodeler#//@ecrans.0/@widgets.0"/>
-          <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_jIB4MDtXEeOwd4jDm6-jwg" showIcon="false" workspacePath="/FormModeler.representation/images/label.png">
-            <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_jIB4MTtXEeOwd4jDm6-jwg"/>
+          <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_fTSGIEA3EeO-z9IFEwIXgQ" showIcon="false" workspacePath="/FormModeler.representation/images/label.png">
+            <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_fTSGIUA3EeO-z9IFEwIXgQ"/>
             <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/FormModeler.representation/description/FormModelerRepresentation.odesign#//@ownedViewpoints[name='formModelerVP']/@ownedRepresentations[name='diagramModeler']/@defaultLayer/@containerMappings[name='ecranRep']/@subNodeMappings[name='labelRep']/@style"/>
-            <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_jIB4MjtXEeOwd4jDm6-jwg"/>
+            <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_fTSGIkA3EeO-z9IFEwIXgQ"/>
           </ownedStyle>
           <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/FormModeler.representation/description/FormModelerRepresentation.odesign#//@ownedViewpoints[name='formModelerVP']/@ownedRepresentations[name='diagramModeler']/@defaultLayer/@containerMappings[name='ecranRep']/@subNodeMappings[name='labelRep']"/>
-        </ownedDiagramElements>
-        <ownedDiagramElements xmi:type="viewpoint:DNode" xmi:id="_jjxZADtXEeOwd4jDm6-jwg" name="Bouton : NomVide" width="-1" height="-1" resizeKind="NSEW">
+        </ownedElements>
+        <ownedElements xmi:type="viewpoint:DNodeListElement" xmi:id="_fTVJcEA3EeO-z9IFEwIXgQ" name="Bouton : NomVide">
           <target xmi:type="formModeler:Bouton" href="mesEcrans.formmodeler#//@ecrans.0/@widgets.1"/>
           <semanticElements xmi:type="formModeler:Bouton" href="mesEcrans.formmodeler#//@ecrans.0/@widgets.1"/>
-          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
-          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
-          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-          <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_jjzOMDtXEeOwd4jDm6-jwg" showIcon="false" workspacePath="/FormModeler.representation/images/bouton.png">
-            <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_jjzOMTtXEeOwd4jDm6-jwg"/>
+          <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_fTapAEA3EeO-z9IFEwIXgQ" showIcon="false" workspacePath="/FormModeler.representation/images/bouton.png">
+            <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_fTbQEEA3EeO-z9IFEwIXgQ"/>
             <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/FormModeler.representation/description/FormModelerRepresentation.odesign#//@ownedViewpoints[name='formModelerVP']/@ownedRepresentations[name='diagramModeler']/@defaultLayer/@containerMappings[name='ecranRep']/@subNodeMappings[name='boutonRep']/@style"/>
-            <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_jjzOMjtXEeOwd4jDm6-jwg"/>
+            <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_fTbQEUA3EeO-z9IFEwIXgQ"/>
           </ownedStyle>
           <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/FormModeler.representation/description/FormModelerRepresentation.odesign#//@ownedViewpoints[name='formModelerVP']/@ownedRepresentations[name='diagramModeler']/@defaultLayer/@containerMappings[name='ecranRep']/@subNodeMappings[name='boutonRep']"/>
-        </ownedDiagramElements>
-        <ownedDiagramElements xmi:type="viewpoint:DNode" xmi:id="_j6RNcDtXEeOwd4jDm6-jwg" name="Champ texte : NomVide" width="-1" height="-1" resizeKind="NSEW">
+        </ownedElements>
+        <ownedElements xmi:type="viewpoint:DNodeListElement" xmi:id="_fTjL4EA3EeO-z9IFEwIXgQ" name="Champ texte : NomVide">
           <target xmi:type="formModeler:ChampTexte" href="mesEcrans.formmodeler#//@ecrans.0/@widgets.2"/>
           <semanticElements xmi:type="formModeler:ChampTexte" href="mesEcrans.formmodeler#//@ecrans.0/@widgets.2"/>
-          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
-          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
-          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-          <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_j6TCoDtXEeOwd4jDm6-jwg" showIcon="false" workspacePath="/FormModeler.representation/images/champTexte.png">
-            <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_j6TCoTtXEeOwd4jDm6-jwg"/>
+          <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_fTwAMEA3EeO-z9IFEwIXgQ" showIcon="false" workspacePath="/FormModeler.representation/images/champTexte.png">
+            <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_fTwnQEA3EeO-z9IFEwIXgQ"/>
             <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/FormModeler.representation/description/FormModelerRepresentation.odesign#//@ownedViewpoints[name='formModelerVP']/@ownedRepresentations[name='diagramModeler']/@defaultLayer/@containerMappings[name='ecranRep']/@subNodeMappings[name='champTexteRep']/@style"/>
-            <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_j6TCojtXEeOwd4jDm6-jwg"/>
+            <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_fTzDgEA3EeO-z9IFEwIXgQ"/>
           </ownedStyle>
           <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/FormModeler.representation/description/FormModelerRepresentation.odesign#//@ownedViewpoints[name='formModelerVP']/@ownedRepresentations[name='diagramModeler']/@defaultLayer/@containerMappings[name='ecranRep']/@subNodeMappings[name='champTexteRep']"/>
-        </ownedDiagramElements>
-        <ownedDiagramElements xmi:type="viewpoint:DNode" xmi:id="_k8OZsDtXEeOwd4jDm6-jwg" name="Cocher : NomVide" width="-1" height="-1" resizeKind="NSEW">
+        </ownedElements>
+        <ownedElements xmi:type="viewpoint:DNodeListElement" xmi:id="_fT38AEA3EeO-z9IFEwIXgQ" name="Cocher : NomVide">
           <target xmi:type="formModeler:Cocher" href="mesEcrans.formmodeler#//@ecrans.0/@widgets.3"/>
           <semanticElements xmi:type="formModeler:Cocher" href="mesEcrans.formmodeler#//@ecrans.0/@widgets.3"/>
-          <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_k8Q18DtXEeOwd4jDm6-jwg" showIcon="false" workspacePath="/FormModeler.representation/images/cocher.png">
-            <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_k8Q18TtXEeOwd4jDm6-jwg"/>
+          <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_fT7mYEA3EeO-z9IFEwIXgQ" showIcon="false" workspacePath="/FormModeler.representation/images/cocher.png">
+            <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_fT7mYUA3EeO-z9IFEwIXgQ"/>
             <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/FormModeler.representation/description/FormModelerRepresentation.odesign#//@ownedViewpoints[name='formModelerVP']/@ownedRepresentations[name='diagramModeler']/@defaultLayer/@containerMappings[name='ecranRep']/@subNodeMappings[name='cocherRep']/@style"/>
-            <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_k8Q18jtXEeOwd4jDm6-jwg"/>
+            <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_fT7mYkA3EeO-z9IFEwIXgQ"/>
           </ownedStyle>
           <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/FormModeler.representation/description/FormModelerRepresentation.odesign#//@ownedViewpoints[name='formModelerVP']/@ownedRepresentations[name='diagramModeler']/@defaultLayer/@containerMappings[name='ecranRep']/@subNodeMappings[name='cocherRep']"/>
-        </ownedDiagramElements>
-        <ownedDiagramElements xmi:type="viewpoint:DNode" xmi:id="_y9tXcDtXEeOQj-aJc1MFXw" name="Lien : NomVide" width="-1" height="-1" resizeKind="NSEW">
-          <target xmi:type="formModeler:Lien" href="mesEcrans.formmodeler#//@ecrans.0/@widgets.4"/>
-          <semanticElements xmi:type="formModeler:Lien" href="mesEcrans.formmodeler#//@ecrans.0/@widgets.4"/>
-          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
-          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
-          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-          <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_y9wawDtXEeOQj-aJc1MFXw" showIcon="false" workspacePath="/FormModeler.representation/images/lien.png">
-            <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_y9wawTtXEeOQj-aJc1MFXw"/>
-            <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/FormModeler.representation/description/FormModelerRepresentation.odesign#//@ownedViewpoints[name='formModelerVP']/@ownedRepresentations[name='diagramModeler']/@defaultLayer/@containerMappings[name='ecranRep']/@subNodeMappings[name='lienRep']/@style"/>
-            <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_y9wawjtXEeOQj-aJc1MFXw"/>
-          </ownedStyle>
-          <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/FormModeler.representation/description/FormModelerRepresentation.odesign#//@ownedViewpoints[name='formModelerVP']/@ownedRepresentations[name='diagramModeler']/@defaultLayer/@containerMappings[name='ecranRep']/@subNodeMappings[name='lienRep']"/>
-        </ownedDiagramElements>
-        <ownedDiagramElements xmi:type="viewpoint:DNode" xmi:id="_YhQRUDtYEeOnxMQiEN8u7w" name="Menu déroulant : NomVide" width="-1" height="-1" resizeKind="NSEW">
+        </ownedElements>
+        <ownedElements xmi:type="viewpoint:DNodeListElement" xmi:id="_fT_30EA3EeO-z9IFEwIXgQ" name="Menu déroulant : NomVide">
           <target xmi:type="formModeler:MenuDeroulant" href="mesEcrans.formmodeler#//@ecrans.0/@widgets.5"/>
           <semanticElements xmi:type="formModeler:MenuDeroulant" href="mesEcrans.formmodeler#//@ecrans.0/@widgets.5"/>
-          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
-          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
-          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-          <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_YhTUoDtYEeOnxMQiEN8u7w" showIcon="false" workspacePath="/FormModeler.representation/images/menuDeroulant.png">
-            <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_YhTUoTtYEeOnxMQiEN8u7w"/>
+          <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_fUDiMEA3EeO-z9IFEwIXgQ" showIcon="false" workspacePath="/FormModeler.representation/images/menuDeroulant.png">
+            <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_fUDiMUA3EeO-z9IFEwIXgQ"/>
             <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/FormModeler.representation/description/FormModelerRepresentation.odesign#//@ownedViewpoints[name='formModelerVP']/@ownedRepresentations[name='diagramModeler']/@defaultLayer/@containerMappings[name='ecranRep']/@subNodeMappings[name='menuDeroulantRep']/@style"/>
-            <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_YhTUojtYEeOnxMQiEN8u7w"/>
+            <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_fUDiMkA3EeO-z9IFEwIXgQ"/>
           </ownedStyle>
           <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/FormModeler.representation/description/FormModelerRepresentation.odesign#//@ownedViewpoints[name='formModelerVP']/@ownedRepresentations[name='diagramModeler']/@defaultLayer/@containerMappings[name='ecranRep']/@subNodeMappings[name='menuDeroulantRep']"/>
-        </ownedDiagramElements>
-        <ownedDiagramElements xmi:type="viewpoint:DNode" xmi:id="_gmHwkTthEeOxaZzPXju9JA" name="Photo : NomVide" width="-1" height="-1" resizeKind="NSEW">
+        </ownedElements>
+        <ownedElements xmi:type="viewpoint:DNodeListElement" xmi:id="_fUHzoEA3EeO-z9IFEwIXgQ" name="Lien : NomVide">
+          <target xmi:type="formModeler:Lien" href="mesEcrans.formmodeler#//@ecrans.0/@widgets.4"/>
+          <semanticElements xmi:type="formModeler:Lien" href="mesEcrans.formmodeler#//@ecrans.0/@widgets.4"/>
+          <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_fUK28EA3EeO-z9IFEwIXgQ" showIcon="false" workspacePath="/FormModeler.representation/images/lien.png">
+            <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_fUK28UA3EeO-z9IFEwIXgQ"/>
+            <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/FormModeler.representation/description/FormModelerRepresentation.odesign#//@ownedViewpoints[name='formModelerVP']/@ownedRepresentations[name='diagramModeler']/@defaultLayer/@containerMappings[name='ecranRep']/@subNodeMappings[name='lienRep']/@style"/>
+            <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_fUK28kA3EeO-z9IFEwIXgQ"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/FormModeler.representation/description/FormModelerRepresentation.odesign#//@ownedViewpoints[name='formModelerVP']/@ownedRepresentations[name='diagramModeler']/@defaultLayer/@containerMappings[name='ecranRep']/@subNodeMappings[name='lienRep']"/>
+        </ownedElements>
+        <ownedElements xmi:type="viewpoint:DNodeListElement" xmi:id="_fUPvcEA3EeO-z9IFEwIXgQ" name="Photo : NomVide">
           <target xmi:type="formModeler:Photo" href="mesEcrans.formmodeler#//@ecrans.0/@widgets.6"/>
           <semanticElements xmi:type="formModeler:Photo" href="mesEcrans.formmodeler#//@ecrans.0/@widgets.6"/>
-          <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_gmKM0DthEeOxaZzPXju9JA" showIcon="false" workspacePath="/FormModeler.representation/images/photo.png">
-            <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_gmKM0TthEeOxaZzPXju9JA"/>
+          <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_fUTZ0EA3EeO-z9IFEwIXgQ" showIcon="false" workspacePath="/FormModeler.representation/images/photo.png">
+            <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_fUTZ0UA3EeO-z9IFEwIXgQ"/>
             <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/FormModeler.representation/description/FormModelerRepresentation.odesign#//@ownedViewpoints[name='formModelerVP']/@ownedRepresentations[name='diagramModeler']/@defaultLayer/@containerMappings[name='ecranRep']/@subNodeMappings[name='photo']/@style"/>
-            <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_gmKM0jthEeOxaZzPXju9JA"/>
+            <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_fUTZ0kA3EeO-z9IFEwIXgQ"/>
           </ownedStyle>
           <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/FormModeler.representation/description/FormModelerRepresentation.odesign#//@ownedViewpoints[name='formModelerVP']/@ownedRepresentations[name='diagramModeler']/@defaultLayer/@containerMappings[name='ecranRep']/@subNodeMappings[name='photo']"/>
-        </ownedDiagramElements>
+        </ownedElements>
       </ownedDiagramElements>
-      <ownedDiagramElements xmi:type="viewpoint:DNodeContainer" xmi:id="_gxAhADtYEeOnxMQiEN8u7w" name="NomVide">
+      <ownedDiagramElements xmi:type="viewpoint:DNodeList" xmi:id="_fSvTkEA3EeO-z9IFEwIXgQ" name="NomVide">
         <target xmi:type="formModeler:Ecran" href="mesEcrans.formmodeler#//@ecrans.1"/>
         <semanticElements xmi:type="formModeler:Ecran" href="mesEcrans.formmodeler#//@ecrans.1"/>
-        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
-        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
-        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-        <ownedStyle xmi:type="viewpoint:FlatContainerStyle" xmi:id="_gxCWMDtYEeOnxMQiEN8u7w" showIcon="false">
-          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_gxCWMTtYEeOnxMQiEN8u7w"/>
+        <ownedStyle xmi:type="viewpoint:FlatContainerStyle" xmi:id="_fSxIwEA3EeO-z9IFEwIXgQ" showIcon="false">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_fSxIwUA3EeO-z9IFEwIXgQ"/>
           <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/FormModeler.representation/description/FormModelerRepresentation.odesign#//@ownedViewpoints[name='formModelerVP']/@ownedRepresentations[name='diagramModeler']/@defaultLayer/@containerMappings[name='ecranRep']/@style"/>
-          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_gxCWMjtYEeOnxMQiEN8u7w"/>
-          <backgroundColor xmi:type="viewpoint:RGBValues" xmi:id="_gxCWMztYEeOnxMQiEN8u7w" red="255" green="255" blue="255"/>
-          <foregroundColor xmi:type="viewpoint:RGBValues" xmi:id="_gxCWNDtYEeOnxMQiEN8u7w" red="209" green="209" blue="209"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_fSxIwkA3EeO-z9IFEwIXgQ"/>
+          <backgroundColor xmi:type="viewpoint:RGBValues" xmi:id="_fSxIw0A3EeO-z9IFEwIXgQ" red="255" green="255" blue="255"/>
+          <foregroundColor xmi:type="viewpoint:RGBValues" xmi:id="_fSxIxEA3EeO-z9IFEwIXgQ" red="209" green="209" blue="209"/>
         </ownedStyle>
         <actualMapping xmi:type="description:ContainerMapping" href="platform:/plugin/FormModeler.representation/description/FormModelerRepresentation.odesign#//@ownedViewpoints[name='formModelerVP']/@ownedRepresentations[name='diagramModeler']/@defaultLayer/@containerMappings[name='ecranRep']"/>
-        <ownedDiagramElements xmi:type="viewpoint:DNode" xmi:id="_hpJp8DtYEeOnxMQiEN8u7w" name="Label : NomVide" width="-1" height="-1" resizeKind="NSEW">
+        <ownedElements xmi:type="viewpoint:DNodeListElement" xmi:id="_fUfnEEA3EeO-z9IFEwIXgQ" name="Label : NomVide">
           <target xmi:type="formModeler:Label" href="mesEcrans.formmodeler#//@ecrans.1/@widgets.0"/>
           <semanticElements xmi:type="formModeler:Label" href="mesEcrans.formmodeler#//@ecrans.1/@widgets.0"/>
-          <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_hpLfIDtYEeOnxMQiEN8u7w" showIcon="false" workspacePath="/FormModeler.representation/images/label.png">
-            <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_hpLfITtYEeOnxMQiEN8u7w"/>
+          <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_fUiDUEA3EeO-z9IFEwIXgQ" showIcon="false" workspacePath="/FormModeler.representation/images/label.png">
+            <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_fUiDUUA3EeO-z9IFEwIXgQ"/>
             <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/FormModeler.representation/description/FormModelerRepresentation.odesign#//@ownedViewpoints[name='formModelerVP']/@ownedRepresentations[name='diagramModeler']/@defaultLayer/@containerMappings[name='ecranRep']/@subNodeMappings[name='labelRep']/@style"/>
-            <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_hpLfIjtYEeOnxMQiEN8u7w"/>
+            <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_fUiqYEA3EeO-z9IFEwIXgQ"/>
           </ownedStyle>
           <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/FormModeler.representation/description/FormModelerRepresentation.odesign#//@ownedViewpoints[name='formModelerVP']/@ownedRepresentations[name='diagramModeler']/@defaultLayer/@containerMappings[name='ecranRep']/@subNodeMappings[name='labelRep']"/>
-        </ownedDiagramElements>
-        <ownedDiagramElements xmi:type="viewpoint:DNode" xmi:id="_iehywDtYEeOnxMQiEN8u7w" name="Label : NomVide" width="-1" height="-1" resizeKind="NSEW">
+        </ownedElements>
+        <ownedElements xmi:type="viewpoint:DNodeListElement" xmi:id="_fUj4gEA3EeO-z9IFEwIXgQ" name="Label : NomVide">
           <target xmi:type="formModeler:Label" href="mesEcrans.formmodeler#//@ecrans.1/@widgets.2"/>
           <semanticElements xmi:type="formModeler:Label" href="mesEcrans.formmodeler#//@ecrans.1/@widgets.2"/>
-          <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_iejA4DtYEeOnxMQiEN8u7w" showIcon="false" workspacePath="/FormModeler.representation/images/label.png">
-            <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_iejA4TtYEeOnxMQiEN8u7w"/>
+          <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_fUwFwEA3EeO-z9IFEwIXgQ" showIcon="false" workspacePath="/FormModeler.representation/images/label.png">
+            <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_fUwFwUA3EeO-z9IFEwIXgQ"/>
             <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/FormModeler.representation/description/FormModelerRepresentation.odesign#//@ownedViewpoints[name='formModelerVP']/@ownedRepresentations[name='diagramModeler']/@defaultLayer/@containerMappings[name='ecranRep']/@subNodeMappings[name='labelRep']/@style"/>
-            <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_iejA4jtYEeOnxMQiEN8u7w"/>
+            <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_fUwFwkA3EeO-z9IFEwIXgQ"/>
           </ownedStyle>
           <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/FormModeler.representation/description/FormModelerRepresentation.odesign#//@ownedViewpoints[name='formModelerVP']/@ownedRepresentations[name='diagramModeler']/@defaultLayer/@containerMappings[name='ecranRep']/@subNodeMappings[name='labelRep']"/>
-        </ownedDiagramElements>
-        <ownedDiagramElements xmi:type="viewpoint:DNode" xmi:id="_iEHHoDtYEeOnxMQiEN8u7w" name="Bouton : NomVide" width="-1" height="-1" resizeKind="NSEW">
+        </ownedElements>
+        <ownedElements xmi:type="viewpoint:DNodeListElement" xmi:id="_fUzwIEA3EeO-z9IFEwIXgQ" name="Bouton : NomVide">
           <target xmi:type="formModeler:Bouton" href="mesEcrans.formmodeler#//@ecrans.1/@widgets.1"/>
           <semanticElements xmi:type="formModeler:Bouton" href="mesEcrans.formmodeler#//@ecrans.1/@widgets.1"/>
-          <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_iEIVwDtYEeOnxMQiEN8u7w" showIcon="false" workspacePath="/FormModeler.representation/images/bouton.png">
-            <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_iEIVwTtYEeOnxMQiEN8u7w"/>
+          <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_fVDnwEA3EeO-z9IFEwIXgQ" showIcon="false" workspacePath="/FormModeler.representation/images/bouton.png">
+            <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_fVDnwUA3EeO-z9IFEwIXgQ"/>
             <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/FormModeler.representation/description/FormModelerRepresentation.odesign#//@ownedViewpoints[name='formModelerVP']/@ownedRepresentations[name='diagramModeler']/@defaultLayer/@containerMappings[name='ecranRep']/@subNodeMappings[name='boutonRep']/@style"/>
-            <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_iEIVwjtYEeOnxMQiEN8u7w"/>
+            <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_fVDnwkA3EeO-z9IFEwIXgQ"/>
           </ownedStyle>
           <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/FormModeler.representation/description/FormModelerRepresentation.odesign#//@ownedViewpoints[name='formModelerVP']/@ownedRepresentations[name='diagramModeler']/@defaultLayer/@containerMappings[name='ecranRep']/@subNodeMappings[name='boutonRep']"/>
-        </ownedDiagramElements>
-        <ownedDiagramElements xmi:type="viewpoint:DNode" xmi:id="_iwoPYDtYEeOnxMQiEN8u7w" name="Bouton : NomVide" width="-1" height="-1" resizeKind="NSEW">
+        </ownedElements>
+        <ownedElements xmi:type="viewpoint:DNodeListElement" xmi:id="_fVcpUEA3EeO-z9IFEwIXgQ" name="Bouton : NomVide">
           <target xmi:type="formModeler:Bouton" href="mesEcrans.formmodeler#//@ecrans.1/@widgets.3"/>
           <semanticElements xmi:type="formModeler:Bouton" href="mesEcrans.formmodeler#//@ecrans.1/@widgets.3"/>
-          <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_iwqEkDtYEeOnxMQiEN8u7w" showIcon="false" workspacePath="/FormModeler.representation/images/bouton.png">
-            <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_iwqEkTtYEeOnxMQiEN8u7w"/>
+          <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_fV4uMEA3EeO-z9IFEwIXgQ" showIcon="false" workspacePath="/FormModeler.representation/images/bouton.png">
+            <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_fV4uMUA3EeO-z9IFEwIXgQ"/>
             <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/FormModeler.representation/description/FormModelerRepresentation.odesign#//@ownedViewpoints[name='formModelerVP']/@ownedRepresentations[name='diagramModeler']/@defaultLayer/@containerMappings[name='ecranRep']/@subNodeMappings[name='boutonRep']/@style"/>
-            <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_iwqEkjtYEeOnxMQiEN8u7w"/>
+            <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_fV4uMkA3EeO-z9IFEwIXgQ"/>
           </ownedStyle>
           <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/FormModeler.representation/description/FormModelerRepresentation.odesign#//@ownedViewpoints[name='formModelerVP']/@ownedRepresentations[name='diagramModeler']/@defaultLayer/@containerMappings[name='ecranRep']/@subNodeMappings[name='boutonRep']"/>
-        </ownedDiagramElements>
+        </ownedElements>
       </ownedDiagramElements>
       <description xmi:type="description:DiagramDescription" href="platform:/plugin/FormModeler.representation/description/FormModelerRepresentation.odesign#//@ownedViewpoints[name='formModelerVP']/@ownedRepresentations[name='diagramModeler']"/>
       <filterVariableHistory xmi:type="viewpoint:FilterVariableHistory" xmi:id="_Eb2RATtSEeO-UMKs5vrRUw"/>

@@ -3,7 +3,7 @@
   <ownedViewpoints name="formModelerVP" label="formModeler" modelFileExtension="*.formmodeler">
     <ownedRepresentations xsi:type="description:DiagramDescription" name="diagramModeler" label="diagramModeler" initialisation="true" showOnStartup="true" domainClass="formModeler.Racine">
       <defaultLayer name="Default">
-        <containerMappings name="ecranRep" label="Ecran" domainClass="formModeler.Ecran">
+        <containerMappings name="ecranRep" label="Ecran" domainClass="formModeler.Ecran" childrenPresentation="List">
           <subNodeMappings name="labelRep" label="Label" semanticCandidatesExpression="feature:eAllContents" domainClass="formModeler.Label">
             <style xsi:type="style:WorkspaceImageDescription" showIcon="false" labelExpression="Label : &lt;%nom%>" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="/FormModeler.representation/images/label.png">
               <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
@@ -72,6 +72,10 @@
                 <firstModelOperations xsi:type="tool:CreateInstance" typeName="Label" referenceName="widgets">
                   <subModelOperations xsi:type="tool:SetValue" featureName="valeur" valueExpression="ValeurVide"/>
                   <subModelOperations xsi:type="tool:SetValue" featureName="nom" valueExpression="NomVide"/>
+                  <subModelOperations xsi:type="tool:SetValue" featureName="col" valueExpression="0"/>
+                  <subModelOperations xsi:type="tool:SetValue" featureName="row" valueExpression="0"/>
+                  <subModelOperations xsi:type="tool:SetValue" featureName="colx" valueExpression="1"/>
+                  <subModelOperations xsi:type="tool:SetValue" featureName="rowx" valueExpression="1"/>
                 </firstModelOperations>
               </initialOperation>
             </ownedTools>
@@ -83,6 +87,10 @@
                   <subModelOperations xsi:type="tool:SetValue" featureName="valeur" valueExpression="ValeurVide"/>
                   <subModelOperations xsi:type="tool:SetValue" featureName="nom" valueExpression="NomVide"/>
                   <subModelOperations xsi:type="tool:SetValue" featureName="cible" valueExpression="cibleVide"/>
+                  <subModelOperations xsi:type="tool:SetValue" featureName="col" valueExpression="0"/>
+                  <subModelOperations xsi:type="tool:SetValue" featureName="row" valueExpression="0"/>
+                  <subModelOperations xsi:type="tool:SetValue" featureName="colx" valueExpression="1"/>
+                  <subModelOperations xsi:type="tool:SetValue" featureName="rowx" valueExpression="1"/>
                 </firstModelOperations>
               </initialOperation>
             </ownedTools>
@@ -91,7 +99,12 @@
               <viewVariable name="containerView"/>
               <initialOperation>
                 <firstModelOperations xsi:type="tool:CreateInstance" typeName="ChampTexte" referenceName="widgets">
-                  <subModelOperations xsi:type="tool:SetValue" featureName="nom" valueExpression="NomVide"/>
+                  <subModelOperations xsi:type="tool:SetValue" featureName="nom" valueExpression="NomVide">
+                    <subModelOperations xsi:type="tool:SetValue" featureName="col" valueExpression="0"/>
+                    <subModelOperations xsi:type="tool:SetValue" featureName="row" valueExpression="0"/>
+                    <subModelOperations xsi:type="tool:SetValue" featureName="colx" valueExpression="1"/>
+                    <subModelOperations xsi:type="tool:SetValue" featureName="rowx" valueExpression="1"/>
+                  </subModelOperations>
                 </firstModelOperations>
               </initialOperation>
             </ownedTools>
@@ -102,6 +115,10 @@
                 <firstModelOperations xsi:type="tool:CreateInstance" typeName="Cocher" referenceName="widgets">
                   <subModelOperations xsi:type="tool:SetValue" featureName="etatParDefaut" valueExpression="false"/>
                   <subModelOperations xsi:type="tool:SetValue" featureName="nom" valueExpression="NomVide"/>
+                  <subModelOperations xsi:type="tool:SetValue" featureName="col" valueExpression="0"/>
+                  <subModelOperations xsi:type="tool:SetValue" featureName="row" valueExpression="0"/>
+                  <subModelOperations xsi:type="tool:SetValue" featureName="colx" valueExpression="1"/>
+                  <subModelOperations xsi:type="tool:SetValue" featureName="rowx" valueExpression="1"/>
                 </firstModelOperations>
               </initialOperation>
             </ownedTools>
@@ -111,6 +128,10 @@
               <initialOperation>
                 <firstModelOperations xsi:type="tool:CreateInstance" typeName="MenuDeroulant" referenceName="widgets">
                   <subModelOperations xsi:type="tool:SetValue" featureName="nom" valueExpression="NomVide"/>
+                  <subModelOperations xsi:type="tool:SetValue" featureName="col" valueExpression="0"/>
+                  <subModelOperations xsi:type="tool:SetValue" featureName="row" valueExpression="0"/>
+                  <subModelOperations xsi:type="tool:SetValue" featureName="colx" valueExpression="1"/>
+                  <subModelOperations xsi:type="tool:SetValue" featureName="rowx" valueExpression="1"/>
                 </firstModelOperations>
               </initialOperation>
             </ownedTools>
@@ -121,6 +142,10 @@
                 <firstModelOperations xsi:type="tool:CreateInstance" typeName="Lien" referenceName="widgets">
                   <subModelOperations xsi:type="tool:SetValue" featureName="nom" valueExpression="NomVide"/>
                   <subModelOperations xsi:type="tool:SetValue" featureName="cible" valueExpression="CibleVide"/>
+                  <subModelOperations xsi:type="tool:SetValue" featureName="col" valueExpression="0"/>
+                  <subModelOperations xsi:type="tool:SetValue" featureName="row" valueExpression="0"/>
+                  <subModelOperations xsi:type="tool:SetValue" featureName="colx" valueExpression="1"/>
+                  <subModelOperations xsi:type="tool:SetValue" featureName="rowx" valueExpression="1"/>
                 </firstModelOperations>
               </initialOperation>
             </ownedTools>
@@ -131,6 +156,10 @@
                 <firstModelOperations xsi:type="tool:CreateInstance" typeName="Photo" referenceName="widgets">
                   <subModelOperations xsi:type="tool:SetValue" featureName="chemin" valueExpression="CheminVide"/>
                   <subModelOperations xsi:type="tool:SetValue" featureName="nom" valueExpression="NomVide"/>
+                  <subModelOperations xsi:type="tool:SetValue" featureName="col" valueExpression="0"/>
+                  <subModelOperations xsi:type="tool:SetValue" featureName="row" valueExpression="0"/>
+                  <subModelOperations xsi:type="tool:SetValue" featureName="colx" valueExpression="1"/>
+                  <subModelOperations xsi:type="tool:SetValue" featureName="rowx" valueExpression="1"/>
                 </firstModelOperations>
               </initialOperation>
             </ownedTools>
