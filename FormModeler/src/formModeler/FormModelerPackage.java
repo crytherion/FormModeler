@@ -121,13 +121,49 @@ public interface FormModelerPackage extends EPackage {
 	int WIDGET__NOM = 0;
 
 	/**
+	 * The feature id for the '<em><b>Col</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int WIDGET__COL = 1;
+
+	/**
+	 * The feature id for the '<em><b>Row</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int WIDGET__ROW = 2;
+
+	/**
+	 * The feature id for the '<em><b>Colx</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int WIDGET__COLX = 3;
+
+	/**
+	 * The feature id for the '<em><b>Rowx</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int WIDGET__ROWX = 4;
+
+	/**
 	 * The number of structural features of the '<em>Widget</em>' class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-	int WIDGET_FEATURE_COUNT = 1;
+	int WIDGET_FEATURE_COUNT = 5;
 
 	/**
 	 * The meta object id for the '{@link formModeler.impl.LabelImpl <em>Label</em>}' class.
@@ -147,6 +183,42 @@ public interface FormModelerPackage extends EPackage {
 	 * @ordered
 	 */
 	int LABEL__NOM = WIDGET__NOM;
+
+	/**
+	 * The feature id for the '<em><b>Col</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int LABEL__COL = WIDGET__COL;
+
+	/**
+	 * The feature id for the '<em><b>Row</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int LABEL__ROW = WIDGET__ROW;
+
+	/**
+	 * The feature id for the '<em><b>Colx</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int LABEL__COLX = WIDGET__COLX;
+
+	/**
+	 * The feature id for the '<em><b>Rowx</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int LABEL__ROWX = WIDGET__ROWX;
 
 	/**
 	 * The feature id for the '<em><b>Valeur</b></em>' attribute.
@@ -186,13 +258,40 @@ public interface FormModelerPackage extends EPackage {
 	int BOUTON__NOM = WIDGET__NOM;
 
 	/**
-	 * The feature id for the '<em><b>Cible</b></em>' attribute.
+	 * The feature id for the '<em><b>Col</b></em>' attribute.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-	int BOUTON__CIBLE = WIDGET_FEATURE_COUNT + 0;
+	int BOUTON__COL = WIDGET__COL;
+
+	/**
+	 * The feature id for the '<em><b>Row</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int BOUTON__ROW = WIDGET__ROW;
+
+	/**
+	 * The feature id for the '<em><b>Colx</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int BOUTON__COLX = WIDGET__COLX;
+
+	/**
+	 * The feature id for the '<em><b>Rowx</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int BOUTON__ROWX = WIDGET__ROWX;
 
 	/**
 	 * The feature id for the '<em><b>Valeur</b></em>' attribute.
@@ -201,7 +300,16 @@ public interface FormModelerPackage extends EPackage {
 	 * @generated
 	 * @ordered
 	 */
-	int BOUTON__VALEUR = WIDGET_FEATURE_COUNT + 1;
+	int BOUTON__VALEUR = WIDGET_FEATURE_COUNT + 0;
+
+	/**
+	 * The feature id for the '<em><b>Cible</b></em>' containment reference.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int BOUTON__CIBLE = WIDGET_FEATURE_COUNT + 1;
 
 	/**
 	 * The number of structural features of the '<em>Bouton</em>' class.
@@ -232,6 +340,42 @@ public interface FormModelerPackage extends EPackage {
 	int CHAMP_TEXTE__NOM = WIDGET__NOM;
 
 	/**
+	 * The feature id for the '<em><b>Col</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int CHAMP_TEXTE__COL = WIDGET__COL;
+
+	/**
+	 * The feature id for the '<em><b>Row</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int CHAMP_TEXTE__ROW = WIDGET__ROW;
+
+	/**
+	 * The feature id for the '<em><b>Colx</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int CHAMP_TEXTE__COLX = WIDGET__COLX;
+
+	/**
+	 * The feature id for the '<em><b>Rowx</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int CHAMP_TEXTE__ROWX = WIDGET__ROWX;
+
+	/**
 	 * The number of structural features of the '<em>Champ Texte</em>' class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -258,6 +402,42 @@ public interface FormModelerPackage extends EPackage {
 	 * @ordered
 	 */
 	int MENU_DEROULANT__NOM = WIDGET__NOM;
+
+	/**
+	 * The feature id for the '<em><b>Col</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int MENU_DEROULANT__COL = WIDGET__COL;
+
+	/**
+	 * The feature id for the '<em><b>Row</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int MENU_DEROULANT__ROW = WIDGET__ROW;
+
+	/**
+	 * The feature id for the '<em><b>Colx</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int MENU_DEROULANT__COLX = WIDGET__COLX;
+
+	/**
+	 * The feature id for the '<em><b>Rowx</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int MENU_DEROULANT__ROWX = WIDGET__ROWX;
 
 	/**
 	 * The feature id for the '<em><b>Liste Valeurs</b></em>' attribute.
@@ -297,6 +477,42 @@ public interface FormModelerPackage extends EPackage {
 	int COCHER__NOM = WIDGET__NOM;
 
 	/**
+	 * The feature id for the '<em><b>Col</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int COCHER__COL = WIDGET__COL;
+
+	/**
+	 * The feature id for the '<em><b>Row</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int COCHER__ROW = WIDGET__ROW;
+
+	/**
+	 * The feature id for the '<em><b>Colx</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int COCHER__COLX = WIDGET__COLX;
+
+	/**
+	 * The feature id for the '<em><b>Rowx</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int COCHER__ROWX = WIDGET__ROWX;
+
+	/**
 	 * The feature id for the '<em><b>Etat Par Defaut</b></em>' attribute.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -334,13 +550,40 @@ public interface FormModelerPackage extends EPackage {
 	int LIEN__NOM = WIDGET__NOM;
 
 	/**
-	 * The feature id for the '<em><b>Cible</b></em>' attribute.
+	 * The feature id for the '<em><b>Col</b></em>' attribute.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-	int LIEN__CIBLE = WIDGET_FEATURE_COUNT + 0;
+	int LIEN__COL = WIDGET__COL;
+
+	/**
+	 * The feature id for the '<em><b>Row</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int LIEN__ROW = WIDGET__ROW;
+
+	/**
+	 * The feature id for the '<em><b>Colx</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int LIEN__COLX = WIDGET__COLX;
+
+	/**
+	 * The feature id for the '<em><b>Rowx</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int LIEN__ROWX = WIDGET__ROWX;
 
 	/**
 	 * The feature id for the '<em><b>Valeur</b></em>' attribute.
@@ -349,7 +592,16 @@ public interface FormModelerPackage extends EPackage {
 	 * @generated
 	 * @ordered
 	 */
-	int LIEN__VALEUR = WIDGET_FEATURE_COUNT + 1;
+	int LIEN__VALEUR = WIDGET_FEATURE_COUNT + 0;
+
+	/**
+	 * The feature id for the '<em><b>Cible</b></em>' containment reference.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int LIEN__CIBLE = WIDGET_FEATURE_COUNT + 1;
 
 	/**
 	 * The number of structural features of the '<em>Lien</em>' class.
@@ -407,6 +659,42 @@ public interface FormModelerPackage extends EPackage {
 	 * @ordered
 	 */
 	int PHOTO__NOM = WIDGET__NOM;
+
+	/**
+	 * The feature id for the '<em><b>Col</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int PHOTO__COL = WIDGET__COL;
+
+	/**
+	 * The feature id for the '<em><b>Row</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int PHOTO__ROW = WIDGET__ROW;
+
+	/**
+	 * The feature id for the '<em><b>Colx</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int PHOTO__COLX = WIDGET__COLX;
+
+	/**
+	 * The feature id for the '<em><b>Rowx</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int PHOTO__ROWX = WIDGET__ROWX;
 
 	/**
 	 * The feature id for the '<em><b>Chemin</b></em>' attribute.
@@ -501,17 +789,6 @@ public interface FormModelerPackage extends EPackage {
 	EClass getBouton();
 
 	/**
-	 * Returns the meta object for the attribute '{@link formModeler.Bouton#getCible <em>Cible</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the attribute '<em>Cible</em>'.
-	 * @see formModeler.Bouton#getCible()
-	 * @see #getBouton()
-	 * @generated
-	 */
-	EAttribute getBouton_Cible();
-
-	/**
 	 * Returns the meta object for the attribute '{@link formModeler.Bouton#getValeur <em>Valeur</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -521,6 +798,17 @@ public interface FormModelerPackage extends EPackage {
 	 * @generated
 	 */
 	EAttribute getBouton_Valeur();
+
+	/**
+	 * Returns the meta object for the containment reference '{@link formModeler.Bouton#getCible <em>Cible</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the containment reference '<em>Cible</em>'.
+	 * @see formModeler.Bouton#getCible()
+	 * @see #getBouton()
+	 * @generated
+	 */
+	EReference getBouton_Cible();
 
 	/**
 	 * Returns the meta object for class '{@link formModeler.ChampTexte <em>Champ Texte</em>}'.
@@ -585,17 +873,6 @@ public interface FormModelerPackage extends EPackage {
 	EClass getLien();
 
 	/**
-	 * Returns the meta object for the attribute '{@link formModeler.Lien#getCible <em>Cible</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the attribute '<em>Cible</em>'.
-	 * @see formModeler.Lien#getCible()
-	 * @see #getLien()
-	 * @generated
-	 */
-	EAttribute getLien_Cible();
-
-	/**
 	 * Returns the meta object for the attribute '{@link formModeler.Lien#getValeur <em>Valeur</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -605,6 +882,17 @@ public interface FormModelerPackage extends EPackage {
 	 * @generated
 	 */
 	EAttribute getLien_Valeur();
+
+	/**
+	 * Returns the meta object for the containment reference '{@link formModeler.Lien#getCible <em>Cible</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the containment reference '<em>Cible</em>'.
+	 * @see formModeler.Lien#getCible()
+	 * @see #getLien()
+	 * @generated
+	 */
+	EReference getLien_Cible();
 
 	/**
 	 * Returns the meta object for class '{@link formModeler.Widget <em>Widget</em>}'.
@@ -626,6 +914,50 @@ public interface FormModelerPackage extends EPackage {
 	 * @generated
 	 */
 	EAttribute getWidget_Nom();
+
+	/**
+	 * Returns the meta object for the attribute '{@link formModeler.Widget#getCol <em>Col</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the attribute '<em>Col</em>'.
+	 * @see formModeler.Widget#getCol()
+	 * @see #getWidget()
+	 * @generated
+	 */
+	EAttribute getWidget_Col();
+
+	/**
+	 * Returns the meta object for the attribute '{@link formModeler.Widget#getRow <em>Row</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the attribute '<em>Row</em>'.
+	 * @see formModeler.Widget#getRow()
+	 * @see #getWidget()
+	 * @generated
+	 */
+	EAttribute getWidget_Row();
+
+	/**
+	 * Returns the meta object for the attribute '{@link formModeler.Widget#getColx <em>Colx</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the attribute '<em>Colx</em>'.
+	 * @see formModeler.Widget#getColx()
+	 * @see #getWidget()
+	 * @generated
+	 */
+	EAttribute getWidget_Colx();
+
+	/**
+	 * Returns the meta object for the attribute '{@link formModeler.Widget#getRowx <em>Rowx</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the attribute '<em>Rowx</em>'.
+	 * @see formModeler.Widget#getRowx()
+	 * @see #getWidget()
+	 * @generated
+	 */
+	EAttribute getWidget_Rowx();
 
 	/**
 	 * Returns the meta object for class '{@link formModeler.Racine <em>Racine</em>}'.
@@ -754,20 +1086,20 @@ public interface FormModelerPackage extends EPackage {
 		EClass BOUTON = eINSTANCE.getBouton();
 
 		/**
-		 * The meta object literal for the '<em><b>Cible</b></em>' attribute feature.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @generated
-		 */
-		EAttribute BOUTON__CIBLE = eINSTANCE.getBouton_Cible();
-
-		/**
 		 * The meta object literal for the '<em><b>Valeur</b></em>' attribute feature.
 		 * <!-- begin-user-doc -->
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
 		EAttribute BOUTON__VALEUR = eINSTANCE.getBouton_Valeur();
+
+		/**
+		 * The meta object literal for the '<em><b>Cible</b></em>' containment reference feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference BOUTON__CIBLE = eINSTANCE.getBouton_Cible();
 
 		/**
 		 * The meta object literal for the '{@link formModeler.impl.ChampTexteImpl <em>Champ Texte</em>}' class.
@@ -826,20 +1158,20 @@ public interface FormModelerPackage extends EPackage {
 		EClass LIEN = eINSTANCE.getLien();
 
 		/**
-		 * The meta object literal for the '<em><b>Cible</b></em>' attribute feature.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @generated
-		 */
-		EAttribute LIEN__CIBLE = eINSTANCE.getLien_Cible();
-
-		/**
 		 * The meta object literal for the '<em><b>Valeur</b></em>' attribute feature.
 		 * <!-- begin-user-doc -->
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
 		EAttribute LIEN__VALEUR = eINSTANCE.getLien_Valeur();
+
+		/**
+		 * The meta object literal for the '<em><b>Cible</b></em>' containment reference feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference LIEN__CIBLE = eINSTANCE.getLien_Cible();
 
 		/**
 		 * The meta object literal for the '{@link formModeler.impl.WidgetImpl <em>Widget</em>}' class.
@@ -858,6 +1190,38 @@ public interface FormModelerPackage extends EPackage {
 		 * @generated
 		 */
 		EAttribute WIDGET__NOM = eINSTANCE.getWidget_Nom();
+
+		/**
+		 * The meta object literal for the '<em><b>Col</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute WIDGET__COL = eINSTANCE.getWidget_Col();
+
+		/**
+		 * The meta object literal for the '<em><b>Row</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute WIDGET__ROW = eINSTANCE.getWidget_Row();
+
+		/**
+		 * The meta object literal for the '<em><b>Colx</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute WIDGET__COLX = eINSTANCE.getWidget_Colx();
+
+		/**
+		 * The meta object literal for the '<em><b>Rowx</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute WIDGET__ROWX = eINSTANCE.getWidget_Rowx();
 
 		/**
 		 * The meta object literal for the '{@link formModeler.impl.RacineImpl <em>Racine</em>}' class.

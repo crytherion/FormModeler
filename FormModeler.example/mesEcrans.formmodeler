@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <formModeler:Racine xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:formModeler="http://github.com/crytherion/FormModeler">
-  <ecrans nom="NomVide" titre="TitreVide">
-    <widgets xsi:type="formModeler:Label" nom="NomVide" valeur="ValeurVide"/>
-    <widgets xsi:type="formModeler:Bouton" nom="NomVide" cible="cibleVide" valeur="ValeurVide"/>
-    <widgets xsi:type="formModeler:ChampTexte" nom="NomVide"/>
-    <widgets xsi:type="formModeler:Cocher" nom="NomVide"/>
-    <widgets xsi:type="formModeler:Lien" nom="NomVide" cible="CibleVide"/>
-    <widgets xsi:type="formModeler:MenuDeroulant" nom="NomVide"/>
-    <widgets xsi:type="formModeler:Photo" nom="NomVide" chemin="CheminVide"/>
+  <ecrans nom="ecran1" titre="TitreVide">
+    <widgets xsi:type="formModeler:Photo" nom="photo1" col="1" row="1" chemin="CheminVide"/>
+    <widgets xsi:type="formModeler:Label" nom="label1" col="4" row="3" valeur="ValeurVide"/>
+    <widgets xsi:type="formModeler:ChampTexte" nom="champ1" col="2" row="3"/>
+    <widgets xsi:type="formModeler:Cocher" nom="cocher1" col="1" row="3"/>
+    <widgets xsi:type="formModeler:Lien" nom="lien1" col="2" row="1" valeur="valeur"/>
+    <widgets xsi:type="formModeler:MenuDeroulant" nom="menuDeroulant1" col="1" row="2"/>
+    <widgets xsi:type="formModeler:Bouton" nom="NomVide" colx="1" rowx="1" valeur="ValeurVide"/>
   </ecrans>
-  <ecrans nom="NomVide" titre="TitreVide">
+  <ecrans nom="ecran2" titre="TitreVide">
     <widgets xsi:type="formModeler:Label" nom="NomVide" valeur="ValeurVide"/>
-    <widgets xsi:type="formModeler:Bouton" nom="NomVide" cible="cibleVide" valeur="ValeurVide"/>
     <widgets xsi:type="formModeler:Label" nom="NomVide" valeur="ValeurVide"/>
-    <widgets xsi:type="formModeler:Bouton" nom="NomVide" cible="cibleVide" valeur="ValeurVide"/>
+    <widgets xsi:type="formModeler:Bouton" nom="NomVide" colx="1" rowx="1" valeur="ValeurVide"/>
+    <widgets xsi:type="formModeler:Lien" nom="NomVide" colx="1" rowx="1"/>
   </ecrans>
+  <ecrans nom="NomVide" titre="TitreVide"/>
 </formModeler:Racine>

@@ -1,0 +1,26 @@
+	<html>
+		<head>
+			<title>TitreVide</title>
+		</head> 
+
+				<img src="CheminVide" alt="" />
+				<a href="CibleVide">valeur</a>
+ 					<br />
+				
+ 					<br />
+				<input name="cocher1" value="" type="checkbox" />
+ 					<br />
+				<input name="champ1" value="" type="text" />
+ 					<br />
+				<input name="bouton1" value="" type="button" />
+ 					<br />
+				ValeurVide
+	<html>
+		<head>
+			<title>TitreVide</title>
+		</head> 
+
+				ValeurVide
+				<input name="NomVide" value="" type="button" />
+				ValeurVide
+				<input name="NomVide" value="" type="button" />

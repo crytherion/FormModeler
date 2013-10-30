@@ -2,6 +2,8 @@
  */
 package formModeler;
 
+import org.eclipse.emf.common.util.EList;
+
 
 /**
  * <!-- begin-user-doc -->
@@ -11,8 +13,8 @@ package formModeler;
  * <p>
  * The following features are supported:
  * <ul>
- *   <li>{@link formModeler.Lien#getCible <em>Cible</em>}</li>
  *   <li>{@link formModeler.Lien#getValeur <em>Valeur</em>}</li>
+ *   <li>{@link formModeler.Lien#getCible <em>Cible</em>}</li>
  * </ul>
  * </p>
  *
@@ -21,32 +23,6 @@ package formModeler;
  * @generated
  */
 public interface Lien extends Widget {
-	/**
-	 * Returns the value of the '<em><b>Cible</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Cible</em>' attribute isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Cible</em>' attribute.
-	 * @see #setCible(String)
-	 * @see formModeler.FormModelerPackage#getLien_Cible()
-	 * @model
-	 * @generated
-	 */
-	String getCible();
-
-	/**
-	 * Sets the value of the '{@link formModeler.Lien#getCible <em>Cible</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Cible</em>' attribute.
-	 * @see #getCible()
-	 * @generated
-	 */
-	void setCible(String value);
-
 	/**
 	 * Returns the value of the '<em><b>Valeur</b></em>' attribute.
 	 * <!-- begin-user-doc -->
@@ -72,5 +48,31 @@ public interface Lien extends Widget {
 	 * @generated
 	 */
 	void setValeur(String value);
+
+	/**
+	 * Returns the value of the '<em><b>Cible</b></em>' containment reference.
+	 * <!-- begin-user-doc -->
+	 * <p>
+	 * If the meaning of the '<em>Cible</em>' containment reference isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
+	 * <!-- end-user-doc -->
+	 * @return the value of the '<em>Cible</em>' containment reference.
+	 * @see #setCible(Ecran)
+	 * @see formModeler.FormModelerPackage#getLien_Cible()
+	 * @model containment="true"
+	 * @generated
+	 */
+	Ecran getCible();
+
+	/**
+	 * Sets the value of the '{@link formModeler.Lien#getCible <em>Cible</em>}' containment reference.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @param value the new value of the '<em>Cible</em>' containment reference.
+	 * @see #getCible()
+	 * @generated
+	 */
+	void setCible(Ecran value);
 
 } // Lien

@@ -3,12 +3,15 @@
 package formModeler.impl;
 
 import formModeler.Bouton;
+import formModeler.Ecran;
 import formModeler.FormModelerPackage;
 
 import org.eclipse.emf.common.notify.Notification;
 
+import org.eclipse.emf.common.notify.NotificationChain;
 import org.eclipse.emf.ecore.EClass;
 
+import org.eclipse.emf.ecore.InternalEObject;
 import org.eclipse.emf.ecore.impl.ENotificationImpl;
 
 /**
@@ -18,34 +21,14 @@ import org.eclipse.emf.ecore.impl.ENotificationImpl;
  * <p>
  * The following features are implemented:
  * <ul>
- *   <li>{@link formModeler.impl.BoutonImpl#getCible <em>Cible</em>}</li>
  *   <li>{@link formModeler.impl.BoutonImpl#getValeur <em>Valeur</em>}</li>
+ *   <li>{@link formModeler.impl.BoutonImpl#getCible <em>Cible</em>}</li>
  * </ul>
  * </p>
  *
  * @generated
  */
 public class BoutonImpl extends WidgetImpl implements Bouton {
-	/**
-	 * The default value of the '{@link #getCible() <em>Cible</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see #getCible()
-	 * @generated
-	 * @ordered
-	 */
-	protected static final String CIBLE_EDEFAULT = null;
-
-	/**
-	 * The cached value of the '{@link #getCible() <em>Cible</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see #getCible()
-	 * @generated
-	 * @ordered
-	 */
-	protected String cible = CIBLE_EDEFAULT;
-
 	/**
 	 * The default value of the '{@link #getValeur() <em>Valeur</em>}' attribute.
 	 * <!-- begin-user-doc -->
@@ -65,6 +48,16 @@ public class BoutonImpl extends WidgetImpl implements Bouton {
 	 * @ordered
 	 */
 	protected String valeur = VALEUR_EDEFAULT;
+
+	/**
+	 * The cached value of the '{@link #getCible() <em>Cible</em>}' containment reference.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see #getCible()
+	 * @generated
+	 * @ordered
+	 */
+	protected Ecran cible;
 
 	/**
 	 * <!-- begin-user-doc -->
@@ -90,20 +83,13 @@ public class BoutonImpl extends WidgetImpl implements Bouton {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public String getCible() {
-		return cible;
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setCible(String newCible) {
-		String oldCible = cible;
-		cible = newCible;
-		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET, FormModelerPackage.BOUTON__CIBLE, oldCible, cible));
+	@Override
+	public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
+		switch (featureID) {
+			case FormModelerPackage.BOUTON__CIBLE:
+				return basicSetCible(null, msgs);
+		}
+		return super.eInverseRemove(otherEnd, featureID, msgs);
 	}
 
 	/**
@@ -132,13 +118,56 @@ public class BoutonImpl extends WidgetImpl implements Bouton {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	public Ecran getCible() {
+		return cible;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public NotificationChain basicSetCible(Ecran newCible, NotificationChain msgs) {
+		Ecran oldCible = cible;
+		cible = newCible;
+		if (eNotificationRequired()) {
+			ENotificationImpl notification = new ENotificationImpl(this, Notification.SET, FormModelerPackage.BOUTON__CIBLE, oldCible, newCible);
+			if (msgs == null) msgs = notification; else msgs.add(notification);
+		}
+		return msgs;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public void setCible(Ecran newCible) {
+		if (newCible != cible) {
+			NotificationChain msgs = null;
+			if (cible != null)
+				msgs = ((InternalEObject)cible).eInverseRemove(this, EOPPOSITE_FEATURE_BASE - FormModelerPackage.BOUTON__CIBLE, null, msgs);
+			if (newCible != null)
+				msgs = ((InternalEObject)newCible).eInverseAdd(this, EOPPOSITE_FEATURE_BASE - FormModelerPackage.BOUTON__CIBLE, null, msgs);
+			msgs = basicSetCible(newCible, msgs);
+			if (msgs != null) msgs.dispatch();
+		}
+		else if (eNotificationRequired())
+			eNotify(new ENotificationImpl(this, Notification.SET, FormModelerPackage.BOUTON__CIBLE, newCible, newCible));
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
 	@Override
 	public Object eGet(int featureID, boolean resolve, boolean coreType) {
 		switch (featureID) {
-			case FormModelerPackage.BOUTON__CIBLE:
-				return getCible();
 			case FormModelerPackage.BOUTON__VALEUR:
 				return getValeur();
+			case FormModelerPackage.BOUTON__CIBLE:
+				return getCible();
 		}
 		return super.eGet(featureID, resolve, coreType);
 	}
@@ -151,11 +180,11 @@ public class BoutonImpl extends WidgetImpl implements Bouton {
 	@Override
 	public void eSet(int featureID, Object newValue) {
 		switch (featureID) {
-			case FormModelerPackage.BOUTON__CIBLE:
-				setCible((String)newValue);
-				return;
 			case FormModelerPackage.BOUTON__VALEUR:
 				setValeur((String)newValue);
+				return;
+			case FormModelerPackage.BOUTON__CIBLE:
+				setCible((Ecran)newValue);
 				return;
 		}
 		super.eSet(featureID, newValue);
@@ -169,11 +198,11 @@ public class BoutonImpl extends WidgetImpl implements Bouton {
 	@Override
 	public void eUnset(int featureID) {
 		switch (featureID) {
-			case FormModelerPackage.BOUTON__CIBLE:
-				setCible(CIBLE_EDEFAULT);
-				return;
 			case FormModelerPackage.BOUTON__VALEUR:
 				setValeur(VALEUR_EDEFAULT);
+				return;
+			case FormModelerPackage.BOUTON__CIBLE:
+				setCible((Ecran)null);
 				return;
 		}
 		super.eUnset(featureID);
@@ -187,10 +216,10 @@ public class BoutonImpl extends WidgetImpl implements Bouton {
 	@Override
 	public boolean eIsSet(int featureID) {
 		switch (featureID) {
-			case FormModelerPackage.BOUTON__CIBLE:
-				return CIBLE_EDEFAULT == null ? cible != null : !CIBLE_EDEFAULT.equals(cible);
 			case FormModelerPackage.BOUTON__VALEUR:
 				return VALEUR_EDEFAULT == null ? valeur != null : !VALEUR_EDEFAULT.equals(valeur);
+			case FormModelerPackage.BOUTON__CIBLE:
+				return cible != null;
 		}
 		return super.eIsSet(featureID);
 	}
@@ -205,9 +234,7 @@ public class BoutonImpl extends WidgetImpl implements Bouton {
 		if (eIsProxy()) return super.toString();
 
 		StringBuffer result = new StringBuffer(super.toString());
-		result.append(" (cible: ");
-		result.append(cible);
-		result.append(", valeur: ");
+		result.append(" (valeur: ");
 		result.append(valeur);
 		result.append(')');
 		return result.toString();

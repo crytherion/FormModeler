@@ -230,7 +230,7 @@ public class FormModelerPackageImpl extends EPackageImpl implements FormModelerP
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EAttribute getBouton_Cible() {
+	public EAttribute getBouton_Valeur() {
 		return (EAttribute)boutonEClass.getEStructuralFeatures().get(0);
 	}
 
@@ -239,8 +239,8 @@ public class FormModelerPackageImpl extends EPackageImpl implements FormModelerP
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EAttribute getBouton_Valeur() {
-		return (EAttribute)boutonEClass.getEStructuralFeatures().get(1);
+	public EReference getBouton_Cible() {
+		return (EReference)boutonEClass.getEStructuralFeatures().get(1);
 	}
 
 	/**
@@ -302,7 +302,7 @@ public class FormModelerPackageImpl extends EPackageImpl implements FormModelerP
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EAttribute getLien_Cible() {
+	public EAttribute getLien_Valeur() {
 		return (EAttribute)lienEClass.getEStructuralFeatures().get(0);
 	}
 
@@ -311,8 +311,8 @@ public class FormModelerPackageImpl extends EPackageImpl implements FormModelerP
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EAttribute getLien_Valeur() {
-		return (EAttribute)lienEClass.getEStructuralFeatures().get(1);
+	public EReference getLien_Cible() {
+		return (EReference)lienEClass.getEStructuralFeatures().get(1);
 	}
 
 	/**
@@ -331,6 +331,42 @@ public class FormModelerPackageImpl extends EPackageImpl implements FormModelerP
 	 */
 	public EAttribute getWidget_Nom() {
 		return (EAttribute)widgetEClass.getEStructuralFeatures().get(0);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public EAttribute getWidget_Col() {
+		return (EAttribute)widgetEClass.getEStructuralFeatures().get(1);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public EAttribute getWidget_Row() {
+		return (EAttribute)widgetEClass.getEStructuralFeatures().get(2);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public EAttribute getWidget_Colx() {
+		return (EAttribute)widgetEClass.getEStructuralFeatures().get(3);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public EAttribute getWidget_Rowx() {
+		return (EAttribute)widgetEClass.getEStructuralFeatures().get(4);
 	}
 
 	/**
@@ -406,8 +442,8 @@ public class FormModelerPackageImpl extends EPackageImpl implements FormModelerP
 		createEAttribute(labelEClass, LABEL__VALEUR);
 
 		boutonEClass = createEClass(BOUTON);
-		createEAttribute(boutonEClass, BOUTON__CIBLE);
 		createEAttribute(boutonEClass, BOUTON__VALEUR);
+		createEReference(boutonEClass, BOUTON__CIBLE);
 
 		champTexteEClass = createEClass(CHAMP_TEXTE);
 
@@ -418,11 +454,15 @@ public class FormModelerPackageImpl extends EPackageImpl implements FormModelerP
 		createEAttribute(cocherEClass, COCHER__ETAT_PAR_DEFAUT);
 
 		lienEClass = createEClass(LIEN);
-		createEAttribute(lienEClass, LIEN__CIBLE);
 		createEAttribute(lienEClass, LIEN__VALEUR);
+		createEReference(lienEClass, LIEN__CIBLE);
 
 		widgetEClass = createEClass(WIDGET);
 		createEAttribute(widgetEClass, WIDGET__NOM);
+		createEAttribute(widgetEClass, WIDGET__COL);
+		createEAttribute(widgetEClass, WIDGET__ROW);
+		createEAttribute(widgetEClass, WIDGET__COLX);
+		createEAttribute(widgetEClass, WIDGET__ROWX);
 
 		racineEClass = createEClass(RACINE);
 		createEReference(racineEClass, RACINE__ECRANS);
@@ -477,8 +517,8 @@ public class FormModelerPackageImpl extends EPackageImpl implements FormModelerP
 		initEAttribute(getLabel_Valeur(), ecorePackage.getEString(), "valeur", null, 0, 1, Label.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 
 		initEClass(boutonEClass, Bouton.class, "Bouton", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
-		initEAttribute(getBouton_Cible(), ecorePackage.getEString(), "cible", null, 0, 1, Bouton.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 		initEAttribute(getBouton_Valeur(), ecorePackage.getEString(), "valeur", "", 0, 1, Bouton.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+		initEReference(getBouton_Cible(), this.getEcran(), null, "cible", null, 1, 1, Bouton.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 
 		initEClass(champTexteEClass, ChampTexte.class, "ChampTexte", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
 
@@ -489,11 +529,15 @@ public class FormModelerPackageImpl extends EPackageImpl implements FormModelerP
 		initEAttribute(getCocher_EtatParDefaut(), ecorePackage.getEBoolean(), "etatParDefaut", null, 0, 1, Cocher.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 
 		initEClass(lienEClass, Lien.class, "Lien", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
-		initEAttribute(getLien_Cible(), ecorePackage.getEString(), "cible", null, 0, 1, Lien.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 		initEAttribute(getLien_Valeur(), ecorePackage.getEString(), "valeur", null, 0, 1, Lien.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+		initEReference(getLien_Cible(), this.getEcran(), null, "cible", null, 0, 1, Lien.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 
 		initEClass(widgetEClass, Widget.class, "Widget", IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
 		initEAttribute(getWidget_Nom(), ecorePackage.getEString(), "nom", null, 0, 1, Widget.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+		initEAttribute(getWidget_Col(), ecorePackage.getEInt(), "col", null, 0, 1, Widget.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+		initEAttribute(getWidget_Row(), ecorePackage.getEInt(), "row", null, 0, 1, Widget.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+		initEAttribute(getWidget_Colx(), ecorePackage.getEInt(), "colx", null, 0, 1, Widget.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+		initEAttribute(getWidget_Rowx(), ecorePackage.getEInt(), "rowx", null, 0, 1, Widget.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 
 		initEClass(racineEClass, Racine.class, "Racine", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
 		initEReference(getRacine_Ecrans(), this.getEcran(), null, "ecrans", null, 0, -1, Racine.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);

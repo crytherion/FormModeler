@@ -11,8 +11,8 @@ package formModeler;
  * <p>
  * The following features are supported:
  * <ul>
- *   <li>{@link formModeler.Bouton#getCible <em>Cible</em>}</li>
  *   <li>{@link formModeler.Bouton#getValeur <em>Valeur</em>}</li>
+ *   <li>{@link formModeler.Bouton#getCible <em>Cible</em>}</li>
  * </ul>
  * </p>
  *
@@ -21,32 +21,6 @@ package formModeler;
  * @generated
  */
 public interface Bouton extends Widget {
-	/**
-	 * Returns the value of the '<em><b>Cible</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Cible</em>' attribute isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Cible</em>' attribute.
-	 * @see #setCible(String)
-	 * @see formModeler.FormModelerPackage#getBouton_Cible()
-	 * @model
-	 * @generated
-	 */
-	String getCible();
-
-	/**
-	 * Sets the value of the '{@link formModeler.Bouton#getCible <em>Cible</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Cible</em>' attribute.
-	 * @see #getCible()
-	 * @generated
-	 */
-	void setCible(String value);
-
 	/**
 	 * Returns the value of the '<em><b>Valeur</b></em>' attribute.
 	 * The default value is <code>""</code>.
@@ -73,5 +47,31 @@ public interface Bouton extends Widget {
 	 * @generated
 	 */
 	void setValeur(String value);
+
+	/**
+	 * Returns the value of the '<em><b>Cible</b></em>' containment reference.
+	 * <!-- begin-user-doc -->
+	 * <p>
+	 * If the meaning of the '<em>Cible</em>' containment reference isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
+	 * <!-- end-user-doc -->
+	 * @return the value of the '<em>Cible</em>' containment reference.
+	 * @see #setCible(Ecran)
+	 * @see formModeler.FormModelerPackage#getBouton_Cible()
+	 * @model containment="true" required="true"
+	 * @generated
+	 */
+	Ecran getCible();
+
+	/**
+	 * Sets the value of the '{@link formModeler.Bouton#getCible <em>Cible</em>}' containment reference.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @param value the new value of the '<em>Cible</em>' containment reference.
+	 * @see #getCible()
+	 * @generated
+	 */
+	void setCible(Ecran value);
 
 } // Bouton

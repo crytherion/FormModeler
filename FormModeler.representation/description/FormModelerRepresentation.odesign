@@ -3,15 +3,25 @@
   <ownedViewpoints name="formModelerVP" label="formModeler" modelFileExtension="*.formmodeler">
     <ownedRepresentations xsi:type="description:DiagramDescription" name="diagramModeler" label="diagramModeler" initialisation="true" showOnStartup="true" domainClass="formModeler.Racine">
       <defaultLayer name="Default">
-        <containerMappings name="ecranRep" label="Ecran" domainClass="formModeler.Ecran" childrenPresentation="List">
+        <edgeMappings name="BoutonEcranRep" label="Bouton - Ecran" sourceMapping="//@ownedViewpoints[name='formModelerVP']/@ownedRepresentations[name='diagramModeler']/@defaultLayer/@containerMappings[name='ecranRep']/@subContainerMappings[name='boutonRep']" targetMapping="//@ownedViewpoints[name='formModelerVP']/@ownedRepresentations[name='diagramModeler']/@defaultLayer/@containerMappings[name='ecranRep']" targetFinderExpression="&lt;%cible%>">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="LienCocherRep" label="Lien - Ecran" sourceMapping="//@ownedViewpoints[name='formModelerVP']/@ownedRepresentations[name='diagramModeler']/@defaultLayer/@containerMappings[name='ecranRep']/@subNodeMappings[name='lienRep']" targetMapping="//@ownedViewpoints[name='formModelerVP']/@ownedRepresentations[name='diagramModeler']/@defaultLayer/@containerMappings[name='ecranRep']" targetFinderExpression="&lt;%cibles%>">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <containerMappings name="ecranRep" label="Ecran" domainClass="formModeler.Ecran">
           <subNodeMappings name="labelRep" label="Label" semanticCandidatesExpression="feature:eAllContents" domainClass="formModeler.Label">
             <style xsi:type="style:WorkspaceImageDescription" showIcon="false" labelExpression="Label : &lt;%nom%>" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="/FormModeler.representation/images/label.png">
-              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
-              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
-            </style>
-          </subNodeMappings>
-          <subNodeMappings name="boutonRep" label="Bouton" semanticCandidatesExpression="feature:eAllContents" domainClass="formModeler.Bouton">
-            <style xsi:type="style:WorkspaceImageDescription" showIcon="false" labelExpression="Bouton : &lt;%nom%>" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="/FormModeler.representation/images/bouton.png">
               <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
               <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
             </style>
@@ -22,7 +32,7 @@
               <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
             </style>
           </subNodeMappings>
-          <subNodeMappings name="cocherRep" label="Cocher" semanticCandidatesExpression="feature:eAllContents" domainClass="formModeler.Cocher">
+          <subNodeMappings name="cocherRep" label="Cocher" domainClass="formModeler.Cocher">
             <style xsi:type="style:WorkspaceImageDescription" showIcon="false" labelExpression="Cocher : &lt;%nom%>" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="/FormModeler.representation/images/cocher.png">
               <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
               <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
@@ -34,7 +44,7 @@
               <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
             </style>
           </subNodeMappings>
-          <subNodeMappings name="lienRep" label="Lien" semanticCandidatesExpression="feature:eAllContents" domainClass="formModeler.Lien">
+          <subNodeMappings name="lienRep" label="Lien" domainClass="formModeler.Lien">
             <style xsi:type="style:WorkspaceImageDescription" showIcon="false" labelExpression="Lien : &lt;%nom%>" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="/FormModeler.representation/images/lien.png">
               <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
               <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
@@ -46,6 +56,12 @@
               <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
             </style>
           </subNodeMappings>
+          <subContainerMappings name="boutonRep" label="Bouton" semanticCandidatesExpression="feature:eAllContents" domainClass="formModeler.Bouton">
+            <style xsi:type="style:WorkspaceImageDescription" labelExpression="Bouton : &lt;%nom%>" workspacePath="/FormModeler.representation/images/bouton.png">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </style>
+          </subContainerMappings>
           <style xsi:type="style:FlatContainerStyleDescription" showIcon="false" labelExpression="&lt;%nom%>">
             <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
             <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
@@ -72,21 +88,6 @@
                 <firstModelOperations xsi:type="tool:CreateInstance" typeName="Label" referenceName="widgets">
                   <subModelOperations xsi:type="tool:SetValue" featureName="valeur" valueExpression="ValeurVide"/>
                   <subModelOperations xsi:type="tool:SetValue" featureName="nom" valueExpression="NomVide"/>
-                  <subModelOperations xsi:type="tool:SetValue" featureName="col" valueExpression="0"/>
-                  <subModelOperations xsi:type="tool:SetValue" featureName="row" valueExpression="0"/>
-                  <subModelOperations xsi:type="tool:SetValue" featureName="colx" valueExpression="1"/>
-                  <subModelOperations xsi:type="tool:SetValue" featureName="rowx" valueExpression="1"/>
-                </firstModelOperations>
-              </initialOperation>
-            </ownedTools>
-            <ownedTools xsi:type="tool:NodeCreationDescription" name="boutonCreationTool" label="Bouton" nodeMappings="//@ownedViewpoints[name='formModelerVP']/@ownedRepresentations[name='diagramModeler']/@defaultLayer/@containerMappings[name='ecranRep']/@subNodeMappings[name='boutonRep']">
-              <variable name="container"/>
-              <viewVariable name="containerView"/>
-              <initialOperation>
-                <firstModelOperations xsi:type="tool:CreateInstance" typeName="Bouton" referenceName="widgets">
-                  <subModelOperations xsi:type="tool:SetValue" featureName="valeur" valueExpression="ValeurVide"/>
-                  <subModelOperations xsi:type="tool:SetValue" featureName="nom" valueExpression="NomVide"/>
-                  <subModelOperations xsi:type="tool:SetValue" featureName="cible" valueExpression="cibleVide"/>
                   <subModelOperations xsi:type="tool:SetValue" featureName="col" valueExpression="0"/>
                   <subModelOperations xsi:type="tool:SetValue" featureName="row" valueExpression="0"/>
                   <subModelOperations xsi:type="tool:SetValue" featureName="colx" valueExpression="1"/>
@@ -141,7 +142,6 @@
               <initialOperation>
                 <firstModelOperations xsi:type="tool:CreateInstance" typeName="Lien" referenceName="widgets">
                   <subModelOperations xsi:type="tool:SetValue" featureName="nom" valueExpression="NomVide"/>
-                  <subModelOperations xsi:type="tool:SetValue" featureName="cible" valueExpression="CibleVide"/>
                   <subModelOperations xsi:type="tool:SetValue" featureName="col" valueExpression="0"/>
                   <subModelOperations xsi:type="tool:SetValue" featureName="row" valueExpression="0"/>
                   <subModelOperations xsi:type="tool:SetValue" featureName="colx" valueExpression="1"/>
@@ -160,6 +160,44 @@
                   <subModelOperations xsi:type="tool:SetValue" featureName="row" valueExpression="0"/>
                   <subModelOperations xsi:type="tool:SetValue" featureName="colx" valueExpression="1"/>
                   <subModelOperations xsi:type="tool:SetValue" featureName="rowx" valueExpression="1"/>
+                </firstModelOperations>
+              </initialOperation>
+            </ownedTools>
+            <ownedTools xsi:type="tool:ContainerCreationDescription" name="boutonCreationTool" label="Bouton" containerMappings="//@ownedViewpoints[name='formModelerVP']/@ownedRepresentations[name='diagramModeler']/@defaultLayer/@containerMappings[name='ecranRep']/@subContainerMappings[name='boutonRep']">
+              <variable name="container"/>
+              <viewVariable name="containerView"/>
+              <initialOperation>
+                <firstModelOperations xsi:type="tool:CreateInstance" typeName="Bouton" referenceName="widgets">
+                  <subModelOperations xsi:type="tool:SetValue" featureName="valeur" valueExpression="ValeurVide"/>
+                  <subModelOperations xsi:type="tool:SetValue" featureName="nom" valueExpression="NomVide"/>
+                  <subModelOperations xsi:type="tool:SetValue" featureName="col" valueExpression="0"/>
+                  <subModelOperations xsi:type="tool:SetValue" featureName="row" valueExpression="0"/>
+                  <subModelOperations xsi:type="tool:SetValue" featureName="colx" valueExpression="1"/>
+                  <subModelOperations xsi:type="tool:SetValue" featureName="rowx" valueExpression="1"/>
+                </firstModelOperations>
+              </initialOperation>
+            </ownedTools>
+          </subSections>
+          <subSections name="liensTool" label="Liens">
+            <ownedTools xsi:type="tool:EdgeCreationDescription" name="LienEcranTool" label="Lien - Ecran" forceRefresh="true" edgeMappings="//@ownedViewpoints[name='formModelerVP']/@ownedRepresentations[name='diagramModeler']/@defaultLayer/@edgeMappings[name='LienCocherRep']">
+              <sourceVariable name="source"/>
+              <targetVariable name="target"/>
+              <sourceViewVariable name="sourceView"/>
+              <targetViewVariable name="targetView"/>
+              <initialOperation>
+                <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="&lt;%source%>">
+                  <subModelOperations xsi:type="tool:SetValue" featureName="cibles" valueExpression="&lt;%target%>"/>
+                </firstModelOperations>
+              </initialOperation>
+            </ownedTools>
+            <ownedTools xsi:type="tool:EdgeCreationDescription" name="BoutonEcranTool" label="Bouton - Ecran" edgeMappings="//@ownedViewpoints[name='formModelerVP']/@ownedRepresentations[name='diagramModeler']/@defaultLayer/@edgeMappings[name='BoutonEcranRep']">
+              <sourceVariable name="source"/>
+              <targetVariable name="target"/>
+              <sourceViewVariable name="sourceView"/>
+              <targetViewVariable name="targetView"/>
+              <initialOperation>
+                <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="&lt;%source%>">
+                  <subModelOperations xsi:type="tool:SetValue" featureName="cible" valueExpression="&lt;%target%>"/>
                 </firstModelOperations>
               </initialOperation>
             </ownedTools>

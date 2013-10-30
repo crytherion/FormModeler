@@ -13,8 +13,8 @@
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute formModeler.ecore#//Label/valeur"/>
     </genClasses>
     <genClasses ecoreClass="formModeler.ecore#//Bouton">
-      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute formModeler.ecore#//Bouton/cible"/>
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute formModeler.ecore#//Bouton/valeur"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference formModeler.ecore#//Bouton/cible"/>
     </genClasses>
     <genClasses ecoreClass="formModeler.ecore#//ChampTexte"/>
     <genClasses ecoreClass="formModeler.ecore#//MenuDeroulant">
@@ -24,11 +24,15 @@
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute formModeler.ecore#//Cocher/etatParDefaut"/>
     </genClasses>
     <genClasses ecoreClass="formModeler.ecore#//Lien">
-      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute formModeler.ecore#//Lien/cible"/>
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute formModeler.ecore#//Lien/valeur"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference formModeler.ecore#//Lien/cible"/>
     </genClasses>
     <genClasses image="false" ecoreClass="formModeler.ecore#//Widget">
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute formModeler.ecore#//Widget/nom"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute formModeler.ecore#//Widget/col"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute formModeler.ecore#//Widget/row"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute formModeler.ecore#//Widget/colx"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute formModeler.ecore#//Widget/rowx"/>
     </genClasses>
     <genClasses ecoreClass="formModeler.ecore#//Racine">
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference formModeler.ecore#//Racine/ecrans"/>
