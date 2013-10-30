@@ -60,7 +60,7 @@ public interface Lien extends Widget {
 	 * @return the value of the '<em>Cible</em>' containment reference.
 	 * @see #setCible(Ecran)
 	 * @see formModeler.FormModelerPackage#getLien_Cible()
-	 * @model containment="true"
+	 * @model containment="true" required="true"
 	 * @generated
 	 */
 	Ecran getCible();

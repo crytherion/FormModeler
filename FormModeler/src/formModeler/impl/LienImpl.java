@@ -7,6 +7,7 @@ import formModeler.Ecran;
 import formModeler.FormModelerPackage;
 import formModeler.Lien;
 
+import formModeler.Photo;
 import java.util.Collection;
 import org.eclipse.emf.common.notify.Notification;
 
