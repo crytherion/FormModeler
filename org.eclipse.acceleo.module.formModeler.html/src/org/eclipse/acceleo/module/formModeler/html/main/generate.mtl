@@ -1,0 +1,49 @@
+[comment encoding = UTF-8 /]
+[module generate('http://github.com/crytherion/FormModeler')]
+
+
+[template public generateElement(aRacine : Racine) post (trim())]
+[comment @main/]
+[file ('ddd.txt', false, 'UTF-8')]
+	[for (aEcran : Ecran | ecrans)]
+	<html>
+		<head>
+			<title>[titre/]</title>
+		</head>
+		<body>
+		[let ligne : Integer = widgets->first().row]
+
+			[for (aWidget : Widget | widgets->sortedBy(row * 100 + col))]
+				[if (ligne <> row)]
+					[let ligne : Integer = row][/let]
+ 					<br />
+				[/if]
+				[genererWidget(aWidget)/]
+			[/for]
+		[/let]
+		</body>
+	</html>
+	[/for]
+[/file]
+[/template]
+
+[template genererWidget(w : Widget) post (trim())] 
+[/template] 
+[template genererWidget(w : Label) post (trim())] 
+[w.valeur/]
+[/template]
+[template genererWidget(w : Photo) post (trim())] 
+<img src="[w.chemin/]" alt="" />
+[/template]
+[template genererWidget(w : Bouton) post (trim())] 
+<input name="[w.nom/]" value="" type="button" />
+[/template]
+[template genererWidget(w : ChampTexte) post (trim())] 
+<input name="[w.nom/]" value="" type="text" />
+[/template]
+[template genererWidget(w : Cocher) post (trim())] 
+<input name="[w.nom/]" value="" type="checkbox"[if (w.etatParDefaut)]checked[/if] />
+[/template]
+[template genererWidget(w : Lien) post (trim())] 
+<a href="[w.cible/]">[w.valeur/]</a>
+[/template]
