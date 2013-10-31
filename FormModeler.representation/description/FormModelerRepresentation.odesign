@@ -19,54 +19,55 @@
             </centerLabelStyleDescription>
           </style>
         </edgeMappings>
-        <containerMappings name="ecranRep" label="Ecran" semanticCandidatesExpression="feature:eAllContents" domainClass="formModeler.Ecran">
+        <containerMappings name="ecranRep" label="Ecran" semanticCandidatesExpression="feature:eAllContents" domainClass="formModeler.Ecran" dropDescriptions="//@ownedViewpoints[name='formModelerVP']/@ownedRepresentations[name='diagramModeler']/@defaultLayer/@toolSections.0/@subSections[name='elementsTool']/@ownedTools[name='dragAndDropWidgetToActivite']">
           <subNodeMappings name="labelRep" label="Label" semanticCandidatesExpression="feature:eAllContents" domainClass="formModeler.Label">
-            <style xsi:type="style:WorkspaceImageDescription" showIcon="false" labelExpression="Label : &lt;%nom%>" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="/FormModeler.representation/images/label.png">
+            <style xsi:type="style:WorkspaceImageDescription" labelSize="10" showIcon="false" labelExpression="&lt;%valeur%> (Label)" sizeComputationExpression="-1" workspacePath="/FormModeler.representation/images/label.png">
               <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
               <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
             </style>
           </subNodeMappings>
           <subNodeMappings name="champTexteRep" label="Champ texte" semanticCandidatesExpression="feature:eAllContents" domainClass="formModeler.ChampTexte">
-            <style xsi:type="style:WorkspaceImageDescription" showIcon="false" labelExpression="Champ texte : &lt;%nom%>" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="/FormModeler.representation/images/champTexte.png">
+            <style xsi:type="style:WorkspaceImageDescription" labelSize="10" showIcon="false" labelExpression="&lt;%nom%> (Champ texte)" sizeComputationExpression="-1" workspacePath="/FormModeler.representation/images/champTexte.png">
               <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
               <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
             </style>
           </subNodeMappings>
           <subNodeMappings name="cocherRep" label="Cocher" semanticCandidatesExpression="feature:eAllContents" domainClass="formModeler.Cocher">
-            <style xsi:type="style:WorkspaceImageDescription" showIcon="false" labelExpression="Cocher : &lt;%nom%>" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="/FormModeler.representation/images/cocher.png">
+            <style xsi:type="style:WorkspaceImageDescription" labelSize="10" showIcon="false" labelExpression="&lt;%nom%> (Case à cocher)" sizeComputationExpression="-1" workspacePath="/FormModeler.representation/images/cocher.png">
               <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
               <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
             </style>
           </subNodeMappings>
           <subNodeMappings name="menuDeroulantRep" label="Menu déroulant" semanticCandidatesExpression="feature:eAllContents" domainClass="formModeler.MenuDeroulant">
-            <style xsi:type="style:WorkspaceImageDescription" showIcon="false" labelExpression="Menu déroulant : &lt;%nom%>" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="/FormModeler.representation/images/menuDeroulant.png">
+            <style xsi:type="style:WorkspaceImageDescription" labelSize="10" showIcon="false" labelExpression="&lt;%nom%> (Menu déroulant)" sizeComputationExpression="-1" workspacePath="/FormModeler.representation/images/menuDeroulant.png">
               <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
               <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
             </style>
           </subNodeMappings>
           <subNodeMappings name="lienRep" label="Lien" semanticCandidatesExpression="feature:eAllContents" domainClass="formModeler.Lien">
-            <style xsi:type="style:WorkspaceImageDescription" showIcon="false" labelExpression="Lien : &lt;%nom%>" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="/FormModeler.representation/images/lien.png">
+            <style xsi:type="style:WorkspaceImageDescription" labelSize="10" showIcon="false" labelExpression="&lt;%valeur%> (Lien)" sizeComputationExpression="-1" workspacePath="/FormModeler.representation/images/lien.png">
               <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
               <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
             </style>
           </subNodeMappings>
           <subNodeMappings name="photo" label="Photo" semanticCandidatesExpression="feature:eAllContents" domainClass="formModeler.Photo">
-            <style xsi:type="style:WorkspaceImageDescription" showIcon="false" labelExpression="Photo : &lt;%nom%>" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="/FormModeler.representation/images/photo.png">
+            <style xsi:type="style:WorkspaceImageDescription" labelSize="10" showIcon="false" labelExpression="&lt;%nom%> (Photo)" sizeComputationExpression="-1" workspacePath="/FormModeler.representation/images/photo.png">
               <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
               <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
             </style>
           </subNodeMappings>
           <subNodeMappings name="boutonRep" label="Bouton" semanticCandidatesExpression="feature:eAllContents" domainClass="formModeler.Bouton">
-            <style xsi:type="style:WorkspaceImageDescription" showIcon="false" labelExpression="Bouton : &lt;%nom%>" workspacePath="/FormModeler.representation/images/bouton.png">
+            <style xsi:type="style:WorkspaceImageDescription" labelSize="10" showIcon="false" labelExpression="&lt;%valeur%> (Bouton)" sizeComputationExpression="-1" workspacePath="/FormModeler.representation/images/bouton.png">
               <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
               <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
             </style>
           </subNodeMappings>
-          <style xsi:type="style:FlatContainerStyleDescription" showIcon="false" labelExpression="&lt;%nom%>">
+          <style xsi:type="style:FlatContainerStyleDescription" labelSize="14" labelFormat="bold" showIcon="false" labelExpression="&lt;%titre%>">
             <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
             <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
             <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
             <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_gray']"/>
+            <labelBorderStyle href="environment:/viewpoint#//@labelBorderStyles/@labelBorderStyleDescriptions.0"/>
           </style>
         </containerMappings>
         <toolSections name="generalTool" label="Général">
@@ -174,6 +175,17 @@
                   <subModelOperations xsi:type="tool:SetValue" featureName="row" valueExpression="0"/>
                   <subModelOperations xsi:type="tool:SetValue" featureName="colx" valueExpression="1"/>
                   <subModelOperations xsi:type="tool:SetValue" featureName="rowx" valueExpression="1"/>
+                </firstModelOperations>
+              </initialOperation>
+            </ownedTools>
+            <ownedTools xsi:type="tool:ContainerDropDescription" name="dragAndDropWidgetToActivite" mappings="//@ownedViewpoints[name='formModelerVP']/@ownedRepresentations[name='diagramModeler']/@defaultLayer/@containerMappings[name='ecranRep']/@subNodeMappings[name='boutonRep'] //@ownedViewpoints[name='formModelerVP']/@ownedRepresentations[name='diagramModeler']/@defaultLayer/@containerMappings[name='ecranRep']/@subNodeMappings[name='champTexteRep'] //@ownedViewpoints[name='formModelerVP']/@ownedRepresentations[name='diagramModeler']/@defaultLayer/@containerMappings[name='ecranRep']/@subNodeMappings[name='cocherRep'] //@ownedViewpoints[name='formModelerVP']/@ownedRepresentations[name='diagramModeler']/@defaultLayer/@containerMappings[name='ecranRep']/@subNodeMappings[name='labelRep'] //@ownedViewpoints[name='formModelerVP']/@ownedRepresentations[name='diagramModeler']/@defaultLayer/@containerMappings[name='ecranRep']/@subNodeMappings[name='lienRep'] //@ownedViewpoints[name='formModelerVP']/@ownedRepresentations[name='diagramModeler']/@defaultLayer/@containerMappings[name='ecranRep']/@subNodeMappings[name='menuDeroulantRep'] //@ownedViewpoints[name='formModelerVP']/@ownedRepresentations[name='diagramModeler']/@defaultLayer/@containerMappings[name='ecranRep']/@subNodeMappings[name='photo']">
+              <oldContainer name="oldSemanticContainer"/>
+              <newContainer name="newSemanticContainer"/>
+              <element name="element"/>
+              <newViewContainer name="newContainerView"/>
+              <initialOperation>
+                <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="&lt;%$element%>">
+                  <subModelOperations xsi:type="tool:MoveElement" newContainerExpression="&lt;%$newSemanticContainer%>" featureName="widgets"/>
                 </firstModelOperations>
               </initialOperation>
             </ownedTools>

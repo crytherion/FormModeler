@@ -4,28 +4,32 @@
 
 [template public generateElement(aRacine : Racine) post (trim())]
 [comment @main/]
-[file ('ddd.txt', false, 'UTF-8')]
-	[for (aEcran : Ecran | ecrans)]
-	<html>
-		<head>
-			<title>[titre/]</title>
-		</head>
-		<body>
-		[let ligne : Integer = widgets->first().row]
-
-			[for (aWidget : Widget | widgets->sortedBy(row * 100 + col))]
-				[if (ligne <> row)]
-					[let ligne : Integer = row][/let]
- 					<br />
-				[/if]
-				[genererWidget(aWidget)/]
-			[/for]
-		[/let]
-		</body>
-	</html>
-	[/for]
-[/file]
+[for (aEcran : Ecran | ecrans)]
+	[file (aEcran.nom+'.html', false, 'UTF-8')]
+		<html>
+			<head>
+				<title>[titre/]</title>
+			</head>
+			<body>
+				<h1>[titre/]</h1>
+				[1.setLigne(widgets->sortedBy(row * 100 + col)->first().row)/]
+				<p>
+					[for (aWidget : Widget | widgets->sortedBy(row * 100 + col))]
+						[if (1.getLigne() <> row)]
+							[1.setLigne(row)/]
+		 					</p>
+						[/if]
+						[genererWidget(aWidget)/]
+					[/for]
+				</p>
+			</body>
+		</html>
+	[/file]
+[/for]
 [/template]
+[query public getLigne(r : Integer) : Integer = invoke('org.eclipse.acceleo.module.formModeler.html.Service', 'getLigne(java.lang.Integer)', Sequence{r}) /]
+
+[query public setLigne(r : Integer, r2 : Integer) : OclVoid = invoke('org.eclipse.acceleo.module.formModeler.html.Service', 'setLigne(java.lang.Integer,java.lang.Integer)', Sequence{r, r2}) /]
 
 [template genererWidget(w : Widget) post (trim())] 
 [/template] 
@@ -36,7 +40,7 @@
 <img src="[w.chemin/]" alt="" />
 [/template]
 [template genererWidget(w : Bouton) post (trim())] 
-<input name="[w.nom/]" value="" type="button" />
+<button name="[w.nom/]" formaction="[w.cible.nom/].html" value="[w.valeur/]" type="submit" />[w.valeur/]
 [/template]
 [template genererWidget(w : ChampTexte) post (trim())] 
 <input name="[w.nom/]" value="" type="text" />
@@ -45,5 +49,5 @@
 <input name="[w.nom/]" value="" type="checkbox"[if (w.etatParDefaut)]checked[/if] />
 [/template]
 [template genererWidget(w : Lien) post (trim())] 
-<a href="[w.cible/]">[w.valeur/]</a>
+<a href="[w.cible.nom/].html">[w.valeur/]</a>
 [/template]

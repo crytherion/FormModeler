@@ -50,26 +50,26 @@ public interface Lien extends Widget {
 	void setValeur(String value);
 
 	/**
-	 * Returns the value of the '<em><b>Cible</b></em>' containment reference.
+	 * Returns the value of the '<em><b>Cible</b></em>' reference.
 	 * <!-- begin-user-doc -->
 	 * <p>
 	 * If the meaning of the '<em>Cible</em>' containment reference isn't clear,
 	 * there really should be more of a description here...
 	 * </p>
 	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Cible</em>' containment reference.
+	 * @return the value of the '<em>Cible</em>' reference.
 	 * @see #setCible(Ecran)
 	 * @see formModeler.FormModelerPackage#getLien_Cible()
-	 * @model containment="true" required="true"
+	 * @model required="true"
 	 * @generated
 	 */
 	Ecran getCible();
 
 	/**
-	 * Sets the value of the '{@link formModeler.Lien#getCible <em>Cible</em>}' containment reference.
+	 * Sets the value of the '{@link formModeler.Lien#getCible <em>Cible</em>}' reference.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Cible</em>' containment reference.
+	 * @param value the new value of the '<em>Cible</em>' reference.
 	 * @see #getCible()
 	 * @generated
 	 */

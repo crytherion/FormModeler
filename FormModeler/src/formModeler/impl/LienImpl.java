@@ -56,7 +56,7 @@ public class LienImpl extends WidgetImpl implements Lien {
 	protected String valeur = VALEUR_EDEFAULT;
 
 	/**
-	 * The cached value of the '{@link #getCible() <em>Cible</em>}' containment reference.
+	 * The cached value of the '{@link #getCible() <em>Cible</em>}' reference.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @see #getCible()
@@ -89,20 +89,6 @@ public class LienImpl extends WidgetImpl implements Lien {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	@Override
-	public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
-		switch (featureID) {
-			case FormModelerPackage.LIEN__CIBLE:
-				return basicSetCible(null, msgs);
-		}
-		return super.eInverseRemove(otherEnd, featureID, msgs);
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
 	public String getValeur() {
 		return valeur;
 	}
@@ -125,6 +111,14 @@ public class LienImpl extends WidgetImpl implements Lien {
 	 * @generated
 	 */
 	public Ecran getCible() {
+		if (cible != null && cible.eIsProxy()) {
+			InternalEObject oldCible = (InternalEObject)cible;
+			cible = (Ecran)eResolveProxy(oldCible);
+			if (cible != oldCible) {
+				if (eNotificationRequired())
+					eNotify(new ENotificationImpl(this, Notification.RESOLVE, FormModelerPackage.LIEN__CIBLE, oldCible, cible));
+			}
+		}
 		return cible;
 	}
 
@@ -133,14 +127,8 @@ public class LienImpl extends WidgetImpl implements Lien {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public NotificationChain basicSetCible(Ecran newCible, NotificationChain msgs) {
-		Ecran oldCible = cible;
-		cible = newCible;
-		if (eNotificationRequired()) {
-			ENotificationImpl notification = new ENotificationImpl(this, Notification.SET, FormModelerPackage.LIEN__CIBLE, oldCible, newCible);
-			if (msgs == null) msgs = notification; else msgs.add(notification);
-		}
-		return msgs;
+	public Ecran basicGetCible() {
+		return cible;
 	}
 
 	/**
@@ -149,17 +137,10 @@ public class LienImpl extends WidgetImpl implements Lien {
 	 * @generated
 	 */
 	public void setCible(Ecran newCible) {
-		if (newCible != cible) {
-			NotificationChain msgs = null;
-			if (cible != null)
-				msgs = ((InternalEObject)cible).eInverseRemove(this, EOPPOSITE_FEATURE_BASE - FormModelerPackage.LIEN__CIBLE, null, msgs);
-			if (newCible != null)
-				msgs = ((InternalEObject)newCible).eInverseAdd(this, EOPPOSITE_FEATURE_BASE - FormModelerPackage.LIEN__CIBLE, null, msgs);
-			msgs = basicSetCible(newCible, msgs);
-			if (msgs != null) msgs.dispatch();
-		}
-		else if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET, FormModelerPackage.LIEN__CIBLE, newCible, newCible));
+		Ecran oldCible = cible;
+		cible = newCible;
+		if (eNotificationRequired())
+			eNotify(new ENotificationImpl(this, Notification.SET, FormModelerPackage.LIEN__CIBLE, oldCible, cible));
 	}
 
 	/**
@@ -173,7 +154,8 @@ public class LienImpl extends WidgetImpl implements Lien {
 			case FormModelerPackage.LIEN__VALEUR:
 				return getValeur();
 			case FormModelerPackage.LIEN__CIBLE:
-				return getCible();
+				if (resolve) return getCible();
+				return basicGetCible();
 		}
 		return super.eGet(featureID, resolve, coreType);
 	}

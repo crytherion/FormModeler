@@ -303,7 +303,7 @@ public interface FormModelerPackage extends EPackage {
 	int BOUTON__VALEUR = WIDGET_FEATURE_COUNT + 0;
 
 	/**
-	 * The feature id for the '<em><b>Cible</b></em>' containment reference.
+	 * The feature id for the '<em><b>Cible</b></em>' reference.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
@@ -595,7 +595,7 @@ public interface FormModelerPackage extends EPackage {
 	int LIEN__VALEUR = WIDGET_FEATURE_COUNT + 0;
 
 	/**
-	 * The feature id for the '<em><b>Cible</b></em>' containment reference.
+	 * The feature id for the '<em><b>Cible</b></em>' reference.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
@@ -800,10 +800,10 @@ public interface FormModelerPackage extends EPackage {
 	EAttribute getBouton_Valeur();
 
 	/**
-	 * Returns the meta object for the containment reference '{@link formModeler.Bouton#getCible <em>Cible</em>}'.
+	 * Returns the meta object for the reference '{@link formModeler.Bouton#getCible <em>Cible</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @return the meta object for the containment reference '<em>Cible</em>'.
+	 * @return the meta object for the reference '<em>Cible</em>'.
 	 * @see formModeler.Bouton#getCible()
 	 * @see #getBouton()
 	 * @generated
@@ -884,10 +884,10 @@ public interface FormModelerPackage extends EPackage {
 	EAttribute getLien_Valeur();
 
 	/**
-	 * Returns the meta object for the containment reference '{@link formModeler.Lien#getCible <em>Cible</em>}'.
+	 * Returns the meta object for the reference '{@link formModeler.Lien#getCible <em>Cible</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @return the meta object for the containment reference '<em>Cible</em>'.
+	 * @return the meta object for the reference '<em>Cible</em>'.
 	 * @see formModeler.Lien#getCible()
 	 * @see #getLien()
 	 * @generated
@@ -1094,7 +1094,7 @@ public interface FormModelerPackage extends EPackage {
 		EAttribute BOUTON__VALEUR = eINSTANCE.getBouton_Valeur();
 
 		/**
-		 * The meta object literal for the '<em><b>Cible</b></em>' containment reference feature.
+		 * The meta object literal for the '<em><b>Cible</b></em>' reference feature.
 		 * <!-- begin-user-doc -->
 		 * <!-- end-user-doc -->
 		 * @generated
@@ -1166,7 +1166,7 @@ public interface FormModelerPackage extends EPackage {
 		EAttribute LIEN__VALEUR = eINSTANCE.getLien_Valeur();
 
 		/**
-		 * The meta object literal for the '<em><b>Cible</b></em>' containment reference feature.
+		 * The meta object literal for the '<em><b>Cible</b></em>' reference feature.
 		 * <!-- begin-user-doc -->
 		 * <!-- end-user-doc -->
 		 * @generated

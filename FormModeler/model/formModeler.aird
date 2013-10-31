@@ -709,11 +709,11 @@
       <ownedDiagramElements xmi:type="viewpoint:DEdge" xmi:id="_A5I60UDaEeOK6qPkXIp4Ig" name="[1..1] cible" sourceNode="_MnEeUDfWEeOL1exlEhVeEg" targetNode="_loyEwTfVEeOL1exlEhVeEg">
         <target xmi:type="ecore:EReference" href="formModeler.ecore#//Lien/cible"/>
         <semanticElements xmi:type="ecore:EReference" href="formModeler.ecore#//Lien/cible"/>
-        <ownedStyle xmi:type="viewpoint:EdgeStyle" xmi:id="_A5LXEEDaEeOK6qPkXIp4Ig" sourceArrow="FillDiamond" targetArrow="NoDecoration">
-          <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/fr.obeo.mda.pim.ecore.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@edgeMappings[name='EC_EReference']/@conditionnalStyles.2/@style"/>
-          <strokeColor xmi:type="viewpoint:RGBValues" xmi:id="_A5LXEUDaEeOK6qPkXIp4Ig"/>
-          <centerLabelStyle xmi:type="viewpoint:CenterLabelStyle" xmi:id="_A5LXEkDaEeOK6qPkXIp4Ig" showIcon="false">
-            <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_A5LXE0DaEeOK6qPkXIp4Ig"/>
+        <ownedStyle xmi:type="viewpoint:EdgeStyle" xmi:id="_n0oz8EF7EeOiM9qfqjvzVA">
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/fr.obeo.mda.pim.ecore.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@edgeMappings[name='EC_EReference']/@style"/>
+          <strokeColor xmi:type="viewpoint:RGBValues" xmi:id="_n0oz8UF7EeOiM9qfqjvzVA" red="136" green="136" blue="136"/>
+          <centerLabelStyle xmi:type="viewpoint:CenterLabelStyle" xmi:id="_n0oz8kF7EeOiM9qfqjvzVA" showIcon="false">
+            <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_n0oz80F7EeOiM9qfqjvzVA"/>
           </centerLabelStyle>
         </ownedStyle>
         <actualMapping xmi:type="description:EdgeMapping" href="platform:/plugin/fr.obeo.mda.pim.ecore.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@edgeMappings[name='EC_EReference']"/>
@@ -721,11 +721,11 @@
       <ownedDiagramElements xmi:type="viewpoint:DEdge" xmi:id="_Fxl3gEDaEeOK6qPkXIp4Ig" name="[1..1] cible" sourceNode="_yAYTkDfVEeOL1exlEhVeEg" targetNode="_loyEwTfVEeOL1exlEhVeEg">
         <target xmi:type="ecore:EReference" href="formModeler.ecore#//Bouton/cible"/>
         <semanticElements xmi:type="ecore:EReference" href="formModeler.ecore#//Bouton/cible"/>
-        <ownedStyle xmi:type="viewpoint:EdgeStyle" xmi:id="_FxoTwEDaEeOK6qPkXIp4Ig" sourceArrow="FillDiamond" targetArrow="NoDecoration">
-          <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/fr.obeo.mda.pim.ecore.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@edgeMappings[name='EC_EReference']/@conditionnalStyles.2/@style"/>
-          <strokeColor xmi:type="viewpoint:RGBValues" xmi:id="_FxoTwUDaEeOK6qPkXIp4Ig"/>
-          <centerLabelStyle xmi:type="viewpoint:CenterLabelStyle" xmi:id="_FxoTwkDaEeOK6qPkXIp4Ig" showIcon="false">
-            <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_FxoTw0DaEeOK6qPkXIp4Ig"/>
+        <ownedStyle xmi:type="viewpoint:EdgeStyle" xmi:id="_olFZcEF7EeOiM9qfqjvzVA">
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/fr.obeo.mda.pim.ecore.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@edgeMappings[name='EC_EReference']/@style"/>
+          <strokeColor xmi:type="viewpoint:RGBValues" xmi:id="_olGAgEF7EeOiM9qfqjvzVA" red="136" green="136" blue="136"/>
+          <centerLabelStyle xmi:type="viewpoint:CenterLabelStyle" xmi:id="_olGAgUF7EeOiM9qfqjvzVA" showIcon="false">
+            <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_olGAgkF7EeOiM9qfqjvzVA"/>
           </centerLabelStyle>
         </ownedStyle>
         <actualMapping xmi:type="description:EdgeMapping" href="platform:/plugin/fr.obeo.mda.pim.ecore.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@edgeMappings[name='EC_EReference']"/>

@@ -1,39 +1,43 @@
 	<html>
 		<head>
-			<title>TitreVide</title>
+			<title>S'inscrire</title>
 		</head>
 		<body>
 
+				Nom :
+				<input name="nomChampTexte" value="" type="text" />
+					
  					<br />
-				<input name="NomVide" value="" type="button" />
-				<img src="CheminVide" alt="" />
-				<a href="">valeur</a>
+				Prénom :
+				<input name="prenomChampTexte" value="" type="text" />
+					
  					<br />
+				Naissance :
 				
+					
  					<br />
-				<input name="cocher1" value="" type="checkbox" />
+				<input name="cguCocher" value="" type="checkbox" />
+				J'accepte les CGU
+					
  					<br />
-				<input name="champ1" value="" type="text" />
- 					<br />
-				ValeurVide
+				<a href="accueil">Retourner sur la page d'accueil</a>
+				<input name="validerBtn" value="" type="button" />
 		</body>
 	</html>
 	<html>
 		<head>
-			<title>TitreVide</title>
+			<title>Accueil</title>
 		</head>
 		<body>
 
-				ValeurVide
-				ValeurVide
-				<input name="NomVide" value="" type="button" />
-				<a href=""></a>
-		</body>
-	</html>
-	<html>
-		<head>
-			<title>TitreVide</title>
-		</head>
-		<body>
+					
+ 					<br />
+				<img src="edito.png" alt="" />
+					
+ 					<br />
+				Bienvenue sur notre boutique ! Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis luctus velit at tincidunt ultrices. Etiam ornare mi id lacus dapibus, non dapibus arcu porttitor. Phasellus nec eros tempor dui malesuada consequat. Aenean pretium ipsum sit amet ante mattis ultricies. Quisque euismod ipsum ac lacus hendrerit mattis. Quisque rutrum justo dictum massa adipiscing ultrices. Aenean auctor sapien ac rhoncus condimentum. Mauris mattis pellentesque vehicula. Pellentesque ut hendrerit lorem. Nullam magna eros, semper ut nulla non, semper consectetur ligula. Nullam et augue lobortis, porttitor nunc vitae, sagittis massa.
+					
+ 					<br />
+				<a href="inscription">Créer un compte</a>
 		</body>
 	</html>
