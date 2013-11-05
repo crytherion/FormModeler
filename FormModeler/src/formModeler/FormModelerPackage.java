@@ -440,7 +440,7 @@ public interface FormModelerPackage extends EPackage {
 	int MENU_DEROULANT__ROWX = WIDGET__ROWX;
 
 	/**
-	 * The feature id for the '<em><b>Liste Valeurs</b></em>' attribute.
+	 * The feature id for the '<em><b>Liste Valeurs</b></em>' attribute list.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
@@ -831,10 +831,10 @@ public interface FormModelerPackage extends EPackage {
 	EClass getMenuDeroulant();
 
 	/**
-	 * Returns the meta object for the attribute '{@link formModeler.MenuDeroulant#getListeValeurs <em>Liste Valeurs</em>}'.
+	 * Returns the meta object for the attribute list '{@link formModeler.MenuDeroulant#getListeValeurs <em>Liste Valeurs</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @return the meta object for the attribute '<em>Liste Valeurs</em>'.
+	 * @return the meta object for the attribute list '<em>Liste Valeurs</em>'.
 	 * @see formModeler.MenuDeroulant#getListeValeurs()
 	 * @see #getMenuDeroulant()
 	 * @generated
@@ -1122,7 +1122,7 @@ public interface FormModelerPackage extends EPackage {
 		EClass MENU_DEROULANT = eINSTANCE.getMenuDeroulant();
 
 		/**
-		 * The meta object literal for the '<em><b>Liste Valeurs</b></em>' attribute feature.
+		 * The meta object literal for the '<em><b>Liste Valeurs</b></em>' attribute list feature.
 		 * <!-- begin-user-doc -->
 		 * <!-- end-user-doc -->
 		 * @generated

@@ -18,8 +18,8 @@
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="ChampTexte" eSuperTypes="#//Widget"/>
   <eClassifiers xsi:type="ecore:EClass" name="MenuDeroulant" eSuperTypes="#//Widget">
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="listeValeurs" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EEList"
-        transient="true"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="listeValeurs" upperBound="-1"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Cocher" eSuperTypes="#//Widget">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="etatParDefaut" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>

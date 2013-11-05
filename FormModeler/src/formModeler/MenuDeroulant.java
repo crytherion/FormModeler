@@ -22,29 +22,19 @@ import org.eclipse.emf.common.util.EList;
  */
 public interface MenuDeroulant extends Widget {
 	/**
-	 * Returns the value of the '<em><b>Liste Valeurs</b></em>' attribute.
+	 * Returns the value of the '<em><b>Liste Valeurs</b></em>' attribute list.
+	 * The list contents are of type {@link java.lang.String}.
 	 * <!-- begin-user-doc -->
 	 * <p>
 	 * If the meaning of the '<em>Liste Valeurs</em>' attribute isn't clear,
 	 * there really should be more of a description here...
 	 * </p>
 	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Liste Valeurs</em>' attribute.
-	 * @see #setListeValeurs(EList)
+	 * @return the value of the '<em>Liste Valeurs</em>' attribute list.
 	 * @see formModeler.FormModelerPackage#getMenuDeroulant_ListeValeurs()
-	 * @model many="false" transient="true"
+	 * @model
 	 * @generated
 	 */
-	EList getListeValeurs();
-
-	/**
-	 * Sets the value of the '{@link formModeler.MenuDeroulant#getListeValeurs <em>Liste Valeurs</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Liste Valeurs</em>' attribute.
-	 * @see #getListeValeurs()
-	 * @generated
-	 */
-	void setListeValeurs(EList value);
+	EList<String> getListeValeurs();
 
 } // MenuDeroulant

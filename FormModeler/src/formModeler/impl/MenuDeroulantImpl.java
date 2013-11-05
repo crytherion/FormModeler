@@ -5,12 +5,14 @@ package formModeler.impl;
 import formModeler.FormModelerPackage;
 import formModeler.MenuDeroulant;
 
+import java.util.Collection;
 import org.eclipse.emf.common.notify.Notification;
 
 import org.eclipse.emf.common.util.EList;
 
 import org.eclipse.emf.ecore.EClass;
 
+import org.eclipse.emf.ecore.util.EDataTypeUniqueEList;
 import org.eclipse.emf.ecore.impl.ENotificationImpl;
 
 /**
@@ -28,14 +30,14 @@ import org.eclipse.emf.ecore.impl.ENotificationImpl;
  */
 public class MenuDeroulantImpl extends WidgetImpl implements MenuDeroulant {
 	/**
-	 * The cached value of the '{@link #getListeValeurs() <em>Liste Valeurs</em>}' attribute.
+	 * The cached value of the '{@link #getListeValeurs() <em>Liste Valeurs</em>}' attribute list.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @see #getListeValeurs()
 	 * @generated
 	 * @ordered
 	 */
-	protected EList listeValeurs;
+	protected EList<String> listeValeurs;
 
 	/**
 	 * <!-- begin-user-doc -->
@@ -61,20 +63,11 @@ public class MenuDeroulantImpl extends WidgetImpl implements MenuDeroulant {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EList getListeValeurs() {
+	public EList<String> getListeValeurs() {
+		if (listeValeurs == null) {
+			listeValeurs = new EDataTypeUniqueEList<String>(String.class, this, FormModelerPackage.MENU_DEROULANT__LISTE_VALEURS);
+		}
 		return listeValeurs;
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setListeValeurs(EList newListeValeurs) {
-		EList oldListeValeurs = listeValeurs;
-		listeValeurs = newListeValeurs;
-		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET, FormModelerPackage.MENU_DEROULANT__LISTE_VALEURS, oldListeValeurs, listeValeurs));
 	}
 
 	/**
@@ -96,11 +89,13 @@ public class MenuDeroulantImpl extends WidgetImpl implements MenuDeroulant {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@SuppressWarnings("unchecked")
 	@Override
 	public void eSet(int featureID, Object newValue) {
 		switch (featureID) {
 			case FormModelerPackage.MENU_DEROULANT__LISTE_VALEURS:
-				setListeValeurs((EList)newValue);
+				getListeValeurs().clear();
+				getListeValeurs().addAll((Collection<? extends String>)newValue);
 				return;
 		}
 		super.eSet(featureID, newValue);
@@ -115,7 +110,7 @@ public class MenuDeroulantImpl extends WidgetImpl implements MenuDeroulant {
 	public void eUnset(int featureID) {
 		switch (featureID) {
 			case FormModelerPackage.MENU_DEROULANT__LISTE_VALEURS:
-				setListeValeurs((EList)null);
+				getListeValeurs().clear();
 				return;
 		}
 		super.eUnset(featureID);
@@ -130,7 +125,7 @@ public class MenuDeroulantImpl extends WidgetImpl implements MenuDeroulant {
 	public boolean eIsSet(int featureID) {
 		switch (featureID) {
 			case FormModelerPackage.MENU_DEROULANT__LISTE_VALEURS:
-				return listeValeurs != null;
+				return listeValeurs != null && !listeValeurs.isEmpty();
 		}
 		return super.eIsSet(featureID);
 	}

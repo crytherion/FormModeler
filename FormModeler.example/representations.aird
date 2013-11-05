@@ -105,7 +105,7 @@
                   <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OfvRIkGPEeOvjYFzdJNzVA"/>
                 </children>
                 <styles xmi:type="notation:ShapeStyle" xmi:id="_OfkSAUGPEeOvjYFzdJNzVA" fontName="Segoe UI" fontHeight="8"/>
-                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OfkSAkGPEeOvjYFzdJNzVA" x="15" y="217" width="16" height="16"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OfkSAkGPEeOvjYFzdJNzVA" x="319" y="210" width="16" height="16"/>
               </children>
               <children xmi:type="notation:Node" xmi:id="_Y3xb8EGPEeOvjYFzdJNzVA" type="3007" element="_Y23dAEGPEeOvjYFzdJNzVA">
                 <children xmi:type="notation:Node" xmi:id="_Y30fQEGPEeOvjYFzdJNzVA" type="5003">
@@ -116,7 +116,7 @@
                   <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Y4AFckGPEeOvjYFzdJNzVA"/>
                 </children>
                 <styles xmi:type="notation:ShapeStyle" xmi:id="_Y3xb8UGPEeOvjYFzdJNzVA" fontName="Segoe UI" fontHeight="8"/>
-                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Y3xb8kGPEeOvjYFzdJNzVA" x="415" y="217" width="16" height="16"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Y3xb8kGPEeOvjYFzdJNzVA" x="13" y="204" width="16" height="16"/>
               </children>
               <styles xmi:type="notation:SortingStyle" xmi:id="_QqVAwUGMEeOCG8cqozo7DQ"/>
               <styles xmi:type="notation:FilteringStyle" xmi:id="_QqVAwkGMEeOCG8cqozo7DQ"/>
@@ -167,22 +167,6 @@
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fsFoYkGPEeOvjYFzdJNzVA" x="120" y="120" width="339" height="255"/>
           </children>
           <styles xmi:type="notation:DiagramStyle" xmi:id="_Eb24EjtSEeO-UMKs5vrRUw"/>
-          <edges xmi:type="notation:Edge" xmi:id="_cGGZIEGPEeOvjYFzdJNzVA" type="4001" element="_cE2b8EGPEeOvjYFzdJNzVA" source="_Y3xb8EGPEeOvjYFzdJNzVA" target="_QqCs4EGMEeOCG8cqozo7DQ">
-            <children xmi:type="notation:Node" xmi:id="_cGLRoEGPEeOvjYFzdJNzVA" type="6001">
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cGLRoUGPEeOvjYFzdJNzVA" y="-10"/>
-            </children>
-            <children xmi:type="notation:Node" xmi:id="_cGNt4EGPEeOvjYFzdJNzVA" type="6002">
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cGNt4UGPEeOvjYFzdJNzVA" y="10"/>
-            </children>
-            <children xmi:type="notation:Node" xmi:id="_cGPjEEGPEeOvjYFzdJNzVA" type="6003">
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cGPjEUGPEeOvjYFzdJNzVA" y="10"/>
-            </children>
-            <styles xmi:type="notation:ConnectorStyle" xmi:id="_cGHAMEGPEeOvjYFzdJNzVA"/>
-            <styles xmi:type="notation:FontStyle" xmi:id="_cGHAMUGPEeOvjYFzdJNzVA" fontName="Segoe UI" fontHeight="8"/>
-            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_cGHAMkGPEeOvjYFzdJNzVA" points="[0, 14, -183, 134]$[0, 117, -183, 237]$[182, 117, -1, 237]$[182, 34, -1, 154]"/>
-            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_cGTNcEGPEeOvjYFzdJNzVA" id="(0.6875,0.125)"/>
-            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_cGT0gEGPEeOvjYFzdJNzVA" id="(0.9550827423167849,0.4070175438596491)"/>
-          </edges>
           <edges xmi:type="notation:Edge" xmi:id="_JKrCMEGVEeOGmvPt8S3ClA" type="4001" element="_JJad8EGVEeOGmvPt8S3ClA" source="_1bs9MEGUEeOGmvPt8S3ClA" target="_QqCs4EGMEeOCG8cqozo7DQ">
             <children xmi:type="notation:Node" xmi:id="_JKuskEGVEeOGmvPt8S3ClA" type="6001">
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JKuskUGVEeOGmvPt8S3ClA" y="-10"/>
@@ -210,12 +194,27 @@
             </children>
             <styles xmi:type="notation:ConnectorStyle" xmi:id="_KIANIUGVEeOGmvPt8S3ClA"/>
             <styles xmi:type="notation:FontStyle" xmi:id="_KIANIkGVEeOGmvPt8S3ClA" fontName="Segoe UI" fontHeight="8"/>
-            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_KIANI0GVEeOGmvPt8S3ClA" points="[-8, -4, 152, 2]$[-158, 22, 2, 28]"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_KIANI0GVEeOGmvPt8S3ClA" points="[0, 8, 464, 7]$[0, 94, 464, 93]$[-464, 94, 0, 93]$[-464, 29, 0, 28]"/>
             <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_KIEekEGVEeOGmvPt8S3ClA" id="(0.6784660766961652,0.8901960784313725)"/>
+          </edges>
+          <edges xmi:type="notation:Edge" xmi:id="_7BV4YEZoEeOU9eHTapYq4A" type="4001" element="_6_pPQEZoEeOU9eHTapYq4A" source="_Y3xb8EGPEeOvjYFzdJNzVA" target="_QqCs4EGMEeOCG8cqozo7DQ">
+            <children xmi:type="notation:Node" xmi:id="_7BXtkEZoEeOU9eHTapYq4A" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7BXtkUZoEeOU9eHTapYq4A" y="-10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_7BYUoEZoEeOU9eHTapYq4A" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7BYUoUZoEeOU9eHTapYq4A" y="10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_7BY7sEZoEeOU9eHTapYq4A" type="6003">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7BY7sUZoEeOU9eHTapYq4A" y="10"/>
+            </children>
+            <styles xmi:type="notation:ConnectorStyle" xmi:id="_7BV4YUZoEeOU9eHTapYq4A"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_7BV4YkZoEeOU9eHTapYq4A" fontName="Segoe UI" fontHeight="8"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_7BV4Y0ZoEeOU9eHTapYq4A" points="[4, 8, 0, -21]$[4, 66, 0, 37]$[4, 41, 0, 12]"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_7BaJ0EZoEeOU9eHTapYq4A" id="(0.13798449612403102,0.9923371647509579)"/>
           </edges>
         </data>
       </ownedAnnotationEntries>
-      <ownedDiagramElements xmi:type="viewpoint:DNodeContainer" xmi:id="_QphvgUGMEeOCG8cqozo7DQ" name="S'inscrire" incomingEdges="_cE2b8EGPEeOvjYFzdJNzVA _JJad8EGVEeOGmvPt8S3ClA">
+      <ownedDiagramElements xmi:type="viewpoint:DNodeContainer" xmi:id="_QphvgUGMEeOCG8cqozo7DQ" name="S'inscrire" incomingEdges="_JJad8EGVEeOGmvPt8S3ClA _6_pPQEZoEeOU9eHTapYq4A">
         <target xmi:type="formModeler:Ecran" href="mesEcrans.formmodeler#//@ecrans.0"/>
         <semanticElements xmi:type="formModeler:Ecran" href="mesEcrans.formmodeler#//@ecrans.0"/>
         <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
@@ -346,7 +345,7 @@
           </ownedStyle>
           <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/FormModeler.representation/description/FormModelerRepresentation.odesign#//@ownedViewpoints[name='formModelerVP']/@ownedRepresentations[name='diagramModeler']/@defaultLayer/@containerMappings[name='ecranRep']/@subNodeMappings[name='lienRep']"/>
         </ownedDiagramElements>
-        <ownedDiagramElements xmi:type="viewpoint:DNode" xmi:id="_Y23dAEGPEeOvjYFzdJNzVA" name="Valider (Bouton)" outgoingEdges="_cE2b8EGPEeOvjYFzdJNzVA" width="-1" height="-1">
+        <ownedDiagramElements xmi:type="viewpoint:DNode" xmi:id="_Y23dAEGPEeOvjYFzdJNzVA" name="Valider (Bouton)" outgoingEdges="_6_pPQEZoEeOU9eHTapYq4A" width="-1" height="-1">
           <target xmi:type="formModeler:Bouton" href="mesEcrans.formmodeler#//@ecrans.0/@widgets.9"/>
           <semanticElements xmi:type="formModeler:Bouton" href="mesEcrans.formmodeler#//@ecrans.0/@widgets.9"/>
           <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
@@ -359,17 +358,6 @@
           </ownedStyle>
           <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/FormModeler.representation/description/FormModelerRepresentation.odesign#//@ownedViewpoints[name='formModelerVP']/@ownedRepresentations[name='diagramModeler']/@defaultLayer/@containerMappings[name='ecranRep']/@subNodeMappings[name='boutonRep']"/>
         </ownedDiagramElements>
-      </ownedDiagramElements>
-      <ownedDiagramElements xmi:type="viewpoint:DEdge" xmi:id="_cE2b8EGPEeOvjYFzdJNzVA" sourceNode="_Y23dAEGPEeOvjYFzdJNzVA" targetNode="_QphvgUGMEeOCG8cqozo7DQ">
-        <target xmi:type="formModeler:Bouton" href="mesEcrans.formmodeler#//@ecrans.0/@widgets.9"/>
-        <ownedStyle xmi:type="viewpoint:EdgeStyle" xmi:id="_cE--0EGPEeOvjYFzdJNzVA" size="2">
-          <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/FormModeler.representation/description/FormModelerRepresentation.odesign#//@ownedViewpoints[name='formModelerVP']/@ownedRepresentations[name='diagramModeler']/@defaultLayer/@edgeMappings[name='BoutonEcranRep']/@style"/>
-          <strokeColor xmi:type="viewpoint:RGBValues" xmi:id="_cE--0UGPEeOvjYFzdJNzVA" red="136" green="136" blue="136"/>
-          <centerLabelStyle xmi:type="viewpoint:CenterLabelStyle" xmi:id="_cE--0kGPEeOvjYFzdJNzVA">
-            <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_cE--00GPEeOvjYFzdJNzVA"/>
-          </centerLabelStyle>
-        </ownedStyle>
-        <actualMapping xmi:type="description:EdgeMapping" href="platform:/plugin/FormModeler.representation/description/FormModelerRepresentation.odesign#//@ownedViewpoints[name='formModelerVP']/@ownedRepresentations[name='diagramModeler']/@defaultLayer/@edgeMappings[name='BoutonEcranRep']"/>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="viewpoint:DNodeContainer" xmi:id="_frHYAEGPEeOvjYFzdJNzVA" name="Accueil" incomingEdges="_KGpiQEGVEeOGmvPt8S3ClA">
         <target xmi:type="formModeler:Ecran" href="mesEcrans.formmodeler#//@ecrans.1"/>
@@ -398,7 +386,7 @@
           </ownedStyle>
           <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/FormModeler.representation/description/FormModelerRepresentation.odesign#//@ownedViewpoints[name='formModelerVP']/@ownedRepresentations[name='diagramModeler']/@defaultLayer/@containerMappings[name='ecranRep']/@subNodeMappings[name='labelRep']"/>
         </ownedDiagramElements>
-        <ownedDiagramElements xmi:type="viewpoint:DNode" xmi:id="_zdouAEGUEeOGmvPt8S3ClA" name="NomVide (Photo)" width="-1" height="-1">
+        <ownedDiagramElements xmi:type="viewpoint:DNode" xmi:id="_zdouAEGUEeOGmvPt8S3ClA" name="ImageEdito (Photo)" width="-1" height="-1">
           <target xmi:type="formModeler:Photo" href="mesEcrans.formmodeler#//@ecrans.1/@widgets.1"/>
           <semanticElements xmi:type="formModeler:Photo" href="mesEcrans.formmodeler#//@ecrans.1/@widgets.1"/>
           <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_zdrKQEGUEeOGmvPt8S3ClA" labelSize="10" showIcon="false" workspacePath="/FormModeler.representation/images/photo.png">
@@ -440,6 +428,17 @@
           </centerLabelStyle>
         </ownedStyle>
         <actualMapping xmi:type="description:EdgeMapping" href="platform:/plugin/FormModeler.representation/description/FormModelerRepresentation.odesign#//@ownedViewpoints[name='formModelerVP']/@ownedRepresentations[name='diagramModeler']/@defaultLayer/@edgeMappings[name='LienCocherRep']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="viewpoint:DEdge" xmi:id="_6_pPQEZoEeOU9eHTapYq4A" sourceNode="_Y23dAEGPEeOvjYFzdJNzVA" targetNode="_QphvgUGMEeOCG8cqozo7DQ">
+        <target xmi:type="formModeler:Bouton" href="mesEcrans.formmodeler#//@ecrans.0/@widgets.9"/>
+        <ownedStyle xmi:type="viewpoint:EdgeStyle" xmi:id="_6_qdYEZoEeOU9eHTapYq4A" size="2">
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/FormModeler.representation/description/FormModelerRepresentation.odesign#//@ownedViewpoints[name='formModelerVP']/@ownedRepresentations[name='diagramModeler']/@defaultLayer/@edgeMappings[name='BoutonEcranRep']/@style"/>
+          <strokeColor xmi:type="viewpoint:RGBValues" xmi:id="_6_qdYUZoEeOU9eHTapYq4A" red="136" green="136" blue="136"/>
+          <centerLabelStyle xmi:type="viewpoint:CenterLabelStyle" xmi:id="_6_qdYkZoEeOU9eHTapYq4A">
+            <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_6_qdY0ZoEeOU9eHTapYq4A"/>
+          </centerLabelStyle>
+        </ownedStyle>
+        <actualMapping xmi:type="description:EdgeMapping" href="platform:/plugin/FormModeler.representation/description/FormModelerRepresentation.odesign#//@ownedViewpoints[name='formModelerVP']/@ownedRepresentations[name='diagramModeler']/@defaultLayer/@edgeMappings[name='BoutonEcranRep']"/>
       </ownedDiagramElements>
       <description xmi:type="description:DiagramDescription" href="platform:/plugin/FormModeler.representation/description/FormModelerRepresentation.odesign#//@ownedViewpoints[name='formModelerVP']/@ownedRepresentations[name='diagramModeler']"/>
       <filterVariableHistory xmi:type="viewpoint:FilterVariableHistory" xmi:id="_Eb2RATtSEeO-UMKs5vrRUw"/>

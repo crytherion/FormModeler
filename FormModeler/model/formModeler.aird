@@ -430,7 +430,7 @@
           <foregroundColor xmi:type="viewpoint:RGBValues" xmi:id="_2mKL5DfVEeOL1exlEhVeEg" red="209" green="209" blue="209"/>
         </ownedStyle>
         <actualMapping xmi:type="description:ContainerMapping" href="platform:/plugin/fr.obeo.mda.pim.ecore.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']"/>
-        <ownedElements xmi:type="viewpoint:DNodeListElement" xmi:id="_xXHXUDfZEeOL1exlEhVeEg" name="listeValeurs : EEList">
+        <ownedElements xmi:type="viewpoint:DNodeListElement" xmi:id="_xXHXUDfZEeOL1exlEhVeEg" name="listeValeurs : EString">
           <target xmi:type="ecore:EAttribute" href="formModeler.ecore#//MenuDeroulant/listeValeurs"/>
           <semanticElements xmi:type="ecore:EAttribute" href="formModeler.ecore#//MenuDeroulant/listeValeurs"/>
           <ownedStyle xmi:type="viewpoint:BundledImage" xmi:id="_xXH-YDfZEeOL1exlEhVeEg" labelAlignment="LEFT">

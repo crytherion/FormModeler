@@ -6,15 +6,23 @@
     <widgets xsi:type="formModeler:Label" nom="prenomLbl" col="1" row="2" colx="1" rowx="1" valeur="Prénom :"/>
     <widgets xsi:type="formModeler:ChampTexte" nom="prenomChampTexte" col="2" row="2" colx="1" rowx="1"/>
     <widgets xsi:type="formModeler:Label" nom="naissanceLbl" col="1" row="3" colx="1" rowx="1" valeur="Naissance :"/>
-    <widgets xsi:type="formModeler:MenuDeroulant" nom="NomVide" col="2" row="3" colx="1" rowx="1"/>
+    <widgets xsi:type="formModeler:MenuDeroulant" nom="NomVide" col="2" row="3" colx="1" rowx="1">
+      <listeValeurs>2000</listeValeurs>
+      <listeValeurs>2001</listeValeurs>
+      <listeValeurs>2002</listeValeurs>
+      <listeValeurs>2003</listeValeurs>
+      <listeValeurs>2004</listeValeurs>
+      <listeValeurs>2005</listeValeurs>
+      <listeValeurs>2006</listeValeurs>
+    </widgets>
     <widgets xsi:type="formModeler:Cocher" nom="cguCocher" col="1" row="4" colx="1" rowx="1"/>
     <widgets xsi:type="formModeler:Label" nom="acceptationCGULbl" col="2" row="4" colx="1" rowx="1" valeur="J'accepte les CGU"/>
-    <widgets xsi:type="formModeler:Lien" nom="accueilLien" col="1" row="5" colx="1" rowx="1" valeur="Retourner sur la page d'accueil" cible="//@ecrans.1"/>
-    <widgets xsi:type="formModeler:Bouton" nom="validerBtn" col="2" row="5" colx="1" rowx="1" valeur="Valider" cible="//@ecrans.0"/>
+    <widgets xsi:type="formModeler:Lien" nom="accueilLien" col="2" row="5" colx="1" rowx="1" valeur="Retourner sur la page d'accueil" cible="//@ecrans.1"/>
+    <widgets xsi:type="formModeler:Bouton" nom="validerBtn" col="1" row="5" colx="1" rowx="1" valeur="Valider" cible="//@ecrans.0"/>
   </ecrans>
   <ecrans nom="accueil" titre="Accueil">
-    <widgets xsi:type="formModeler:Label" nom="NomVide" col="1" row="2" colx="1" rowx="1" valeur="Bienvenue sur notre boutique ! Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis luctus velit at tincidunt ultrices. Etiam ornare mi id lacus dapibus, non dapibus arcu porttitor. Phasellus nec eros tempor dui malesuada consequat. Aenean pretium ipsum sit amet ante mattis ultricies. Quisque euismod ipsum ac lacus hendrerit mattis. Quisque rutrum justo dictum massa adipiscing ultrices. Aenean auctor sapien ac rhoncus condimentum. Mauris mattis pellentesque vehicula. Pellentesque ut hendrerit lorem. Nullam magna eros, semper ut nulla non, semper consectetur ligula. Nullam et augue lobortis, porttitor nunc vitae, sagittis massa."/>
-    <widgets xsi:type="formModeler:Photo" nom="NomVide" col="1" row="1" colx="1" rowx="1" chemin="edito.png"/>
-    <widgets xsi:type="formModeler:Lien" nom="creerCompteLien" col="1" row="3" colx="1" rowx="1" valeur="Créer un compte" cible="//@ecrans.0"/>
+    <widgets xsi:type="formModeler:Label" nom="NomVide" col="1" row="1" colx="1" rowx="1" valeur="Bienvenue sur notre boutique ! Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis luctus velit at tincidunt ultrices. Etiam ornare mi id lacus dapibus, non dapibus arcu porttitor. Phasellus nec eros tempor dui malesuada consequat. Aenean pretium ipsum sit amet ante mattis ultricies. Quisque euismod ipsum ac lacus hendrerit mattis. Quisque rutrum justo dictum massa adipiscing ultrices. Aenean auctor sapien ac rhoncus condimentum. Mauris mattis pellentesque vehicula. Pellentesque ut hendrerit lorem. Nullam magna eros, semper ut nulla non, semper consectetur ligula. Nullam et augue lobortis, porttitor nunc vitae, sagittis massa."/>
+    <widgets xsi:type="formModeler:Photo" nom="ImageEdito" col="1" colx="1" rowx="1" chemin="images/edito.png"/>
+    <widgets xsi:type="formModeler:Lien" nom="creerCompteLien" col="1" row="2" colx="1" rowx="1" valeur="Créer un compte" cible="//@ecrans.0"/>
   </ecrans>
 </formModeler:Racine>

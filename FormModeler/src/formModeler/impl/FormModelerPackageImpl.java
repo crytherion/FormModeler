@@ -523,7 +523,7 @@ public class FormModelerPackageImpl extends EPackageImpl implements FormModelerP
 		initEClass(champTexteEClass, ChampTexte.class, "ChampTexte", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
 
 		initEClass(menuDeroulantEClass, MenuDeroulant.class, "MenuDeroulant", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
-		initEAttribute(getMenuDeroulant_ListeValeurs(), ecorePackage.getEEList(), "listeValeurs", null, 0, 1, MenuDeroulant.class, IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+		initEAttribute(getMenuDeroulant_ListeValeurs(), ecorePackage.getEString(), "listeValeurs", null, 0, -1, MenuDeroulant.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 
 		initEClass(cocherEClass, Cocher.class, "Cocher", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
 		initEAttribute(getCocher_EtatParDefaut(), ecorePackage.getEBoolean(), "etatParDefaut", null, 0, 1, Cocher.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
