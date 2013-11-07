@@ -1,0 +1,32 @@
+	<Page x:Class="IDMWpfGeneration.accueil"
+	      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	      mc:Ignorable="d"
+	      Background="White"
+		  Title="Accueil">
+	    <ScrollViewer>
+	        <Grid>
+	            <Grid.RowDefinitions>
+				
+				<RowDefinition Height="Auto" />
+						
+						<RowDefinition Height="Auto" />
+						
+						<RowDefinition Height="Auto" />
+	            </Grid.RowDefinitions>
+	
+	            <Grid.ColumnDefinitions>
+				
+				<ColumnDefinition Width="{Binding RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type NavigationWindow}}}"/>
+	            </Grid.ColumnDefinitions>
+
+					<TextBlock x:Name="NomVide" TextWrapping="Wrap" Text="Bienvenue sur notre boutique ! Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis luctus velit at tincidunt ultrices. Etiam ornare mi id lacus dapibus, non dapibus arcu porttitor. Phasellus nec eros tempor dui malesuada consequat. Aenean pretium ipsum sit amet ante mattis ultricies. Quisque euismod ipsum ac lacus hendrerit mattis. Quisque rutrum justo dictum massa adipiscing ultrices. Aenean auctor sapien ac rhoncus condimentum. Mauris mattis pellentesque vehicula. Pellentesque ut hendrerit lorem. Nullam magna eros, semper ut nulla non, semper consectetur ligula. Nullam et augue lobortis, porttitor nunc vitae, sagittis massa." Grid.Row="1" Grid.Column="0" />
+					<Image x:Name="ImageEdito" Source="images/edito.png" Grid.Row="0" Grid.Column="0" HorizontalAlignment="Left" VerticalAlignment="Top" Stretch="None" />
+					<TextBlock x:Name="creerCompteLien" Grid.Row="2" Grid.Column="0">
+							<Hyperlink  NavigateUri="inscription.xaml">Créer un compte</Hyperlink>
+						</TextBlock>
+	        </Grid>
+	    </ScrollViewer>
+	</Page>		

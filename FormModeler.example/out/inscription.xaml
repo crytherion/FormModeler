@@ -1,0 +1,69 @@
+	<Page x:Class="IDMWpfGeneration.inscription"
+	      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	      mc:Ignorable="d"
+	      Background="White"
+		  Title="S'inscrire">
+	    <ScrollViewer>
+	        <Grid>
+	            <Grid.RowDefinitions>
+				
+				<RowDefinition Height="Auto" />
+						
+						<RowDefinition Height="Auto" />
+						
+						<RowDefinition Height="Auto" />
+						
+						<RowDefinition Height="Auto" />
+						
+						<RowDefinition Height="Auto" />
+						
+						<RowDefinition Height="Auto" />
+						
+						<RowDefinition Height="Auto" />
+						
+						<RowDefinition Height="Auto" />
+						
+						<RowDefinition Height="Auto" />
+	            </Grid.RowDefinitions>
+	
+	            <Grid.ColumnDefinitions>
+				
+				<ColumnDefinition Width="{Binding RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type NavigationWindow}}}"/>
+						
+						<ColumnDefinition Width="{Binding RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type NavigationWindow}}}"/>
+						
+						<ColumnDefinition Width="{Binding RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type NavigationWindow}}}"/>
+						
+						<ColumnDefinition Width="{Binding RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type NavigationWindow}}}"/>
+						
+						<ColumnDefinition Width="{Binding RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type NavigationWindow}}}"/>
+						
+						<ColumnDefinition Width="{Binding RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type NavigationWindow}}}"/>
+	            </Grid.ColumnDefinitions>
+
+					<TextBlock x:Name="nomLbl" TextWrapping="Wrap" Text="Nom :" Grid.Row="1" Grid.Column="0" />
+					<TextBox x:Name="nomChampTexte" Grid.Row="1" Grid.Column="1" />
+					<TextBlock x:Name="prenomLbl" TextWrapping="Wrap" Text="Prénom :" Grid.Row="2" Grid.Column="0" />
+					<TextBox x:Name="prenomChampTexte" Grid.Row="2" Grid.Column="1" />
+					<TextBlock x:Name="naissanceLbl" TextWrapping="Wrap" Text="Naissance :" Grid.Row="3" Grid.Column="0" />
+					<ComboBox x:Name="datesNaissance" Grid.Row="3" Grid.Column="1" SelectedIndex="0">
+								<ComboBoxItem Content="2000"></ComboBoxItem>
+								<ComboBoxItem Content="2001"></ComboBoxItem>
+								<ComboBoxItem Content="2002"></ComboBoxItem>
+								<ComboBoxItem Content="2003"></ComboBoxItem>
+								<ComboBoxItem Content="2004"></ComboBoxItem>
+								<ComboBoxItem Content="2005"></ComboBoxItem>
+								<ComboBoxItem Content="2006"></ComboBoxItem>
+					    </ComboBox>
+					<CheckBox Grid.Row="4" Grid.Column="0" IsChecked="false"/>
+					<TextBlock x:Name="acceptationCGULbl" TextWrapping="Wrap" Text="J'accepte les CGU" Grid.Row="4" Grid.Column="1" />
+					<TextBlock x:Name="accueilLien" Grid.Row="5" Grid.Column="1">
+							<Hyperlink  NavigateUri="accueil.xaml">Retourner sur la page d'accueil</Hyperlink>
+						</TextBlock>
+					<Button x:Name="validerBtn" Content="Valider" Grid.Row="5" Grid.Column="0" Click="validerBtn_Click"/>
+	        </Grid>
+	    </ScrollViewer>
+	</Page>		
