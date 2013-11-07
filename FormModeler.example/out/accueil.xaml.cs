@@ -12,14 +12,14 @@
 	using System.Windows.Navigation;
 	using System.Windows.Shapes;
 	
-	namespace IDMWpfGeneration
+	namespace GeneratedCode
 	{
 	    /// <summary>
-	    /// Logique d'interaction pour Inscription.xaml
+	    /// Logique d'interaction pour accueil.xaml
 	    /// </summary>
-	    public partial class Inscription : Page
+	    public partial class accueil : Page
 	    {
-	        public Inscription()
+	        public accueil()
 	        {
 	            InitializeComponent();
 	        }
