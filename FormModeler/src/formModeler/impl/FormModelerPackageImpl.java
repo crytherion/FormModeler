@@ -266,7 +266,7 @@ public class FormModelerPackageImpl extends EPackageImpl implements FormModelerP
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EAttribute getMenuDeroulant_ListeValeurs() {
+	public EAttribute getMenuDeroulant_Valeur() {
 		return (EAttribute)menuDeroulantEClass.getEStructuralFeatures().get(0);
 	}
 
@@ -356,24 +356,6 @@ public class FormModelerPackageImpl extends EPackageImpl implements FormModelerP
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EAttribute getWidget_Colx() {
-		return (EAttribute)widgetEClass.getEStructuralFeatures().get(3);
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public EAttribute getWidget_Rowx() {
-		return (EAttribute)widgetEClass.getEStructuralFeatures().get(4);
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
 	public EClass getRacine() {
 		return racineEClass;
 	}
@@ -448,7 +430,7 @@ public class FormModelerPackageImpl extends EPackageImpl implements FormModelerP
 		champTexteEClass = createEClass(CHAMP_TEXTE);
 
 		menuDeroulantEClass = createEClass(MENU_DEROULANT);
-		createEAttribute(menuDeroulantEClass, MENU_DEROULANT__LISTE_VALEURS);
+		createEAttribute(menuDeroulantEClass, MENU_DEROULANT__VALEUR);
 
 		cocherEClass = createEClass(COCHER);
 		createEAttribute(cocherEClass, COCHER__ETAT_PAR_DEFAUT);
@@ -461,8 +443,6 @@ public class FormModelerPackageImpl extends EPackageImpl implements FormModelerP
 		createEAttribute(widgetEClass, WIDGET__NOM);
 		createEAttribute(widgetEClass, WIDGET__COL);
 		createEAttribute(widgetEClass, WIDGET__ROW);
-		createEAttribute(widgetEClass, WIDGET__COLX);
-		createEAttribute(widgetEClass, WIDGET__ROWX);
 
 		racineEClass = createEClass(RACINE);
 		createEReference(racineEClass, RACINE__ECRANS);
@@ -523,7 +503,7 @@ public class FormModelerPackageImpl extends EPackageImpl implements FormModelerP
 		initEClass(champTexteEClass, ChampTexte.class, "ChampTexte", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
 
 		initEClass(menuDeroulantEClass, MenuDeroulant.class, "MenuDeroulant", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
-		initEAttribute(getMenuDeroulant_ListeValeurs(), ecorePackage.getEString(), "listeValeurs", null, 0, -1, MenuDeroulant.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+		initEAttribute(getMenuDeroulant_Valeur(), ecorePackage.getEString(), "valeur", null, 0, -1, MenuDeroulant.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 
 		initEClass(cocherEClass, Cocher.class, "Cocher", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
 		initEAttribute(getCocher_EtatParDefaut(), ecorePackage.getEBoolean(), "etatParDefaut", null, 0, 1, Cocher.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
@@ -536,8 +516,6 @@ public class FormModelerPackageImpl extends EPackageImpl implements FormModelerP
 		initEAttribute(getWidget_Nom(), ecorePackage.getEString(), "nom", null, 0, 1, Widget.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 		initEAttribute(getWidget_Col(), ecorePackage.getEInt(), "col", null, 0, 1, Widget.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 		initEAttribute(getWidget_Row(), ecorePackage.getEInt(), "row", null, 0, 1, Widget.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
-		initEAttribute(getWidget_Colx(), ecorePackage.getEInt(), "colx", null, 0, 1, Widget.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
-		initEAttribute(getWidget_Rowx(), ecorePackage.getEInt(), "rowx", null, 0, 1, Widget.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 
 		initEClass(racineEClass, Racine.class, "Racine", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
 		initEReference(getRacine_Ecrans(), this.getEcran(), null, "ecrans", null, 0, -1, Racine.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);

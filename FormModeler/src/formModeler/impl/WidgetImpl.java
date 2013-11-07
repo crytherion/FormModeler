@@ -22,8 +22,6 @@ import org.eclipse.emf.ecore.impl.EObjectImpl;
  *   <li>{@link formModeler.impl.WidgetImpl#getNom <em>Nom</em>}</li>
  *   <li>{@link formModeler.impl.WidgetImpl#getCol <em>Col</em>}</li>
  *   <li>{@link formModeler.impl.WidgetImpl#getRow <em>Row</em>}</li>
- *   <li>{@link formModeler.impl.WidgetImpl#getColx <em>Colx</em>}</li>
- *   <li>{@link formModeler.impl.WidgetImpl#getRowx <em>Rowx</em>}</li>
  * </ul>
  * </p>
  *
@@ -89,46 +87,6 @@ public abstract class WidgetImpl extends EObjectImpl implements Widget {
 	 * @ordered
 	 */
 	protected int row = ROW_EDEFAULT;
-
-	/**
-	 * The default value of the '{@link #getColx() <em>Colx</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see #getColx()
-	 * @generated
-	 * @ordered
-	 */
-	protected static final int COLX_EDEFAULT = 0;
-
-	/**
-	 * The cached value of the '{@link #getColx() <em>Colx</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see #getColx()
-	 * @generated
-	 * @ordered
-	 */
-	protected int colx = COLX_EDEFAULT;
-
-	/**
-	 * The default value of the '{@link #getRowx() <em>Rowx</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see #getRowx()
-	 * @generated
-	 * @ordered
-	 */
-	protected static final int ROWX_EDEFAULT = 0;
-
-	/**
-	 * The cached value of the '{@link #getRowx() <em>Rowx</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see #getRowx()
-	 * @generated
-	 * @ordered
-	 */
-	protected int rowx = ROWX_EDEFAULT;
 
 	/**
 	 * <!-- begin-user-doc -->
@@ -217,48 +175,6 @@ public abstract class WidgetImpl extends EObjectImpl implements Widget {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public int getColx() {
-		return colx;
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setColx(int newColx) {
-		int oldColx = colx;
-		colx = newColx;
-		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET, FormModelerPackage.WIDGET__COLX, oldColx, colx));
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public int getRowx() {
-		return rowx;
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setRowx(int newRowx) {
-		int oldRowx = rowx;
-		rowx = newRowx;
-		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET, FormModelerPackage.WIDGET__ROWX, oldRowx, rowx));
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
 	@Override
 	public Object eGet(int featureID, boolean resolve, boolean coreType) {
 		switch (featureID) {
@@ -268,10 +184,6 @@ public abstract class WidgetImpl extends EObjectImpl implements Widget {
 				return getCol();
 			case FormModelerPackage.WIDGET__ROW:
 				return getRow();
-			case FormModelerPackage.WIDGET__COLX:
-				return getColx();
-			case FormModelerPackage.WIDGET__ROWX:
-				return getRowx();
 		}
 		return super.eGet(featureID, resolve, coreType);
 	}
@@ -292,12 +204,6 @@ public abstract class WidgetImpl extends EObjectImpl implements Widget {
 				return;
 			case FormModelerPackage.WIDGET__ROW:
 				setRow((Integer)newValue);
-				return;
-			case FormModelerPackage.WIDGET__COLX:
-				setColx((Integer)newValue);
-				return;
-			case FormModelerPackage.WIDGET__ROWX:
-				setRowx((Integer)newValue);
 				return;
 		}
 		super.eSet(featureID, newValue);
@@ -320,12 +226,6 @@ public abstract class WidgetImpl extends EObjectImpl implements Widget {
 			case FormModelerPackage.WIDGET__ROW:
 				setRow(ROW_EDEFAULT);
 				return;
-			case FormModelerPackage.WIDGET__COLX:
-				setColx(COLX_EDEFAULT);
-				return;
-			case FormModelerPackage.WIDGET__ROWX:
-				setRowx(ROWX_EDEFAULT);
-				return;
 		}
 		super.eUnset(featureID);
 	}
@@ -344,10 +244,6 @@ public abstract class WidgetImpl extends EObjectImpl implements Widget {
 				return col != COL_EDEFAULT;
 			case FormModelerPackage.WIDGET__ROW:
 				return row != ROW_EDEFAULT;
-			case FormModelerPackage.WIDGET__COLX:
-				return colx != COLX_EDEFAULT;
-			case FormModelerPackage.WIDGET__ROWX:
-				return rowx != ROWX_EDEFAULT;
 		}
 		return super.eIsSet(featureID);
 	}
@@ -368,10 +264,6 @@ public abstract class WidgetImpl extends EObjectImpl implements Widget {
 		result.append(col);
 		result.append(", row: ");
 		result.append(row);
-		result.append(", colx: ");
-		result.append(colx);
-		result.append(", rowx: ");
-		result.append(rowx);
 		result.append(')');
 		return result.toString();
 	}

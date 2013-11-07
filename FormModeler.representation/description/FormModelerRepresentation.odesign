@@ -91,8 +91,6 @@
                   <subModelOperations xsi:type="tool:SetValue" featureName="nom" valueExpression="NomVide"/>
                   <subModelOperations xsi:type="tool:SetValue" featureName="col" valueExpression="0"/>
                   <subModelOperations xsi:type="tool:SetValue" featureName="row" valueExpression="0"/>
-                  <subModelOperations xsi:type="tool:SetValue" featureName="colx" valueExpression="1"/>
-                  <subModelOperations xsi:type="tool:SetValue" featureName="rowx" valueExpression="1"/>
                 </firstModelOperations>
               </initialOperation>
             </ownedTools>
@@ -104,8 +102,6 @@
                   <subModelOperations xsi:type="tool:SetValue" featureName="nom" valueExpression="NomVide">
                     <subModelOperations xsi:type="tool:SetValue" featureName="col" valueExpression="0"/>
                     <subModelOperations xsi:type="tool:SetValue" featureName="row" valueExpression="0"/>
-                    <subModelOperations xsi:type="tool:SetValue" featureName="colx" valueExpression="1"/>
-                    <subModelOperations xsi:type="tool:SetValue" featureName="rowx" valueExpression="1"/>
                   </subModelOperations>
                 </firstModelOperations>
               </initialOperation>
@@ -119,8 +115,6 @@
                   <subModelOperations xsi:type="tool:SetValue" featureName="nom" valueExpression="NomVide"/>
                   <subModelOperations xsi:type="tool:SetValue" featureName="col" valueExpression="0"/>
                   <subModelOperations xsi:type="tool:SetValue" featureName="row" valueExpression="0"/>
-                  <subModelOperations xsi:type="tool:SetValue" featureName="colx" valueExpression="1"/>
-                  <subModelOperations xsi:type="tool:SetValue" featureName="rowx" valueExpression="1"/>
                 </firstModelOperations>
               </initialOperation>
             </ownedTools>
@@ -132,8 +126,6 @@
                   <subModelOperations xsi:type="tool:SetValue" featureName="nom" valueExpression="NomVide"/>
                   <subModelOperations xsi:type="tool:SetValue" featureName="col" valueExpression="0"/>
                   <subModelOperations xsi:type="tool:SetValue" featureName="row" valueExpression="0"/>
-                  <subModelOperations xsi:type="tool:SetValue" featureName="colx" valueExpression="1"/>
-                  <subModelOperations xsi:type="tool:SetValue" featureName="rowx" valueExpression="1"/>
                 </firstModelOperations>
               </initialOperation>
             </ownedTools>
@@ -145,8 +137,6 @@
                   <subModelOperations xsi:type="tool:SetValue" featureName="nom" valueExpression="NomVide"/>
                   <subModelOperations xsi:type="tool:SetValue" featureName="col" valueExpression="0"/>
                   <subModelOperations xsi:type="tool:SetValue" featureName="row" valueExpression="0"/>
-                  <subModelOperations xsi:type="tool:SetValue" featureName="colx" valueExpression="1"/>
-                  <subModelOperations xsi:type="tool:SetValue" featureName="rowx" valueExpression="1"/>
                 </firstModelOperations>
               </initialOperation>
             </ownedTools>
@@ -159,8 +149,6 @@
                   <subModelOperations xsi:type="tool:SetValue" featureName="nom" valueExpression="NomVide"/>
                   <subModelOperations xsi:type="tool:SetValue" featureName="col" valueExpression="0"/>
                   <subModelOperations xsi:type="tool:SetValue" featureName="row" valueExpression="0"/>
-                  <subModelOperations xsi:type="tool:SetValue" featureName="colx" valueExpression="1"/>
-                  <subModelOperations xsi:type="tool:SetValue" featureName="rowx" valueExpression="1"/>
                 </firstModelOperations>
               </initialOperation>
             </ownedTools>
@@ -173,8 +161,6 @@
                   <subModelOperations xsi:type="tool:SetValue" featureName="col" valueExpression="0"/>
                   <subModelOperations xsi:type="tool:SetValue" featureName="nom" valueExpression="NomVide"/>
                   <subModelOperations xsi:type="tool:SetValue" featureName="row" valueExpression="0"/>
-                  <subModelOperations xsi:type="tool:SetValue" featureName="colx" valueExpression="1"/>
-                  <subModelOperations xsi:type="tool:SetValue" featureName="rowx" valueExpression="1"/>
                 </firstModelOperations>
               </initialOperation>
             </ownedTools>

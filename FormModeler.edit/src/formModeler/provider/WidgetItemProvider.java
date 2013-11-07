@@ -63,8 +63,6 @@ public class WidgetItemProvider
 			addNomPropertyDescriptor(object);
 			addColPropertyDescriptor(object);
 			addRowPropertyDescriptor(object);
-			addColxPropertyDescriptor(object);
-			addRowxPropertyDescriptor(object);
 		}
 		return itemPropertyDescriptors;
 	}
@@ -136,50 +134,6 @@ public class WidgetItemProvider
 	}
 
 	/**
-	 * This adds a property descriptor for the Colx feature.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected void addColxPropertyDescriptor(Object object) {
-		itemPropertyDescriptors.add
-			(createItemPropertyDescriptor
-				(((ComposeableAdapterFactory)adapterFactory).getRootAdapterFactory(),
-				 getResourceLocator(),
-				 getString("_UI_Widget_colx_feature"),
-				 getString("_UI_PropertyDescriptor_description", "_UI_Widget_colx_feature", "_UI_Widget_type"),
-				 FormModelerPackage.Literals.WIDGET__COLX,
-				 true,
-				 false,
-				 false,
-				 ItemPropertyDescriptor.INTEGRAL_VALUE_IMAGE,
-				 null,
-				 null));
-	}
-
-	/**
-	 * This adds a property descriptor for the Rowx feature.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected void addRowxPropertyDescriptor(Object object) {
-		itemPropertyDescriptors.add
-			(createItemPropertyDescriptor
-				(((ComposeableAdapterFactory)adapterFactory).getRootAdapterFactory(),
-				 getResourceLocator(),
-				 getString("_UI_Widget_rowx_feature"),
-				 getString("_UI_PropertyDescriptor_description", "_UI_Widget_rowx_feature", "_UI_Widget_type"),
-				 FormModelerPackage.Literals.WIDGET__ROWX,
-				 true,
-				 false,
-				 false,
-				 ItemPropertyDescriptor.INTEGRAL_VALUE_IMAGE,
-				 null,
-				 null));
-	}
-
-	/**
 	 * This returns the label text for the adapted class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -208,8 +162,6 @@ public class WidgetItemProvider
 			case FormModelerPackage.WIDGET__NOM:
 			case FormModelerPackage.WIDGET__COL:
 			case FormModelerPackage.WIDGET__ROW:
-			case FormModelerPackage.WIDGET__COLX:
-			case FormModelerPackage.WIDGET__ROWX:
 				fireNotifyChanged(new ViewerNotification(notification, notification.getNotifier(), false, true));
 				return;
 		}

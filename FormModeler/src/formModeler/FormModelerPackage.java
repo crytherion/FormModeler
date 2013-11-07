@@ -139,31 +139,13 @@ public interface FormModelerPackage extends EPackage {
 	int WIDGET__ROW = 2;
 
 	/**
-	 * The feature id for the '<em><b>Colx</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 * @ordered
-	 */
-	int WIDGET__COLX = 3;
-
-	/**
-	 * The feature id for the '<em><b>Rowx</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 * @ordered
-	 */
-	int WIDGET__ROWX = 4;
-
-	/**
 	 * The number of structural features of the '<em>Widget</em>' class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-	int WIDGET_FEATURE_COUNT = 5;
+	int WIDGET_FEATURE_COUNT = 3;
 
 	/**
 	 * The meta object id for the '{@link formModeler.impl.LabelImpl <em>Label</em>}' class.
@@ -201,24 +183,6 @@ public interface FormModelerPackage extends EPackage {
 	 * @ordered
 	 */
 	int LABEL__ROW = WIDGET__ROW;
-
-	/**
-	 * The feature id for the '<em><b>Colx</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 * @ordered
-	 */
-	int LABEL__COLX = WIDGET__COLX;
-
-	/**
-	 * The feature id for the '<em><b>Rowx</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 * @ordered
-	 */
-	int LABEL__ROWX = WIDGET__ROWX;
 
 	/**
 	 * The feature id for the '<em><b>Valeur</b></em>' attribute.
@@ -274,24 +238,6 @@ public interface FormModelerPackage extends EPackage {
 	 * @ordered
 	 */
 	int BOUTON__ROW = WIDGET__ROW;
-
-	/**
-	 * The feature id for the '<em><b>Colx</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 * @ordered
-	 */
-	int BOUTON__COLX = WIDGET__COLX;
-
-	/**
-	 * The feature id for the '<em><b>Rowx</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 * @ordered
-	 */
-	int BOUTON__ROWX = WIDGET__ROWX;
 
 	/**
 	 * The feature id for the '<em><b>Valeur</b></em>' attribute.
@@ -358,24 +304,6 @@ public interface FormModelerPackage extends EPackage {
 	int CHAMP_TEXTE__ROW = WIDGET__ROW;
 
 	/**
-	 * The feature id for the '<em><b>Colx</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 * @ordered
-	 */
-	int CHAMP_TEXTE__COLX = WIDGET__COLX;
-
-	/**
-	 * The feature id for the '<em><b>Rowx</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 * @ordered
-	 */
-	int CHAMP_TEXTE__ROWX = WIDGET__ROWX;
-
-	/**
 	 * The number of structural features of the '<em>Champ Texte</em>' class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -422,31 +350,13 @@ public interface FormModelerPackage extends EPackage {
 	int MENU_DEROULANT__ROW = WIDGET__ROW;
 
 	/**
-	 * The feature id for the '<em><b>Colx</b></em>' attribute.
+	 * The feature id for the '<em><b>Valeur</b></em>' attribute list.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-	int MENU_DEROULANT__COLX = WIDGET__COLX;
-
-	/**
-	 * The feature id for the '<em><b>Rowx</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 * @ordered
-	 */
-	int MENU_DEROULANT__ROWX = WIDGET__ROWX;
-
-	/**
-	 * The feature id for the '<em><b>Liste Valeurs</b></em>' attribute list.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 * @ordered
-	 */
-	int MENU_DEROULANT__LISTE_VALEURS = WIDGET_FEATURE_COUNT + 0;
+	int MENU_DEROULANT__VALEUR = WIDGET_FEATURE_COUNT + 0;
 
 	/**
 	 * The number of structural features of the '<em>Menu Deroulant</em>' class.
@@ -493,24 +403,6 @@ public interface FormModelerPackage extends EPackage {
 	 * @ordered
 	 */
 	int COCHER__ROW = WIDGET__ROW;
-
-	/**
-	 * The feature id for the '<em><b>Colx</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 * @ordered
-	 */
-	int COCHER__COLX = WIDGET__COLX;
-
-	/**
-	 * The feature id for the '<em><b>Rowx</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 * @ordered
-	 */
-	int COCHER__ROWX = WIDGET__ROWX;
 
 	/**
 	 * The feature id for the '<em><b>Etat Par Defaut</b></em>' attribute.
@@ -566,24 +458,6 @@ public interface FormModelerPackage extends EPackage {
 	 * @ordered
 	 */
 	int LIEN__ROW = WIDGET__ROW;
-
-	/**
-	 * The feature id for the '<em><b>Colx</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 * @ordered
-	 */
-	int LIEN__COLX = WIDGET__COLX;
-
-	/**
-	 * The feature id for the '<em><b>Rowx</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 * @ordered
-	 */
-	int LIEN__ROWX = WIDGET__ROWX;
 
 	/**
 	 * The feature id for the '<em><b>Valeur</b></em>' attribute.
@@ -677,24 +551,6 @@ public interface FormModelerPackage extends EPackage {
 	 * @ordered
 	 */
 	int PHOTO__ROW = WIDGET__ROW;
-
-	/**
-	 * The feature id for the '<em><b>Colx</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 * @ordered
-	 */
-	int PHOTO__COLX = WIDGET__COLX;
-
-	/**
-	 * The feature id for the '<em><b>Rowx</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 * @ordered
-	 */
-	int PHOTO__ROWX = WIDGET__ROWX;
 
 	/**
 	 * The feature id for the '<em><b>Chemin</b></em>' attribute.
@@ -831,15 +687,15 @@ public interface FormModelerPackage extends EPackage {
 	EClass getMenuDeroulant();
 
 	/**
-	 * Returns the meta object for the attribute list '{@link formModeler.MenuDeroulant#getListeValeurs <em>Liste Valeurs</em>}'.
+	 * Returns the meta object for the attribute list '{@link formModeler.MenuDeroulant#getValeur <em>Valeur</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @return the meta object for the attribute list '<em>Liste Valeurs</em>'.
-	 * @see formModeler.MenuDeroulant#getListeValeurs()
+	 * @return the meta object for the attribute list '<em>Valeur</em>'.
+	 * @see formModeler.MenuDeroulant#getValeur()
 	 * @see #getMenuDeroulant()
 	 * @generated
 	 */
-	EAttribute getMenuDeroulant_ListeValeurs();
+	EAttribute getMenuDeroulant_Valeur();
 
 	/**
 	 * Returns the meta object for class '{@link formModeler.Cocher <em>Cocher</em>}'.
@@ -936,28 +792,6 @@ public interface FormModelerPackage extends EPackage {
 	 * @generated
 	 */
 	EAttribute getWidget_Row();
-
-	/**
-	 * Returns the meta object for the attribute '{@link formModeler.Widget#getColx <em>Colx</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the attribute '<em>Colx</em>'.
-	 * @see formModeler.Widget#getColx()
-	 * @see #getWidget()
-	 * @generated
-	 */
-	EAttribute getWidget_Colx();
-
-	/**
-	 * Returns the meta object for the attribute '{@link formModeler.Widget#getRowx <em>Rowx</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the attribute '<em>Rowx</em>'.
-	 * @see formModeler.Widget#getRowx()
-	 * @see #getWidget()
-	 * @generated
-	 */
-	EAttribute getWidget_Rowx();
 
 	/**
 	 * Returns the meta object for class '{@link formModeler.Racine <em>Racine</em>}'.
@@ -1122,12 +956,12 @@ public interface FormModelerPackage extends EPackage {
 		EClass MENU_DEROULANT = eINSTANCE.getMenuDeroulant();
 
 		/**
-		 * The meta object literal for the '<em><b>Liste Valeurs</b></em>' attribute list feature.
+		 * The meta object literal for the '<em><b>Valeur</b></em>' attribute list feature.
 		 * <!-- begin-user-doc -->
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EAttribute MENU_DEROULANT__LISTE_VALEURS = eINSTANCE.getMenuDeroulant_ListeValeurs();
+		EAttribute MENU_DEROULANT__VALEUR = eINSTANCE.getMenuDeroulant_Valeur();
 
 		/**
 		 * The meta object literal for the '{@link formModeler.impl.CocherImpl <em>Cocher</em>}' class.
@@ -1206,22 +1040,6 @@ public interface FormModelerPackage extends EPackage {
 		 * @generated
 		 */
 		EAttribute WIDGET__ROW = eINSTANCE.getWidget_Row();
-
-		/**
-		 * The meta object literal for the '<em><b>Colx</b></em>' attribute feature.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @generated
-		 */
-		EAttribute WIDGET__COLX = eINSTANCE.getWidget_Colx();
-
-		/**
-		 * The meta object literal for the '<em><b>Rowx</b></em>' attribute feature.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @generated
-		 */
-		EAttribute WIDGET__ROWX = eINSTANCE.getWidget_Rowx();
 
 		/**
 		 * The meta object literal for the '{@link formModeler.impl.RacineImpl <em>Racine</em>}' class.

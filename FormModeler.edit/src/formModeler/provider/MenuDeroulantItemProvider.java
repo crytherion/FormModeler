@@ -57,25 +57,25 @@ public class MenuDeroulantItemProvider
 		if (itemPropertyDescriptors == null) {
 			super.getPropertyDescriptors(object);
 
-			addListeValeursPropertyDescriptor(object);
+			addValeurPropertyDescriptor(object);
 		}
 		return itemPropertyDescriptors;
 	}
 
 	/**
-	 * This adds a property descriptor for the Liste Valeurs feature.
+	 * This adds a property descriptor for the Valeur feature.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	protected void addListeValeursPropertyDescriptor(Object object) {
+	protected void addValeurPropertyDescriptor(Object object) {
 		itemPropertyDescriptors.add
 			(createItemPropertyDescriptor
 				(((ComposeableAdapterFactory)adapterFactory).getRootAdapterFactory(),
 				 getResourceLocator(),
-				 getString("_UI_MenuDeroulant_listeValeurs_feature"),
-				 getString("_UI_PropertyDescriptor_description", "_UI_MenuDeroulant_listeValeurs_feature", "_UI_MenuDeroulant_type"),
-				 FormModelerPackage.Literals.MENU_DEROULANT__LISTE_VALEURS,
+				 getString("_UI_MenuDeroulant_valeur_feature"),
+				 getString("_UI_PropertyDescriptor_description", "_UI_MenuDeroulant_valeur_feature", "_UI_MenuDeroulant_type"),
+				 FormModelerPackage.Literals.MENU_DEROULANT__VALEUR,
 				 true,
 				 false,
 				 false,
@@ -121,7 +121,7 @@ public class MenuDeroulantItemProvider
 		updateChildren(notification);
 
 		switch (notification.getFeatureID(MenuDeroulant.class)) {
-			case FormModelerPackage.MENU_DEROULANT__LISTE_VALEURS:
+			case FormModelerPackage.MENU_DEROULANT__VALEUR:
 				fireNotifyChanged(new ViewerNotification(notification, notification.getNotifier(), false, true));
 				return;
 		}

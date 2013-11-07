@@ -12,7 +12,7 @@ import org.eclipse.emf.common.util.EList;
  * <p>
  * The following features are supported:
  * <ul>
- *   <li>{@link formModeler.MenuDeroulant#getListeValeurs <em>Liste Valeurs</em>}</li>
+ *   <li>{@link formModeler.MenuDeroulant#getValeur <em>Valeur</em>}</li>
  * </ul>
  * </p>
  *
@@ -22,19 +22,19 @@ import org.eclipse.emf.common.util.EList;
  */
 public interface MenuDeroulant extends Widget {
 	/**
-	 * Returns the value of the '<em><b>Liste Valeurs</b></em>' attribute list.
+	 * Returns the value of the '<em><b>Valeur</b></em>' attribute list.
 	 * The list contents are of type {@link java.lang.String}.
 	 * <!-- begin-user-doc -->
 	 * <p>
-	 * If the meaning of the '<em>Liste Valeurs</em>' attribute isn't clear,
+	 * If the meaning of the '<em>Valeur</em>' attribute list isn't clear,
 	 * there really should be more of a description here...
 	 * </p>
 	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Liste Valeurs</em>' attribute list.
-	 * @see formModeler.FormModelerPackage#getMenuDeroulant_ListeValeurs()
+	 * @return the value of the '<em>Valeur</em>' attribute list.
+	 * @see formModeler.FormModelerPackage#getMenuDeroulant_Valeur()
 	 * @model
 	 * @generated
 	 */
-	EList<String> getListeValeurs();
+	EList<String> getValeur();
 
 } // MenuDeroulant

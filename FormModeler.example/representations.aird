@@ -306,7 +306,7 @@
           </ownedStyle>
           <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/FormModeler.representation/description/FormModelerRepresentation.odesign#//@ownedViewpoints[name='formModelerVP']/@ownedRepresentations[name='diagramModeler']/@defaultLayer/@containerMappings[name='ecranRep']/@subNodeMappings[name='champTexteRep']"/>
         </ownedDiagramElements>
-        <ownedDiagramElements xmi:type="viewpoint:DNode" xmi:id="_0ZMmEEGOEeOvjYFzdJNzVA" name="NomVide (Menu déroulant)" width="-1" height="-1">
+        <ownedDiagramElements xmi:type="viewpoint:DNode" xmi:id="_0ZMmEEGOEeOvjYFzdJNzVA" name="datesNaissance (Menu déroulant)" width="-1" height="-1">
           <target xmi:type="formModeler:MenuDeroulant" href="mesEcrans.formmodeler#//@ecrans.0/@widgets.5"/>
           <semanticElements xmi:type="formModeler:MenuDeroulant" href="mesEcrans.formmodeler#//@ecrans.0/@widgets.5"/>
           <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
