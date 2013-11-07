@@ -5,7 +5,7 @@
 [template public generateElement(aRacine : Racine)]
 [comment @main/]
 [for (aEcran : Ecran | ecrans)]
-	[file ('out/' + aEcran.nom + '.xaml.cs', false, 'UTF-8')]
+	[file ('out/csharp/' + aEcran.nom + '.xaml.cs', false, 'UTF-8')]
 	using System;
 	using System.Collections.Generic;
 	using System.Linq;
@@ -33,7 +33,7 @@
 	        }
 
 	[/file] 
-	[file ('out/' + aEcran.nom + '.xaml', false, 'UTF-8')]
+	[file ('out/csharp/' + aEcran.nom + '.xaml', false, 'UTF-8')]
 	<Page x:Class="GeneratedCode.[aEcran.nom/]"
 	      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
 	      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
@@ -73,7 +73,7 @@
 	    </ScrollViewer>
 	</Page>		
 	[/file]
-	[file ('out/' + aEcran.nom + '.xaml.cs', true, 'UTF-8')]
+	[file ('out/csharp/' + aEcran.nom + '.xaml.cs', true, 'UTF-8')]
 		}
 	}
 	[/file]
@@ -103,7 +103,7 @@
 
 [template genererWidget(w : Bouton) post (trim())] 
 	<Button x:Name="[w.nom/]" Content="[w.valeur/]" Grid.Row="[w.row/]" Grid.Column="[w.col/]" Click="[w.nom/]_Click"/>
-		[file ('out/' + w.ancestors(Ecran).nom + '.xaml.cs', true, 'UTF-8')]
+		[file ('out/csharp/' + w.ancestors(Ecran).nom + '.xaml.cs', true, 'UTF-8')]
 			private void [w.nom/]_Click(object sender, RoutedEventArgs e)
 	        {
 				//  [w.ancestors(Ecran).nom/]
